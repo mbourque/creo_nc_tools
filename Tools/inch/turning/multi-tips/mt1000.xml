@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MfgSetupDocument>
+    <DocType>PRO_NC_CUTTING_TOOL_SETUP</DocType>
+    <DocTitle>Cutting Tool Information</DocTitle>
+    <DateTime>2025-11-15T09:43:27</DateTime>
+    <ApplicationInfo AppName="Creo" AppVersion="12.4.2.0" FtVersion="400057" Language="usascii" MdlVersion="2572"/>
+    <ToolingSetup>
+        <Tool Id="MT1000" RefXmlId="encref_1" Type="MULTI_TIP">
+            <Attr DataType="boolean" Name="UseOutline" Value="false"/>
+            <Attr DataType="boolean" Name="ProLibraryTool" Value="false"/>
+            <Attr DataType="boolean" Name="SketchTool" Value="false"/>
+            <Attr DataType="boolean" Name="ToolByRef" Value="false"/>
+            <MfgParam Name="LENGTH_UNITS" Value="INCH"/>
+            <MfgParam Name="LENGTH" Value="4"/>
+            <MfgParam Name="TOOL_MATERIAL" Value="HSS"/>
+            <MfgParam Name="GAUGE_X_LENGTH" Value="-"/>
+            <MfgParam Name="GAUGE_Y_LENGTH" Value="-"/>
+            <MfgParam Name="GAUGE_Z_LENGTH" Value="-"/>
+            <MfgParam Name="COMP_OVERSIZE" Value="-"/>
+            <MfgParam Name="POINT_DIAMETER" Value="-"/>
+            <MfgParam Name="TOOL_LONG_FLAG" Value="NO"/>
+            <MfgParam Name="TIP1_DIAMETER" Value="1"/>
+            <MfgParam Name="TIP2_DIAMETER" Value="-"/>
+            <MfgParam Name="TIP3_DIAMETER" Value="-"/>
+            <MfgParam Name="TIP4_DIAMETER" Value="-"/>
+            <MfgParam Name="TIP5_DIAMETER" Value="-"/>
+            <MfgParam Name="TIP6_DIAMETER" Value="-"/>
+            <MfgParam Name="TIP7_DIAMETER" Value="-"/>
+            <MfgParam Name="TIP8_DIAMETER" Value="-"/>
+            <MfgParam Name="TIP1_HEIGHT" Value="0"/>
+            <MfgParam Name="TIP2_HEIGHT" Value="-"/>
+            <MfgParam Name="TIP3_HEIGHT" Value="-"/>
+            <MfgParam Name="TIP4_HEIGHT" Value="-"/>
+            <MfgParam Name="TIP5_HEIGHT" Value="-"/>
+            <MfgParam Name="TIP6_HEIGHT" Value="-"/>
+            <MfgParam Name="TIP7_HEIGHT" Value="-"/>
+            <MfgParam Name="TIP8_HEIGHT" Value="-"/>
+            <MfgParam Name="TIP1_ANGLE" Value="118"/>
+            <MfgParam Name="TIP2_ANGLE" Value="-"/>
+            <MfgParam Name="TIP3_ANGLE" Value="-"/>
+            <MfgParam Name="TIP4_ANGLE" Value="-"/>
+            <MfgParam Name="TIP5_ANGLE" Value="-"/>
+            <MfgParam Name="TIP6_ANGLE" Value="-"/>
+            <MfgParam Name="TIP7_ANGLE" Value="-"/>
+            <MfgParam Name="TIP8_ANGLE" Value="-"/>
+            <MfgParam Name="NUM_OF_TIPS" Value="1"/>
+            <MfgParam Name="OUTPUT_TIP_NUMBER" Value="-"/>
+            <MfgParam Name="HOLDER_DIA" Value="-"/>
+            <MfgParam Name="HOLDER_LEN" Value="-"/>
+            <MfgParam Name="TIP1_OFFSET" Value="1"/>
+            <MfgParam Name="TIP2_OFFSET" Value="0"/>
+            <MfgParam Name="TIP3_OFFSET" Value="0"/>
+            <MfgParam Name="TIP4_OFFSET" Value="0"/>
+            <MfgParam Name="TIP5_OFFSET" Value="0"/>
+            <MfgParam Name="TIP6_OFFSET" Value="0"/>
+            <MfgParam Name="TIP7_OFFSET" Value="0"/>
+            <MfgParam Name="TIP8_OFFSET" Value="0"/>
+            <MfgParam Name="TIP1_TOOL_COMMENT" Value=""/>
+            <MfgParam Name="TIP2_TOOL_COMMENT" Value="-"/>
+            <MfgParam Name="TIP3_TOOL_COMMENT" Value="-"/>
+            <MfgParam Name="TIP4_TOOL_COMMENT" Value="-"/>
+            <MfgParam Name="TIP5_TOOL_COMMENT" Value="-"/>
+            <MfgParam Name="TIP6_TOOL_COMMENT" Value="-"/>
+            <MfgParam Name="TIP7_TOOL_COMMENT" Value="-"/>
+            <MfgParam Name="TIP8_TOOL_COMMENT" Value="-"/>
+            <MfgParam Name="COOLANT_OPTION" Value="OFF"/>
+            <MfgParam Name="COOLANT_PRESSURE" Value="NONE"/>
+            <MfgParam Name="SPINDLE_SENSE" Value="CW"/>
+            <MfgParam Name="ADAPTER_OFFSET_FROM_TOOL" Value="0"/>
+            <MfgParam Name="TOOL_COMMENT" Value="-"/>
+            <ToolSetUpOnWorkcell>
+                <OffsetDataCollection>
+                    <OffsetData Comment="" OffsetZ="0.000000" Register="1" Tip="1"/>
+                </OffsetDataCollection>
+            </ToolSetUpOnWorkcell>
+        </Tool>
+    </ToolingSetup>
+</MfgSetupDocument>

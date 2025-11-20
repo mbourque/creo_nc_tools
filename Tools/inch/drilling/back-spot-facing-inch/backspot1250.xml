@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MfgSetupDocument>
+    <DocType>PRO_NC_CUTTING_TOOL_SETUP</DocType>
+    <DocTitle>Cutting Tool Information</DocTitle>
+    <DateTime>2025-11-16T19:01:20</DateTime>
+    <ApplicationInfo AppName="Creo" AppVersion="12.4.2.0" FtVersion="400057" Language="usascii" MdlVersion="2572"/>
+    <ToolingSetup>
+        <Tool Id="BACKSPOT1250" RefXmlId="encref_1" Type="BACK SPOTTING">
+            <Attr DataType="boolean" Name="UseOutline" Value="false"/>
+            <Attr DataType="boolean" Name="ProLibraryTool" Value="false"/>
+            <Attr DataType="boolean" Name="SketchTool" Value="false"/>
+            <Attr DataType="boolean" Name="ToolByRef" Value="false"/>
+            <MfgParam Name="LENGTH_UNITS" Value="INCH"/>
+            <MfgParam Name="CUTTER_DIAM" Value="1.25"/>
+            <MfgParam Name="LENGTH" Value="2"/>
+            <MfgParam Name="TOOL_MATERIAL" Value="CARBIDE"/>
+            <MfgParam Name="GAUGE_X_LENGTH" Value="-"/>
+            <MfgParam Name="GAUGE_Y_LENGTH" Value="-"/>
+            <MfgParam Name="GAUGE_Z_LENGTH" Value="-"/>
+            <MfgParam Name="CSINK_ANGLE" Value="0"/>
+            <MfgParam Name="CUTTING_OFFSET" Value="0.25"/>
+            <MfgParam Name="BODY_DIAMETER" Value="0.5"/>
+            <MfgParam Name="INSERT_LENGTH" Value="0.6"/>
+            <MfgParam Name="TOOL_LONG_FLAG" Value="NO"/>
+            <MfgParam Name="COOLANT_OPTION" Value="OFF"/>
+            <MfgParam Name="COOLANT_PRESSURE" Value="NONE"/>
+            <MfgParam Name="SPINDLE_SENSE" Value="CW"/>
+            <MfgParam Name="ADAPTER_OFFSET_FROM_TOOL" Value="0"/>
+            <MfgParam Name="TOOL_COMMENT" Value="1-1/4&quot; BACKSPOT FACE"/>
+            <ToolSetUpOnWorkcell>
+                <OffsetDataCollection>
+                    <OffsetData Comment="1-1/4&quot; BACKSPOT FACE" OffsetZ="0.000000" Register="-1" Tip="1"/>
+                </OffsetDataCollection>
+            </ToolSetUpOnWorkcell>
+        </Tool>
+    </ToolingSetup>
+</MfgSetupDocument>

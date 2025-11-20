@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MfgParamValuesDocument>
+    <DocType>PRO_NC_PARAM_VALUES</DocType>
+    <DocTitle>Manufacturing Parameters Values</DocTitle>
+    <DateTime>2025-11-13T11:47:29</DateTime>
+    <ApplicationInfo AppName="Creo" AppVersion="12.4.2.0" FtVersion="400057" Language="usascii" MdlVersion="2572"/>
+    <AssemblyUnits LengthUnit="in"/>
+    <MfgParamCollection>
+        <MfgParam Name="NCL_FILE" Value="-"/>
+        <MfgParam Name="PRE_MACHINING_FILE" Value="-"/>
+        <MfgParam Name="POST_MACHINING_FILE" Value="-"/>
+        <MfgParam Name="CUT_FEED" Value="50"/>
+        <MfgParam Name="FREE_FEED" Value="-"/>
+        <MfgParam Name="RETRACT_FEED" Value="-"/>
+        <MfgParam Name="TRAVERSE_FEED" Value="-"/>
+        <MfgParam Name="OPEN_AREA_SCAN" Value="FOLLOW_CONTOUR"/>
+        <MfgParam Name="CLOSED_AREA_SCAN" Value="CONSTANT_LOAD"/>
+        <MfgParam Name="CLOSED_AREA_ENTRY" Value="TANGENT_HELIX"/>
+        <MfgParam Name="CUT_TYPE" Value="CLIMB"/>
+        <MfgParam Name="STEPDEPTH_ADJUST" Value="NO"/>
+        <MfgParam Name="RETRACT_OPTION" Value="SMART"/>
+        <MfgParam Name="RETRACT_TRANSITION" Value="CORNER_TRANSITION"/>
+        <MfgParam Name="TRIM_TO_WORKPIECE" Value="YES"/>
+        <MfgParam Name="CUSTOMIZE_AUTO_RETRACT" Value="YES"/>
+        <MfgParam Name="TRIM_TOOLPATH_ON_HOLDER" Value="NO"/>
+        <MfgParam Name="CALCULATE_MIN_TOOL_LENGTH" Value="NO"/>
+        <MfgParam Name="MIN_STEP_DEPTH" Value="0.12"/>
+        <MfgParam Name="STEP_OVER" Value="0.25"/>
+        <MfgParam Name="CORNER_ROUND_RADIUS" Value="-"/>
+        <MfgParam Name="ROUGH_STOCK_ALLOW" Value="0"/>
+        <MfgParam Name="AXIS_SHIFT" Value="0"/>
+        <MfgParam Name="HOLDER_CLEARANCE" Value="0"/>
+        <MfgParam Name="CUT_ANGLE" Value="0"/>
+        <MfgParam Name="LIFT_TOOL_CLEARANCE" Value="-"/>
+        <MfgParam Name="ROUGH_SCALLOP_CONTROL" Value="NO"/>
+        <MfgParam Name="MAX_STEP_DEPTH" Value="0.25"/>
+        <MfgParam Name="ROUGH_SCALLOP" Value="-"/>
+        <MfgParam Name="INSIDE_TOLERANCE" Value="0.0025"/>
+        <MfgParam Name="OUTSIDE_TOLERANCE" Value="0.0025"/>
+        <MfgParam Name="REGION_SKIP_RATIO" Value="1.25"/>
+        <MfgParam Name="SPINDLE_SPEED" Value="1000"/>
+        <MfgParam Name="WALL_PROFILE_SPINDLE_SPEED" Value="-"/>
+        <MfgParam Name="SPINDLE_SENSE" Value="CW"/>
+        <MfgParam Name="MAX_SPINDLE_RPM" Value="-"/>
+        <MfgParam Name="SPEED_CONTROL" Value="CONST_RPM"/>
+        <MfgParam Name="SPINDLE_RANGE" Value="NO_RANGE"/>
+        <MfgParam Name="RANGE_NUMBER" Value="0"/>
+        <MfgParam Name="CIRC_INTERPOLATION" Value="ARC_ONLY"/>
+        <MfgParam Name="OUTPUT_3DNURBS" Value="NO"/>
+        <MfgParam Name="COOLANT_OPTION" Value="ON"/>
+        <MfgParam Name="COOLANT_PRESSURE" Value="NONE"/>
+        <MfgParam Name="FIXT_OFFSET_REG" Value="-"/>
+        <MfgParam Name="COORDINATE_OUTPUT" Value="MACHINE_CSYS"/>
+        <MfgParam Name="SMOOTH_SHARP_CORNERS" Value="NO"/>
+        <MfgParam Name="SMOOTH_RADIUS" Value="-"/>
+        <MfgParam Name="CORNER_SLOWDOWN" Value="NO"/>
+        <MfgParam Name="SLOWDOWN_LENGTH" Value="-"/>
+        <MfgParam Name="SLOWDOWN_PERCENT" Value="-"/>
+        <MfgParam Name="NUMBER_SLOWDOWN_STEPS" Value="-"/>
+        <MfgParam Name="APPROACH_FEED" Value="-"/>
+        <MfgParam Name="EXIT_FEED" Value="-"/>
+        <MfgParam Name="PULLOUT_FEED" Value="-"/>
+        <MfgParam Name="WALL_PROFILE_CUT_FEED" Value="-"/>
+        <MfgParam Name="RAMP_ANGLE" Value="10"/>
+        <MfgParam Name="RAMP_FEED" Value="-"/>
+        <MfgParam Name="CLEAR_DIST" Value="1"/>
+        <MfgParam Name="PULLOUT_DIST" Value="-"/>
+        <MfgParam Name="LEAD_RADIUS" Value="0"/>
+        <MfgParam Name="TANGENT_LEAD_STEP" Value="0"/>
+        <MfgParam Name="NORMAL_LEAD_STEP" Value="0"/>
+        <MfgParam Name="APPROACH_DISTANCE" Value="-"/>
+        <MfgParam Name="EXIT_DISTANCE" Value="-"/>
+        <MfgParam Name="APPR_EXIT_EXT" Value="0"/>
+        <MfgParam Name="ENTRY_ANGLE" Value="90"/>
+        <MfgParam Name="EXIT_ANGLE" Value="90"/>
+        <MfgParam Name="HELICAL_DIAMETER" Value="-"/>
+        <MfgParam Name="START_MOTION" Value="DIRECT"/>
+        <MfgParam Name="END_MOTION" Value="DIRECT"/>
+        <MfgParam Name="FEED_UNITS" Value="IPM"/>
+        <MfgParam Name="END_STOP_CONDITION" Value="NONE"/>
+        <MfgParam Name="RETRACT_RADIUS" Value="-"/>
+        <MfgParam Name="MIN_RETRACT_DISTANCE" Value="-"/>
+        <MfgParam Name="CLEAR_WITHIN" Value="0"/>
+        <MfgParam Name="CLEAR_BY" Value="0"/>
+        <MfgParam Name="COOLANT_PRESSURE_VALUE" Value="-"/>
+        <MfgParam Name="COOLANT_PRESSURE_UNIT" Value="BAR"/>
+        <MfgParam Name="GO_HOME_REGISTER" Value="-"/>
+    </MfgParamCollection>
+</MfgParamValuesDocument>

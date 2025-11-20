@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AncppDocument>
+    <DocType>PRO_NC_WORKCELL_TEMPLATE</DocType>
+    <DocTitle>Mfg Workcell Template</DocTitle>
+    <DateTime>2025-11-13T11:54:26</DateTime>
+    <ApplicationInfo AppName="Creo" AppVersion="12.4.2.0" FtVersion="400057" Language="usascii" MdlVersion="2572"/>
+    <AncppTemplate Type="Workcells">
+        <Notes></Notes>
+        <TemplateParamCollection>
+            <TemplateParam DataType="string" Name="AUTHOR" Type="AUTHOR" Value=""/>
+            <TemplateParam DataType="string" Name="VERSION" Type="VERSION" Value=""/>
+            <TemplateParam DataType="string" Name="FACTORY" Type="FACTORY" Value=""/>
+            <TemplateParam DataType="string" Name="LINE" Type="LINE" Value=""/>
+            <TemplateParam DataType="string" Name="PRODUCT" Type="PRODUCT" Value=""/>
+        </TemplateParamCollection>
+        <CustomCycleCollection/>
+        <Units AngleUnit="rad" LengthUnit="in" MassUnit="lb" TemperatureUnit="F" TimeUnit="s"/>
+        <AERefCollection/>
+        <Tools>
+            <Tool Id="FM4" RefXmlId="encref_1" Type="END MILL">
+                <Attr DataType="boolean" Name="UseOutline" Value="false"/>
+                <Attr DataType="boolean" Name="ProLibraryTool" Value="false"/>
+                <Attr DataType="boolean" Name="SketchTool" Value="false"/>
+                <Attr DataType="boolean" Name="ToolByRef" Value="false"/>
+                <MfgParam Name="LENGTH_UNITS" Value="INCH"/>
+                <MfgParam Name="CUTTER_DIAM" Value="4"/>
+                <MfgParam Name="LENGTH" Value="1"/>
+                <MfgParam Name="NUM_OF_TEETH" Value="8"/>
+                <MfgParam Name="TOOL_MATERIAL" Value="CARBIDE"/>
+                <MfgParam Name="GAUGE_X_LENGTH" Value="-"/>
+                <MfgParam Name="GAUGE_Y_LENGTH" Value="-"/>
+                <MfgParam Name="GAUGE_Z_LENGTH" Value="-"/>
+                <MfgParam Name="COMP_OVERSIZE" Value="-"/>
+                <MfgParam Name="TOOL_LONG_FLAG" Value="NO"/>
+                <MfgParam Name="HOLDER_DIA" Value="-"/>
+                <MfgParam Name="HOLDER_LEN" Value="-"/>
+                <MfgParam Name="COOLANT_OPTION" Value="OFF"/>
+                <MfgParam Name="COOLANT_PRESSURE" Value="NONE"/>
+                <MfgParam Name="SPINDLE_SENSE" Value="CW"/>
+                <MfgParam Name="FLUTE_LENGTH" Value="-"/>
+                <MfgParam Name="ADAPTER_OFFSET_FROM_TOOL" Value="0"/>
+                <MfgParam Name="TOOL_COMMENT" Value="4 INCH FACE MILL CARBIDE TIPS"/>
+                <ToolCutData>
+                    <Material>
+                        <MfgParam Name="STOCK_MATERIAL" Value="Unspecified"/>
+                    </Material>
+                    <CutDataUnitSystem>
+                        <MfgParam Name="CUT_DATA_UNITS" Value="ENGLISH"/>
+                    </CutDataUnitSystem>
+                    <Technology>
+                        <Condition>
+                            <MfgParam Name="APPLICATION_TYPE" Value="FINISHING"/>
+                        </Condition>
+                        <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="1000"/>
+                        <MfgParam Name="TOOL_SURFACE_SPEED" Unit="ft_per_min" Value="1047.2"/>
+                        <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="20"/>
+                        <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_tooth" Value="0.0025"/>
+                    </Technology>
+                </ToolCutData>
+            </Tool>
+            <Tool Id="EM500" RefXmlId="encref_2" Type="END MILL">
+                <Attr DataType="boolean" Name="UseOutline" Value="false"/>
+                <Attr DataType="boolean" Name="ProLibraryTool" Value="false"/>
+                <Attr DataType="boolean" Name="SketchTool" Value="false"/>
+                <Attr DataType="boolean" Name="ToolByRef" Value="false"/>
+                <MfgParam Name="LENGTH_UNITS" Value="INCH"/>
+                <MfgParam Name="CUTTER_DIAM" Value="0.5"/>
+                <MfgParam Name="LENGTH" Value="4"/>
+                <MfgParam Name="NUM_OF_TEETH" Value="4"/>
+                <MfgParam Name="TOOL_MATERIAL" Value="HSS"/>
+                <MfgParam Name="GAUGE_X_LENGTH" Value="-"/>
+                <MfgParam Name="GAUGE_Y_LENGTH" Value="-"/>
+                <MfgParam Name="GAUGE_Z_LENGTH" Value="-"/>
+                <MfgParam Name="COMP_OVERSIZE" Value="-"/>
+                <MfgParam Name="TOOL_LONG_FLAG" Value="NO"/>
+                <MfgParam Name="HOLDER_DIA" Value="-"/>
+                <MfgParam Name="HOLDER_LEN" Value="-"/>
+                <MfgParam Name="COOLANT_OPTION" Value="ON"/>
+                <MfgParam Name="COOLANT_PRESSURE" Value="NONE"/>
+                <MfgParam Name="SPINDLE_SENSE" Value="CW"/>
+                <MfgParam Name="FLUTE_LENGTH" Value="2"/>
+                <MfgParam Name="ADAPTER_OFFSET_FROM_TOOL" Value="0"/>
+                <MfgParam Name="TOOL_COMMENT" Value="1/2 INCH ENDMILL"/>
+                <ToolCutData>
+                    <Material>
+                        <MfgParam Name="STOCK_MATERIAL" Value="Unspecified"/>
+                    </Material>
+                    <CutDataUnitSystem>
+                        <MfgParam Name="CUT_DATA_UNITS" Value="ENGLISH"/>
+                    </CutDataUnitSystem>
+                    <Technology>
+                        <Condition>
+                            <MfgParam Name="APPLICATION_TYPE" Value="FINISHING"/>
+                        </Condition>
+                        <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="1000"/>
+                        <MfgParam Name="TOOL_SURFACE_SPEED" Unit="ft_per_min" Value="130.9"/>
+                        <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="20"/>
+                        <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_tooth" Value="0.005"/>
+                    </Technology>
+                </ToolCutData>
+            </Tool>
+            <Tool Id="EM1000" RefXmlId="encref_3" Type="END MILL">
+                <Attr DataType="boolean" Name="UseOutline" Value="false"/>
+                <Attr DataType="boolean" Name="ProLibraryTool" Value="false"/>
+                <Attr DataType="boolean" Name="SketchTool" Value="false"/>
+                <Attr DataType="boolean" Name="ToolByRef" Value="false"/>
+                <MfgParam Name="LENGTH_UNITS" Value="INCH"/>
+                <MfgParam Name="CUTTER_DIAM" Value="1"/>
+                <MfgParam Name="LENGTH" Value="4"/>
+                <MfgParam Name="NUM_OF_TEETH" Value="4"/>
+                <MfgParam Name="TOOL_MATERIAL" Value="HSS"/>
+                <MfgParam Name="GAUGE_X_LENGTH" Value="-"/>
+                <MfgParam Name="GAUGE_Y_LENGTH" Value="-"/>
+                <MfgParam Name="GAUGE_Z_LENGTH" Value="-"/>
+                <MfgParam Name="COMP_OVERSIZE" Value="-"/>
+                <MfgParam Name="TOOL_LONG_FLAG" Value="NO"/>
+                <MfgParam Name="HOLDER_DIA" Value="-"/>
+                <MfgParam Name="HOLDER_LEN" Value="-"/>
+                <MfgParam Name="COOLANT_OPTION" Value="ON"/>
+                <MfgParam Name="COOLANT_PRESSURE" Value="NONE"/>
+                <MfgParam Name="SPINDLE_SENSE" Value="CW"/>
+                <MfgParam Name="FLUTE_LENGTH" Value="2"/>
+                <MfgParam Name="ADAPTER_OFFSET_FROM_TOOL" Value="0"/>
+                <MfgParam Name="TOOL_COMMENT" Value="1 INCH ENDMILL"/>
+                <ToolCutData>
+                    <Material>
+                        <MfgParam Name="STOCK_MATERIAL" Value="Unspecified"/>
+                    </Material>
+                    <CutDataUnitSystem>
+                        <MfgParam Name="CUT_DATA_UNITS" Value="ENGLISH"/>
+                    </CutDataUnitSystem>
+                    <Technology>
+                        <Condition>
+                            <MfgParam Name="APPLICATION_TYPE" Value="FINISHING"/>
+                        </Condition>
+                        <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="1000"/>
+                        <MfgParam Name="TOOL_SURFACE_SPEED" Unit="ft_per_min" Value="261.799"/>
+                        <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="30"/>
+                        <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_tooth" Value="0.0075"/>
+                    </Technology>
+                </ToolCutData>
+            </Tool>
+            <Tool Id="SPOT250" RefXmlId="encref_4" Type="SPOT DRILL">
+                <Attr DataType="boolean" Name="UseOutline" Value="false"/>
+                <Attr DataType="boolean" Name="ProLibraryTool" Value="false"/>
+                <Attr DataType="boolean" Name="SketchTool" Value="false"/>
+                <Attr DataType="boolean" Name="ToolByRef" Value="false"/>
+                <MfgParam Name="LENGTH_UNITS" Value="INCH"/>
+                <MfgParam Name="CUTTER_DIAM" Value="0.25"/>
+                <MfgParam Name="POINT_ANGLE" Value="90"/>
+                <MfgParam Name="LENGTH" Value="2"/>
+                <MfgParam Name="TOOL_MATERIAL" Value="HSS"/>
+                <MfgParam Name="GAUGE_X_LENGTH" Value="-"/>
+                <MfgParam Name="GAUGE_Y_LENGTH" Value="-"/>
+                <MfgParam Name="GAUGE_Z_LENGTH" Value="-"/>
+                <MfgParam Name="TOOL_LONG_FLAG" Value="NO"/>
+                <MfgParam Name="HOLDER_DIA" Value="-"/>
+                <MfgParam Name="HOLDER_LEN" Value="-"/>
+                <MfgParam Name="COOLANT_OPTION" Value="OFF"/>
+                <MfgParam Name="COOLANT_PRESSURE" Value="NONE"/>
+                <MfgParam Name="SPINDLE_SENSE" Value="CW"/>
+                <MfgParam Name="FLUTE_LENGTH" Value="1"/>
+                <MfgParam Name="ADAPTER_OFFSET_FROM_TOOL" Value="0"/>
+                <MfgParam Name="TOOL_COMMENT" Value="STANDARD SPOT DRILL"/>
+                <ToolCutData>
+                    <Material>
+                        <MfgParam Name="STOCK_MATERIAL" Value="Unspecified"/>
+                    </Material>
+                    <CutDataUnitSystem>
+                        <MfgParam Name="CUT_DATA_UNITS" Value="ENGLISH"/>
+                    </CutDataUnitSystem>
+                    <Technology>
+                        <Condition>
+                            <MfgParam Name="APPLICATION_TYPE" Value="FINISHING"/>
+                        </Condition>
+                        <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="1000"/>
+                        <MfgParam Name="TOOL_SURFACE_SPEED" Unit="ft_per_min" Value="65.4498"/>
+                        <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="20"/>
+                        <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_rev" Value="0.02"/>
+                    </Technology>
+                </ToolCutData>
+            </Tool>
+            <Tool Id="DR500" RefXmlId="encref_5" Type="DRILLING">
+                <Attr DataType="boolean" Name="UseOutline" Value="false"/>
+                <Attr DataType="boolean" Name="ProLibraryTool" Value="false"/>
+                <Attr DataType="boolean" Name="SketchTool" Value="false"/>
+                <Attr DataType="boolean" Name="ToolByRef" Value="false"/>
+                <MfgParam Name="LENGTH_UNITS" Value="INCH"/>
+                <MfgParam Name="CUTTER_DIAM" Value="0.5"/>
+                <MfgParam Name="POINT_ANGLE" Value="118"/>
+                <MfgParam Name="LENGTH" Value="4"/>
+                <MfgParam Name="TOOL_MATERIAL" Value="HSS"/>
+                <MfgParam Name="GAUGE_X_LENGTH" Value="-"/>
+                <MfgParam Name="GAUGE_Y_LENGTH" Value="-"/>
+                <MfgParam Name="GAUGE_Z_LENGTH" Value="-"/>
+                <MfgParam Name="POINT_DIAMETER" Value="-"/>
+                <MfgParam Name="TIP_OFFSET" Value="-"/>
+                <MfgParam Name="TOOL_LONG_FLAG" Value="NO"/>
+                <MfgParam Name="HOLDER_DIA" Value="-"/>
+                <MfgParam Name="HOLDER_LEN" Value="-"/>
+                <MfgParam Name="COOLANT_OPTION" Value="ON"/>
+                <MfgParam Name="COOLANT_PRESSURE" Value="MEDIUM"/>
+                <MfgParam Name="SPINDLE_SENSE" Value="CW"/>
+                <MfgParam Name="FLUTE_LENGTH" Value="3"/>
+                <MfgParam Name="ADAPTER_OFFSET_FROM_TOOL" Value="0"/>
+                <MfgParam Name="TOOL_COMMENT" Value="STANDARD TWIST DRILL"/>
+                <ToolCutData>
+                    <Material>
+                        <MfgParam Name="STOCK_MATERIAL" Value="Unspecified"/>
+                    </Material>
+                    <CutDataUnitSystem>
+                        <MfgParam Name="CUT_DATA_UNITS" Value="ENGLISH"/>
+                    </CutDataUnitSystem>
+                    <Technology>
+                        <Condition>
+                            <MfgParam Name="APPLICATION_TYPE" Value="FINISHING"/>
+                        </Condition>
+                        <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="1000"/>
+                        <MfgParam Name="TOOL_SURFACE_SPEED" Unit="ft_per_min" Value="130.9"/>
+                        <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="20"/>
+                        <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_rev" Value="0.02"/>
+                    </Technology>
+                </ToolCutData>
+            </Tool>
+        </Tools>
+        <FeatureCollection>
+            <AncppFeature>
+                <FeatVersion OduiVersion="odui19"/>
+                <ToolRef Refers_to="encref_1"/>
+                <ToolRef Refers_to="encref_2"/>
+                <ToolRef Refers_to="encref_3"/>
+                <ToolRef Refers_to="encref_4"/>
+                <ToolRef Refers_to="encref_5"/>
+                <InfoParamCollection/>
+                <AncppParamCollection/>
+                <RelParCollection/>
+                <ElemTree>
+                    <PRO_E_FEATURE_TREE type="compound">
+                        <PRO_E_FEATURE_TYPE type="int"><!--WORKCELL-->1008</PRO_E_FEATURE_TYPE>
+                        <PRO_E_WCELL_TYPE type="int">4</PRO_E_WCELL_TYPE>
+                        <PRO_E_STD_FEATURE_NAME type="wstring">MAZAK</PRO_E_STD_FEATURE_NAME>
+                        <PRO_E_MFG_WCELL_NUM_AXES type="int">3</PRO_E_MFG_WCELL_NUM_AXES>
+                        <PRO_E_MFG_WCELL_ENABLE_CMM_OPT type="int">0</PRO_E_MFG_WCELL_ENABLE_CMM_OPT>
+                        <PRO_E_MFG_PARAM_ARR type="array">
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">MACH_NAME</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">UNCX01</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">MACH_ID</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">1</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">MACH_ASSEM_NAME</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">-</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">CL_DATA_MODE</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">MULTAX_DATA</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">LOCATION</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">-</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">CONTROLLER</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">Mazatrol</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">2</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">SPINDLE_HP</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">45.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring"/>
+                                <PRO_E_MFG_PRM_ATTR type="int">2</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">RAPID_FEED_RATE</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">400.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring"/>
+                                <PRO_E_MFG_PRM_ATTR type="int">2</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">RAPID_FEED_UNITS</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">IPM</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">TOOL_CHANGE_TIME_SECONDS</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring"/>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">CELL_X_STROKE</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">1000000000.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring"/>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">CELL_Y_STROKE</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">1000000000.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring"/>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">CELL_Z_STROKE</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">1000000000.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring"/>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">CELL_X_MIN</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">1000000000.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring"/>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">CELL_X_MAX</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">1000000000.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring"/>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">CELL_Y_MIN</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">1000000000.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring"/>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">CELL_Y_MAX</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">1000000000.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring"/>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">CELL_Z_MIN</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">1000000000.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring"/>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">CELL_Z_MAX</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">1000000000.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring"/>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">CELL_MAX_FEED</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring"/>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">CELL_MAX_SPINDLE</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">10000.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring"/>
+                                <PRO_E_MFG_PRM_ATTR type="int">2</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">FROM_OUTPUT</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">ALL_SEQ_FROM_S</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">2</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">ROTATE_MODE</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">INCREMENTAL</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">ROTATE_DIRECTION</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">SHORTEST</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">CUTCOM_GEOMETRY_TYPE</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">OUTPUT_ON_CENTER</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">CUTCOM_CONCAVE_ADJUST</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">STRAIGHT_CORNER</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">CUTCOM_RADIUS_SAFETY</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.050000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring"/>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">A_AXIS_ROTATION</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">YES</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">2</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">B_AXIS_ROTATION</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">YES</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">2</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">COOLNT_OFF_OUTPUT</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">YES</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">SPINDL_OFF_OUTPUT</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">YES</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">LOADTL_OUTPUT</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">MODAL_OUTPUT</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">PTMEAS_OUTPUT_POINT</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">STYLUS_CENTER</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">CMM_MACH_FREQ</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring"/>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                        </PRO_E_MFG_PARAM_ARR>
+                        <PRO_E_MFG_WCELL_HEAD_1 type="compound">
+                            <PRO_E_MFG_WCELL_TOOL_SETUP_ARR type="array">
+                                <PRO_E_MFG_WCELL_TOOL_SETUP type="compound">
+                                    <PRO_E_MFG_WCELL_TOOL_POCKET_NUM type="int">1</PRO_E_MFG_WCELL_TOOL_POCKET_NUM>
+                                    <PRO_E_MFG_WCELL_TOOL_ID type="wstring">FM4</PRO_E_MFG_WCELL_TOOL_ID>
+                                    <PRO_E_MFG_WCELL_TOOL_OUTPUT_TIP type="int">0</PRO_E_MFG_WCELL_TOOL_OUTPUT_TIP>
+                                    <PRO_E_MFG_TOOL_TIP_ARR type="array">
+                                        <PRO_E_MFG_TOOL_TIP_COMPOUND type="compound">
+                                            <PRO_E_MFG_TOOL_TIP_REGISTER type="int">1</PRO_E_MFG_TOOL_TIP_REGISTER>
+                                            <PRO_E_MFG_TOOL_TIP_COMMENT type="wstring">4 Inch Face Mill Carbide Tips</PRO_E_MFG_TOOL_TIP_COMMENT>
+                                            <PRO_E_MFG_TOOL_TIP_OFFSET_Z type="double">0.000000</PRO_E_MFG_TOOL_TIP_OFFSET_Z>
+                                            <PRO_E_MFG_TOOL_TIP_OFFSET_X type="double">0.000000</PRO_E_MFG_TOOL_TIP_OFFSET_X>
+                                            <PRO_E_MFG_TOOL_TIP_OFFSET_ANGLE type="double">0.000000</PRO_E_MFG_TOOL_TIP_OFFSET_ANGLE>
+                                            <PRO_E_MFG_TOOL_TIP_FLASH_OPT type="int">0</PRO_E_MFG_TOOL_TIP_FLASH_OPT>
+                                            <PRO_E_MFG_TOOL_TIP_FLSH_REGISTER type="int">-1</PRO_E_MFG_TOOL_TIP_FLSH_REGISTER>
+                                            <PRO_E_MFG_TOOL_TIP_FLSH_COMMENT type="wstring"></PRO_E_MFG_TOOL_TIP_FLSH_COMMENT>
+                                            <PRO_E_MFG_TOOL_TIP_FLSH_OFFSET_Z type="double">0.000000</PRO_E_MFG_TOOL_TIP_FLSH_OFFSET_Z>
+                                            <PRO_E_MFG_TOOL_TIP_FLSH_OFFSET_X type="double">0.000000</PRO_E_MFG_TOOL_TIP_FLSH_OFFSET_X>
+                                        </PRO_E_MFG_TOOL_TIP_COMPOUND>
+                                    </PRO_E_MFG_TOOL_TIP_ARR>
+                                </PRO_E_MFG_WCELL_TOOL_SETUP>
+                                <PRO_E_MFG_WCELL_TOOL_SETUP type="compound">
+                                    <PRO_E_MFG_WCELL_TOOL_POCKET_NUM type="int">2</PRO_E_MFG_WCELL_TOOL_POCKET_NUM>
+                                    <PRO_E_MFG_WCELL_TOOL_ID type="wstring">EM500</PRO_E_MFG_WCELL_TOOL_ID>
+                                    <PRO_E_MFG_WCELL_TOOL_OUTPUT_TIP type="int">0</PRO_E_MFG_WCELL_TOOL_OUTPUT_TIP>
+                                    <PRO_E_MFG_TOOL_TIP_ARR type="array">
+                                        <PRO_E_MFG_TOOL_TIP_COMPOUND type="compound">
+                                            <PRO_E_MFG_TOOL_TIP_REGISTER type="int">2</PRO_E_MFG_TOOL_TIP_REGISTER>
+                                            <PRO_E_MFG_TOOL_TIP_COMMENT type="wstring">1/2 Inch Endmill</PRO_E_MFG_TOOL_TIP_COMMENT>
+                                            <PRO_E_MFG_TOOL_TIP_OFFSET_Z type="double">0.000000</PRO_E_MFG_TOOL_TIP_OFFSET_Z>
+                                            <PRO_E_MFG_TOOL_TIP_OFFSET_X type="double">0.000000</PRO_E_MFG_TOOL_TIP_OFFSET_X>
+                                            <PRO_E_MFG_TOOL_TIP_OFFSET_ANGLE type="double">0.000000</PRO_E_MFG_TOOL_TIP_OFFSET_ANGLE>
+                                            <PRO_E_MFG_TOOL_TIP_FLASH_OPT type="int">0</PRO_E_MFG_TOOL_TIP_FLASH_OPT>
+                                            <PRO_E_MFG_TOOL_TIP_FLSH_REGISTER type="int">-1</PRO_E_MFG_TOOL_TIP_FLSH_REGISTER>
+                                            <PRO_E_MFG_TOOL_TIP_FLSH_COMMENT type="wstring"></PRO_E_MFG_TOOL_TIP_FLSH_COMMENT>
+                                            <PRO_E_MFG_TOOL_TIP_FLSH_OFFSET_Z type="double">0.000000</PRO_E_MFG_TOOL_TIP_FLSH_OFFSET_Z>
+                                            <PRO_E_MFG_TOOL_TIP_FLSH_OFFSET_X type="double">0.000000</PRO_E_MFG_TOOL_TIP_FLSH_OFFSET_X>
+                                        </PRO_E_MFG_TOOL_TIP_COMPOUND>
+                                    </PRO_E_MFG_TOOL_TIP_ARR>
+                                </PRO_E_MFG_WCELL_TOOL_SETUP>
+                                <PRO_E_MFG_WCELL_TOOL_SETUP type="compound">
+                                    <PRO_E_MFG_WCELL_TOOL_POCKET_NUM type="int">3</PRO_E_MFG_WCELL_TOOL_POCKET_NUM>
+                                    <PRO_E_MFG_WCELL_TOOL_ID type="wstring">EM1000</PRO_E_MFG_WCELL_TOOL_ID>
+                                    <PRO_E_MFG_WCELL_TOOL_OUTPUT_TIP type="int">0</PRO_E_MFG_WCELL_TOOL_OUTPUT_TIP>
+                                    <PRO_E_MFG_TOOL_TIP_ARR type="array">
+                                        <PRO_E_MFG_TOOL_TIP_COMPOUND type="compound">
+                                            <PRO_E_MFG_TOOL_TIP_REGISTER type="int">3</PRO_E_MFG_TOOL_TIP_REGISTER>
+                                            <PRO_E_MFG_TOOL_TIP_COMMENT type="wstring">1 Inch Endmill</PRO_E_MFG_TOOL_TIP_COMMENT>
+                                            <PRO_E_MFG_TOOL_TIP_OFFSET_Z type="double">0.000000</PRO_E_MFG_TOOL_TIP_OFFSET_Z>
+                                            <PRO_E_MFG_TOOL_TIP_OFFSET_X type="double">0.000000</PRO_E_MFG_TOOL_TIP_OFFSET_X>
+                                            <PRO_E_MFG_TOOL_TIP_OFFSET_ANGLE type="double">0.000000</PRO_E_MFG_TOOL_TIP_OFFSET_ANGLE>
+                                            <PRO_E_MFG_TOOL_TIP_FLASH_OPT type="int">0</PRO_E_MFG_TOOL_TIP_FLASH_OPT>
+                                            <PRO_E_MFG_TOOL_TIP_FLSH_REGISTER type="int">-1</PRO_E_MFG_TOOL_TIP_FLSH_REGISTER>
+                                            <PRO_E_MFG_TOOL_TIP_FLSH_COMMENT type="wstring"></PRO_E_MFG_TOOL_TIP_FLSH_COMMENT>
+                                            <PRO_E_MFG_TOOL_TIP_FLSH_OFFSET_Z type="double">0.000000</PRO_E_MFG_TOOL_TIP_FLSH_OFFSET_Z>
+                                            <PRO_E_MFG_TOOL_TIP_FLSH_OFFSET_X type="double">0.000000</PRO_E_MFG_TOOL_TIP_FLSH_OFFSET_X>
+                                        </PRO_E_MFG_TOOL_TIP_COMPOUND>
+                                    </PRO_E_MFG_TOOL_TIP_ARR>
+                                </PRO_E_MFG_WCELL_TOOL_SETUP>
+                                <PRO_E_MFG_WCELL_TOOL_SETUP type="compound">
+                                    <PRO_E_MFG_WCELL_TOOL_POCKET_NUM type="int">4</PRO_E_MFG_WCELL_TOOL_POCKET_NUM>
+                                    <PRO_E_MFG_WCELL_TOOL_ID type="wstring">SPOT250</PRO_E_MFG_WCELL_TOOL_ID>
+                                    <PRO_E_MFG_WCELL_TOOL_OUTPUT_TIP type="int">0</PRO_E_MFG_WCELL_TOOL_OUTPUT_TIP>
+                                    <PRO_E_MFG_TOOL_TIP_ARR type="array">
+                                        <PRO_E_MFG_TOOL_TIP_COMPOUND type="compound">
+                                            <PRO_E_MFG_TOOL_TIP_REGISTER type="int">4</PRO_E_MFG_TOOL_TIP_REGISTER>
+                                            <PRO_E_MFG_TOOL_TIP_COMMENT type="wstring">Standard Spot Drill</PRO_E_MFG_TOOL_TIP_COMMENT>
+                                            <PRO_E_MFG_TOOL_TIP_OFFSET_Z type="double">0.000000</PRO_E_MFG_TOOL_TIP_OFFSET_Z>
+                                            <PRO_E_MFG_TOOL_TIP_OFFSET_X type="double">0.000000</PRO_E_MFG_TOOL_TIP_OFFSET_X>
+                                            <PRO_E_MFG_TOOL_TIP_OFFSET_ANGLE type="double">0.000000</PRO_E_MFG_TOOL_TIP_OFFSET_ANGLE>
+                                            <PRO_E_MFG_TOOL_TIP_FLASH_OPT type="int">0</PRO_E_MFG_TOOL_TIP_FLASH_OPT>
+                                            <PRO_E_MFG_TOOL_TIP_FLSH_REGISTER type="int">-1</PRO_E_MFG_TOOL_TIP_FLSH_REGISTER>
+                                            <PRO_E_MFG_TOOL_TIP_FLSH_COMMENT type="wstring"></PRO_E_MFG_TOOL_TIP_FLSH_COMMENT>
+                                            <PRO_E_MFG_TOOL_TIP_FLSH_OFFSET_Z type="double">0.000000</PRO_E_MFG_TOOL_TIP_FLSH_OFFSET_Z>
+                                            <PRO_E_MFG_TOOL_TIP_FLSH_OFFSET_X type="double">0.000000</PRO_E_MFG_TOOL_TIP_FLSH_OFFSET_X>
+                                        </PRO_E_MFG_TOOL_TIP_COMPOUND>
+                                    </PRO_E_MFG_TOOL_TIP_ARR>
+                                </PRO_E_MFG_WCELL_TOOL_SETUP>
+                                <PRO_E_MFG_WCELL_TOOL_SETUP type="compound">
+                                    <PRO_E_MFG_WCELL_TOOL_POCKET_NUM type="int">5</PRO_E_MFG_WCELL_TOOL_POCKET_NUM>
+                                    <PRO_E_MFG_WCELL_TOOL_ID type="wstring">DR500</PRO_E_MFG_WCELL_TOOL_ID>
+                                    <PRO_E_MFG_WCELL_TOOL_OUTPUT_TIP type="int">0</PRO_E_MFG_WCELL_TOOL_OUTPUT_TIP>
+                                    <PRO_E_MFG_TOOL_TIP_ARR type="array">
+                                        <PRO_E_MFG_TOOL_TIP_COMPOUND type="compound">
+                                            <PRO_E_MFG_TOOL_TIP_REGISTER type="int">5</PRO_E_MFG_TOOL_TIP_REGISTER>
+                                            <PRO_E_MFG_TOOL_TIP_COMMENT type="wstring">Standard twist drill</PRO_E_MFG_TOOL_TIP_COMMENT>
+                                            <PRO_E_MFG_TOOL_TIP_OFFSET_Z type="double">0.000000</PRO_E_MFG_TOOL_TIP_OFFSET_Z>
+                                            <PRO_E_MFG_TOOL_TIP_OFFSET_X type="double">0.000000</PRO_E_MFG_TOOL_TIP_OFFSET_X>
+                                            <PRO_E_MFG_TOOL_TIP_OFFSET_ANGLE type="double">0.000000</PRO_E_MFG_TOOL_TIP_OFFSET_ANGLE>
+                                            <PRO_E_MFG_TOOL_TIP_FLASH_OPT type="int">0</PRO_E_MFG_TOOL_TIP_FLASH_OPT>
+                                            <PRO_E_MFG_TOOL_TIP_FLSH_REGISTER type="int">-1</PRO_E_MFG_TOOL_TIP_FLSH_REGISTER>
+                                            <PRO_E_MFG_TOOL_TIP_FLSH_COMMENT type="wstring"></PRO_E_MFG_TOOL_TIP_FLSH_COMMENT>
+                                            <PRO_E_MFG_TOOL_TIP_FLSH_OFFSET_Z type="double">0.000000</PRO_E_MFG_TOOL_TIP_FLSH_OFFSET_Z>
+                                            <PRO_E_MFG_TOOL_TIP_FLSH_OFFSET_X type="double">0.000000</PRO_E_MFG_TOOL_TIP_FLSH_OFFSET_X>
+                                        </PRO_E_MFG_TOOL_TIP_COMPOUND>
+                                    </PRO_E_MFG_TOOL_TIP_ARR>
+                                </PRO_E_MFG_WCELL_TOOL_SETUP>
+                            </PRO_E_MFG_WCELL_TOOL_SETUP_ARR>
+                        </PRO_E_MFG_WCELL_HEAD_1>
+                        <PRO_E_MFG_WCELL_CMM_HEAD type="compound">
+                            <PRO_E_MFG_CMM_TOOL_SETUP_ARR type="array"/>
+                        </PRO_E_MFG_WCELL_CMM_HEAD>
+                        <PRO_E_MFG_WCELL_CUST_CYCLE_ARR type="array"/>
+                        <PRO_E_MFG_WCELL_ASSEM_COMPOUND type="compound">
+                            <PRO_E_MFG_WCELL_ASSEMBLY_NAME type="wstring">-</PRO_E_MFG_WCELL_ASSEMBLY_NAME>
+                            <PRO_E_MFG_WCELL_LOCAL_CSYS_REF type="selection"/>
+                        </PRO_E_MFG_WCELL_ASSEM_COMPOUND>
+                        <PRO_E_MFG_COMMENTS type="wstring"></PRO_E_MFG_COMMENTS>
+                    </PRO_E_FEATURE_TREE>
+                </ElemTree>
+                <FeatTypeLabel>WORKCELL</FeatTypeLabel>
+            </AncppFeature>
+        </FeatureCollection>
+    </AncppTemplate>
+</AncppDocument>

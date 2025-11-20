@@ -1,0 +1,75 @@
+TAPS
+#
+#
+fsftfg.prt
+Fast spiral fluted taps - fractional sizes, HSS - ground thread.
+#
+fsftmg.prt
+Fast spiral fluted taps - machine screw sizes, HSS - ground thread.
+#
+ntfg.prt
+Nut taps - fractional measurement, HSS - ground thread.
+#
+ptf.prt
+Pulley taps - fractional sizes, HSS - ground thread.
+#
+sftf.prt
+Straight flute taps - fractional sizes, HSS - ground thread.
+#
+sftfcs.prt
+Straight flute taps - fractional sizes, carbon steel - cut thread.
+#
+sftfg.prt
+Spiral fluted taps - fractional sizes, HSS - ground thread.
+#
+sftmg.prt
+Spiral fluted taps - machine screw sizes, HSS - ground thread.
+#
+sftms.prt
+Straight flute taps - machine screw sizes, HSS - ground thread.
+#
+sftmscs.prt
+Straight flute taps - machine screw sizes, carbon steel - cut thread.
+#
+sftonf.prt
+Straight flute taps - optional number of flutes - fractional sizes, HSS - G.T..
+#
+sftonms.prt
+Straight flute taps - optional number of flutes - mach. screw sizes, HSS - G.T..
+#
+spotfg.prt
+Spiral pointed only taps - fractional sizes, HSS - ground thread.
+#
+spotmg.prt
+Spiral pointed only taps - machine screw sizes, HSS - ground thread.
+#
+sptfc.prt
+Spiral pointed taps - fractional sizes, HSS - cut thread.
+#
+sptfg.prt
+Spiral pointed taps - fractional sizes, HSS - ground thread.
+#
+sptmc.prt
+Spiral pointed taps - machine screw sizes, carbon steel - cut thread.
+#
+sptmg.prt
+Spiral pointed taps - machine screw sizes, HSS - ground thread.
+#
+sptnpsc.prt
+Straight pipe taps - fractional sizes - NPS, HSS - cut thread.
+#
+sptnpsg.prt
+Straight pipe taps - fractional sizes - NPS, HSS - ground thread.
+#
+tftfg.prt
+Thread forming taps - fractional sizes, HSS - ground thread.
+#
+tftmg.prt
+Thread forming taps - machine screw sizes, HSS - ground thread.
+#
+tptfc.prt
+Taper pipe taps - fractional sizes - NPT, carbon steel - cut thread.
+#
+tptfg.prt
+Taper pipe taps - fractional sizes, HSS - ground thread.
+#

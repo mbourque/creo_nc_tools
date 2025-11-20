@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MfgSetupDocument>
+    <DocType>PRO_NC_CUTTING_TOOL_SETUP</DocType>
+    <DocTitle>Multiple Cutting Tools Information</DocTitle>
+    <DateTime>2025-11-18T08:37:02</DateTime>
+    <ApplicationInfo AppName="Creo" AppVersion="12.4.2.0" FtVersion="400057" Language="usascii" MdlVersion="2572"/>
+    <ToolingSetup>
+        <Tool Id="SSAW1X062" RefXmlId="encref_1" Type="KEY CUTTER">
+            <Attr DataType="boolean" Name="UseOutline" Value="false"/>
+            <Attr DataType="boolean" Name="ProLibraryTool" Value="false"/>
+            <Attr DataType="boolean" Name="SketchTool" Value="false"/>
+            <Attr DataType="boolean" Name="ToolByRef" Value="false"/>
+            <MfgParam Name="LENGTH_UNITS" Value="INCH"/>
+            <MfgParam Name="CUTTER_DIAM" Value="1"/>
+            <MfgParam Name="CUTTER_WIDTH" Value="0.0625"/>
+            <MfgParam Name="SHANK_DIAM" Value="0.375"/>
+            <MfgParam Name="LENGTH" Value="3"/>
+            <MfgParam Name="NUM_OF_TEETH" Value="24"/>
+            <MfgParam Name="TOOL_MATERIAL" Value="HSS"/>
+            <MfgParam Name="GAUGE_X_LENGTH" Value="-"/>
+            <MfgParam Name="GAUGE_Y_LENGTH" Value="-"/>
+            <MfgParam Name="GAUGE_Z_LENGTH" Value="-"/>
+            <MfgParam Name="COMP_OVERSIZE" Value="-"/>
+            <MfgParam Name="TOOL_LONG_FLAG" Value="NO"/>
+            <MfgParam Name="HOLDER_DIA" Value="-"/>
+            <MfgParam Name="HOLDER_LEN" Value="-"/>
+            <MfgParam Name="COOLANT_OPTION" Value="OFF"/>
+            <MfgParam Name="COOLANT_PRESSURE" Value="NONE"/>
+            <MfgParam Name="SPINDLE_SENSE" Value="CW"/>
+            <MfgParam Name="ADAPTER_OFFSET_FROM_TOOL" Value="0"/>
+            <MfgParam Name="TOOL_COMMENT" Value="1&quot; X 1/16&quot; SLITTING SAW"/>
+            <ToolSetUpOnWorkcell Position="1">
+                <OffsetDataCollection>
+                    <OffsetData Comment="1&quot; X 1/16&quot; SLITTING SAW" OffsetZ="0.000000" Register="-1" Tip="1"/>
+                </OffsetDataCollection>
+            </ToolSetUpOnWorkcell>
+        </Tool>
+        <Tool Id="SSAW2X062" RefXmlId="encref_2" Type="KEY CUTTER">
+            <Attr DataType="boolean" Name="UseOutline" Value="false"/>
+            <Attr DataType="boolean" Name="ProLibraryTool" Value="false"/>
+            <Attr DataType="boolean" Name="SketchTool" Value="false"/>
+            <Attr DataType="boolean" Name="ToolByRef" Value="false"/>
+            <MfgParam Name="LENGTH_UNITS" Value="INCH"/>
+            <MfgParam Name="CUTTER_DIAM" Value="2"/>
+            <MfgParam Name="CUTTER_WIDTH" Value="0.0625"/>
+            <MfgParam Name="SHANK_DIAM" Value="1"/>
+            <MfgParam Name="LENGTH" Value="4"/>
+            <MfgParam Name="NUM_OF_TEETH" Value="16"/>
+            <MfgParam Name="TOOL_MATERIAL" Value="HSS"/>
+            <MfgParam Name="GAUGE_X_LENGTH" Value="-"/>
+            <MfgParam Name="GAUGE_Y_LENGTH" Value="-"/>
+            <MfgParam Name="GAUGE_Z_LENGTH" Value="-"/>
+            <MfgParam Name="COMP_OVERSIZE" Value="-"/>
+            <MfgParam Name="TOOL_LONG_FLAG" Value="NO"/>
+            <MfgParam Name="HOLDER_DIA" Value="-"/>
+            <MfgParam Name="HOLDER_LEN" Value="-"/>
+            <MfgParam Name="COOLANT_OPTION" Value="OFF"/>
+            <MfgParam Name="COOLANT_PRESSURE" Value="NONE"/>
+            <MfgParam Name="SPINDLE_SENSE" Value="CW"/>
+            <MfgParam Name="ADAPTER_OFFSET_FROM_TOOL" Value="0"/>
+            <MfgParam Name="TOOL_COMMENT" Value="2&quot; X 1/16&quot; SLITTING SAW"/>
+            <ToolSetUpOnWorkcell Position="1">
+                <OffsetDataCollection>
+                    <OffsetData Comment="2&quot; x 1/16&quot; Slitting Saw" OffsetZ="0.000000" Register="-1" Tip="1"/>
+                </OffsetDataCollection>
+            </ToolSetUpOnWorkcell>
+        </Tool>
+        <Tool Id="SSAW3X062" RefXmlId="encref_3" Type="KEY CUTTER">
+            <Attr DataType="boolean" Name="UseOutline" Value="false"/>
+            <Attr DataType="boolean" Name="ProLibraryTool" Value="false"/>
+            <Attr DataType="boolean" Name="SketchTool" Value="false"/>
+            <Attr DataType="boolean" Name="ToolByRef" Value="false"/>
+            <MfgParam Name="LENGTH_UNITS" Value="INCH"/>
+            <MfgParam Name="CUTTER_DIAM" Value="3"/>
+            <MfgParam Name="CUTTER_WIDTH" Value="0.0625"/>
+            <MfgParam Name="SHANK_DIAM" Value="1"/>
+            <MfgParam Name="LENGTH" Value="4"/>
+            <MfgParam Name="NUM_OF_TEETH" Value="36"/>
+            <MfgParam Name="TOOL_MATERIAL" Value="HSS"/>
+            <MfgParam Name="GAUGE_X_LENGTH" Value="-"/>
+            <MfgParam Name="GAUGE_Y_LENGTH" Value="-"/>
+            <MfgParam Name="GAUGE_Z_LENGTH" Value="-"/>
+            <MfgParam Name="COMP_OVERSIZE" Value="-"/>
+            <MfgParam Name="TOOL_LONG_FLAG" Value="NO"/>
+            <MfgParam Name="HOLDER_DIA" Value="-"/>
+            <MfgParam Name="HOLDER_LEN" Value="-"/>
+            <MfgParam Name="COOLANT_OPTION" Value="OFF"/>
+            <MfgParam Name="COOLANT_PRESSURE" Value="NONE"/>
+            <MfgParam Name="SPINDLE_SENSE" Value="CW"/>
+            <MfgParam Name="ADAPTER_OFFSET_FROM_TOOL" Value="0"/>
+            <MfgParam Name="TOOL_COMMENT" Value="3&quot; X 1/16&quot; SLITTING SAW"/>
+            <ToolSetUpOnWorkcell Position="1">
+                <OffsetDataCollection>
+                    <OffsetData Comment="3&quot; x 1/16&quot; Slitting Saw" OffsetZ="0.000000" Register="-1" Tip="1"/>
+                </OffsetDataCollection>
+            </ToolSetUpOnWorkcell>
+        </Tool>
+        <Tool Id="SSAW4X062" RefXmlId="encref_4" Type="KEY CUTTER">
+            <Attr DataType="boolean" Name="UseOutline" Value="false"/>
+            <Attr DataType="boolean" Name="ProLibraryTool" Value="false"/>
+            <Attr DataType="boolean" Name="SketchTool" Value="false"/>
+            <Attr DataType="boolean" Name="ToolByRef" Value="false"/>
+            <MfgParam Name="LENGTH_UNITS" Value="INCH"/>
+            <MfgParam Name="CUTTER_DIAM" Value="4"/>
+            <MfgParam Name="CUTTER_WIDTH" Value="0.0625"/>
+            <MfgParam Name="SHANK_DIAM" Value="1"/>
+            <MfgParam Name="LENGTH" Value="4"/>
+            <MfgParam Name="NUM_OF_TEETH" Value="36"/>
+            <MfgParam Name="TOOL_MATERIAL" Value="HSS"/>
+            <MfgParam Name="GAUGE_X_LENGTH" Value="-"/>
+            <MfgParam Name="GAUGE_Y_LENGTH" Value="-"/>
+            <MfgParam Name="GAUGE_Z_LENGTH" Value="-"/>
+            <MfgParam Name="COMP_OVERSIZE" Value="-"/>
+            <MfgParam Name="TOOL_LONG_FLAG" Value="NO"/>
+            <MfgParam Name="HOLDER_DIA" Value="-"/>
+            <MfgParam Name="HOLDER_LEN" Value="-"/>
+            <MfgParam Name="COOLANT_OPTION" Value="OFF"/>
+            <MfgParam Name="COOLANT_PRESSURE" Value="NONE"/>
+            <MfgParam Name="SPINDLE_SENSE" Value="CW"/>
+            <MfgParam Name="ADAPTER_OFFSET_FROM_TOOL" Value="0"/>
+            <MfgParam Name="TOOL_COMMENT" Value="4&quot; X 1/16&quot; SLITTING SAW"/>
+            <ToolSetUpOnWorkcell Position="1">
+                <OffsetDataCollection>
+                    <OffsetData Comment="4&quot; X 1/16&quot; SLITTING SAW" OffsetZ="0.000000" Register="-1" Tip="1"/>
+                </OffsetDataCollection>
+            </ToolSetUpOnWorkcell>
+        </Tool>
+    </ToolingSetup>
+</MfgSetupDocument>

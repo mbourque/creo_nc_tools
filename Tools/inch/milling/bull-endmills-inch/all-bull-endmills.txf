@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MfgSetupDocument>
+    <DocType>PRO_NC_CUTTING_TOOL_SETUP</DocType>
+    <DocTitle>Multiple Cutting Tools Information</DocTitle>
+    <DateTime>2025-11-14T16:59:08</DateTime>
+    <ApplicationInfo AppName="Creo" AppVersion="12.4.2.0" FtVersion="400057" Language="usascii" MdlVersion="2572"/>
+    <ToolingSetup>
+        <Tool Id="BM1000" RefXmlId="encref_1" Type="BULL MILL">
+            <Attr DataType="boolean" Name="UseOutline" Value="false"/>
+            <Attr DataType="boolean" Name="ProLibraryTool" Value="false"/>
+            <Attr DataType="boolean" Name="SketchTool" Value="false"/>
+            <Attr DataType="boolean" Name="ToolByRef" Value="false"/>
+            <MfgParam Name="LENGTH_UNITS" Value="INCH"/>
+            <MfgParam Name="CUTTER_DIAM" Value="1"/>
+            <MfgParam Name="CORNER_RADIUS" Value="0.125"/>
+            <MfgParam Name="LENGTH" Value="4"/>
+            <MfgParam Name="NUM_OF_TEETH" Value="-"/>
+            <MfgParam Name="TOOL_MATERIAL" Value="HSS"/>
+            <MfgParam Name="GAUGE_X_LENGTH" Value="-"/>
+            <MfgParam Name="GAUGE_Y_LENGTH" Value="-"/>
+            <MfgParam Name="GAUGE_Z_LENGTH" Value="-"/>
+            <MfgParam Name="COMP_OVERSIZE" Value="-"/>
+            <MfgParam Name="TOOL_LONG_FLAG" Value="NO"/>
+            <MfgParam Name="HOLDER_DIA" Value="-"/>
+            <MfgParam Name="HOLDER_LEN" Value="-"/>
+            <MfgParam Name="COOLANT_OPTION" Value="OFF"/>
+            <MfgParam Name="COOLANT_PRESSURE" Value="NONE"/>
+            <MfgParam Name="SPINDLE_SENSE" Value="CW"/>
+            <MfgParam Name="FLUTE_LENGTH" Value="-"/>
+            <MfgParam Name="ADAPTER_OFFSET_FROM_TOOL" Value="0"/>
+            <MfgParam Name="TOOL_COMMENT" Value="-"/>
+            <ToolSetUpOnWorkcell Position="1">
+                <OffsetDataCollection>
+                    <OffsetData Comment="" OffsetZ="0.000000" Register="-1" Tip="1"/>
+                </OffsetDataCollection>
+            </ToolSetUpOnWorkcell>
+        </Tool>
+        <Tool Id="BM750" RefXmlId="encref_2" Type="BULL MILL">
+            <Attr DataType="boolean" Name="UseOutline" Value="false"/>
+            <Attr DataType="boolean" Name="ProLibraryTool" Value="false"/>
+            <Attr DataType="boolean" Name="SketchTool" Value="false"/>
+            <Attr DataType="boolean" Name="ToolByRef" Value="false"/>
+            <MfgParam Name="LENGTH_UNITS" Value="INCH"/>
+            <MfgParam Name="CUTTER_DIAM" Value="0.75"/>
+            <MfgParam Name="CORNER_RADIUS" Value="0.125"/>
+            <MfgParam Name="LENGTH" Value="4"/>
+            <MfgParam Name="NUM_OF_TEETH" Value="-"/>
+            <MfgParam Name="TOOL_MATERIAL" Value="HSS"/>
+            <MfgParam Name="GAUGE_X_LENGTH" Value="-"/>
+            <MfgParam Name="GAUGE_Y_LENGTH" Value="-"/>
+            <MfgParam Name="GAUGE_Z_LENGTH" Value="-"/>
+            <MfgParam Name="COMP_OVERSIZE" Value="-"/>
+            <MfgParam Name="TOOL_LONG_FLAG" Value="NO"/>
+            <MfgParam Name="HOLDER_DIA" Value="-"/>
+            <MfgParam Name="HOLDER_LEN" Value="-"/>
+            <MfgParam Name="COOLANT_OPTION" Value="OFF"/>
+            <MfgParam Name="COOLANT_PRESSURE" Value="NONE"/>
+            <MfgParam Name="SPINDLE_SENSE" Value="CW"/>
+            <MfgParam Name="FLUTE_LENGTH" Value="-"/>
+            <MfgParam Name="ADAPTER_OFFSET_FROM_TOOL" Value="0"/>
+            <MfgParam Name="TOOL_COMMENT" Value="-"/>
+            <ToolSetUpOnWorkcell Position="2">
+                <OffsetDataCollection>
+                    <OffsetData Comment="" OffsetZ="0.000000" Register="-1" Tip="1"/>
+                </OffsetDataCollection>
+            </ToolSetUpOnWorkcell>
+        </Tool>
+        <Tool Id="BM625" RefXmlId="encref_3" Type="BULL MILL">
+            <Attr DataType="boolean" Name="UseOutline" Value="false"/>
+            <Attr DataType="boolean" Name="ProLibraryTool" Value="false"/>
+            <Attr DataType="boolean" Name="SketchTool" Value="false"/>
+            <Attr DataType="boolean" Name="ToolByRef" Value="false"/>
+            <MfgParam Name="LENGTH_UNITS" Value="INCH"/>
+            <MfgParam Name="CUTTER_DIAM" Value="0.625"/>
+            <MfgParam Name="CORNER_RADIUS" Value="0.125"/>
+            <MfgParam Name="LENGTH" Value="4"/>
+            <MfgParam Name="NUM_OF_TEETH" Value="-"/>
+            <MfgParam Name="TOOL_MATERIAL" Value="HSS"/>
+            <MfgParam Name="GAUGE_X_LENGTH" Value="-"/>
+            <MfgParam Name="GAUGE_Y_LENGTH" Value="-"/>
+            <MfgParam Name="GAUGE_Z_LENGTH" Value="-"/>
+            <MfgParam Name="COMP_OVERSIZE" Value="-"/>
+            <MfgParam Name="TOOL_LONG_FLAG" Value="NO"/>
+            <MfgParam Name="HOLDER_DIA" Value="-"/>
+            <MfgParam Name="HOLDER_LEN" Value="-"/>
+            <MfgParam Name="COOLANT_OPTION" Value="OFF"/>
+            <MfgParam Name="COOLANT_PRESSURE" Value="NONE"/>
+            <MfgParam Name="SPINDLE_SENSE" Value="CW"/>
+            <MfgParam Name="FLUTE_LENGTH" Value="-"/>
+            <MfgParam Name="ADAPTER_OFFSET_FROM_TOOL" Value="0"/>
+            <MfgParam Name="TOOL_COMMENT" Value="-"/>
+            <ToolSetUpOnWorkcell Position="3">
+                <OffsetDataCollection>
+                    <OffsetData Comment="" OffsetZ="0.000000" Register="-1" Tip="1"/>
+                </OffsetDataCollection>
+            </ToolSetUpOnWorkcell>
+        </Tool>
+        <Tool Id="BM500" RefXmlId="encref_4" Type="BULL MILL">
+            <Attr DataType="boolean" Name="UseOutline" Value="false"/>
+            <Attr DataType="boolean" Name="ProLibraryTool" Value="false"/>
+            <Attr DataType="boolean" Name="SketchTool" Value="false"/>
+            <Attr DataType="boolean" Name="ToolByRef" Value="false"/>
+            <MfgParam Name="LENGTH_UNITS" Value="INCH"/>
+            <MfgParam Name="CUTTER_DIAM" Value="0.5"/>
+            <MfgParam Name="CORNER_RADIUS" Value="0.125"/>
+            <MfgParam Name="LENGTH" Value="4"/>
+            <MfgParam Name="NUM_OF_TEETH" Value="-"/>
+            <MfgParam Name="TOOL_MATERIAL" Value="HSS"/>
+            <MfgParam Name="GAUGE_X_LENGTH" Value="-"/>
+            <MfgParam Name="GAUGE_Y_LENGTH" Value="-"/>
+            <MfgParam Name="GAUGE_Z_LENGTH" Value="-"/>
+            <MfgParam Name="COMP_OVERSIZE" Value="-"/>
+            <MfgParam Name="TOOL_LONG_FLAG" Value="NO"/>
+            <MfgParam Name="HOLDER_DIA" Value="-"/>
+            <MfgParam Name="HOLDER_LEN" Value="-"/>
+            <MfgParam Name="COOLANT_OPTION" Value="OFF"/>
+            <MfgParam Name="COOLANT_PRESSURE" Value="NONE"/>
+            <MfgParam Name="SPINDLE_SENSE" Value="CW"/>
+            <MfgParam Name="FLUTE_LENGTH" Value="-"/>
+            <MfgParam Name="ADAPTER_OFFSET_FROM_TOOL" Value="0"/>
+            <MfgParam Name="TOOL_COMMENT" Value="-"/>
+            <ToolSetUpOnWorkcell Position="4">
+                <OffsetDataCollection>
+                    <OffsetData Comment="" OffsetZ="0.000000" Register="-1" Tip="1"/>
+                </OffsetDataCollection>
+            </ToolSetUpOnWorkcell>
+        </Tool>
+        <Tool Id="BM375" RefXmlId="encref_5" Type="BULL MILL">
+            <Attr DataType="boolean" Name="UseOutline" Value="false"/>
+            <Attr DataType="boolean" Name="ProLibraryTool" Value="false"/>
+            <Attr DataType="boolean" Name="SketchTool" Value="false"/>
+            <Attr DataType="boolean" Name="ToolByRef" Value="false"/>
+            <MfgParam Name="LENGTH_UNITS" Value="INCH"/>
+            <MfgParam Name="CUTTER_DIAM" Value="0.5"/>
+            <MfgParam Name="CORNER_RADIUS" Value="0.0625"/>
+            <MfgParam Name="LENGTH" Value="4"/>
+            <MfgParam Name="NUM_OF_TEETH" Value="-"/>
+            <MfgParam Name="TOOL_MATERIAL" Value="HSS"/>
+            <MfgParam Name="GAUGE_X_LENGTH" Value="-"/>
+            <MfgParam Name="GAUGE_Y_LENGTH" Value="-"/>
+            <MfgParam Name="GAUGE_Z_LENGTH" Value="-"/>
+            <MfgParam Name="COMP_OVERSIZE" Value="-"/>
+            <MfgParam Name="TOOL_LONG_FLAG" Value="NO"/>
+            <MfgParam Name="HOLDER_DIA" Value="-"/>
+            <MfgParam Name="HOLDER_LEN" Value="-"/>
+            <MfgParam Name="COOLANT_OPTION" Value="OFF"/>
+            <MfgParam Name="COOLANT_PRESSURE" Value="NONE"/>
+            <MfgParam Name="SPINDLE_SENSE" Value="CW"/>
+            <MfgParam Name="FLUTE_LENGTH" Value="-"/>
+            <MfgParam Name="ADAPTER_OFFSET_FROM_TOOL" Value="0"/>
+            <MfgParam Name="TOOL_COMMENT" Value="-"/>
+            <ToolSetUpOnWorkcell Position="5">
+                <OffsetDataCollection>
+                    <OffsetData Comment="" OffsetZ="0.000000" Register="-1" Tip="1"/>
+                </OffsetDataCollection>
+            </ToolSetUpOnWorkcell>
+        </Tool>
+        <Tool Id="BM250" RefXmlId="encref_6" Type="BULL MILL">
+            <Attr DataType="boolean" Name="UseOutline" Value="false"/>
+            <Attr DataType="boolean" Name="ProLibraryTool" Value="false"/>
+            <Attr DataType="boolean" Name="SketchTool" Value="false"/>
+            <Attr DataType="boolean" Name="ToolByRef" Value="false"/>
+            <MfgParam Name="LENGTH_UNITS" Value="INCH"/>
+            <MfgParam Name="CUTTER_DIAM" Value="0.25"/>
+            <MfgParam Name="CORNER_RADIUS" Value="0.0625"/>
+            <MfgParam Name="LENGTH" Value="4"/>
+            <MfgParam Name="NUM_OF_TEETH" Value="-"/>
+            <MfgParam Name="TOOL_MATERIAL" Value="HSS"/>
+            <MfgParam Name="GAUGE_X_LENGTH" Value="-"/>
+            <MfgParam Name="GAUGE_Y_LENGTH" Value="-"/>
+            <MfgParam Name="GAUGE_Z_LENGTH" Value="-"/>
+            <MfgParam Name="COMP_OVERSIZE" Value="-"/>
+            <MfgParam Name="TOOL_LONG_FLAG" Value="NO"/>
+            <MfgParam Name="HOLDER_DIA" Value="-"/>
+            <MfgParam Name="HOLDER_LEN" Value="-"/>
+            <MfgParam Name="COOLANT_OPTION" Value="OFF"/>
+            <MfgParam Name="COOLANT_PRESSURE" Value="NONE"/>
+            <MfgParam Name="SPINDLE_SENSE" Value="CW"/>
+            <MfgParam Name="FLUTE_LENGTH" Value="-"/>
+            <MfgParam Name="ADAPTER_OFFSET_FROM_TOOL" Value="0"/>
+            <MfgParam Name="TOOL_COMMENT" Value="-"/>
+            <ToolSetUpOnWorkcell Position="6">
+                <OffsetDataCollection>
+                    <OffsetData Comment="" OffsetZ="0.000000" Register="-1" Tip="1"/>
+                </OffsetDataCollection>
+            </ToolSetUpOnWorkcell>
+        </Tool>
+        <Tool Id="BM187" RefXmlId="encref_7" Type="BULL MILL">
+            <Attr DataType="boolean" Name="UseOutline" Value="false"/>
+            <Attr DataType="boolean" Name="ProLibraryTool" Value="false"/>
+            <Attr DataType="boolean" Name="SketchTool" Value="false"/>
+            <Attr DataType="boolean" Name="ToolByRef" Value="false"/>
+            <MfgParam Name="LENGTH_UNITS" Value="INCH"/>
+            <MfgParam Name="CUTTER_DIAM" Value="0.1875"/>
+            <MfgParam Name="CORNER_RADIUS" Value="0.03"/>
+            <MfgParam Name="LENGTH" Value="4"/>
+            <MfgParam Name="NUM_OF_TEETH" Value="-"/>
+            <MfgParam Name="TOOL_MATERIAL" Value="HSS"/>
+            <MfgParam Name="GAUGE_X_LENGTH" Value="-"/>
+            <MfgParam Name="GAUGE_Y_LENGTH" Value="-"/>
+            <MfgParam Name="GAUGE_Z_LENGTH" Value="-"/>
+            <MfgParam Name="COMP_OVERSIZE" Value="-"/>
+            <MfgParam Name="TOOL_LONG_FLAG" Value="NO"/>
+            <MfgParam Name="HOLDER_DIA" Value="-"/>
+            <MfgParam Name="HOLDER_LEN" Value="-"/>
+            <MfgParam Name="COOLANT_OPTION" Value="OFF"/>
+            <MfgParam Name="COOLANT_PRESSURE" Value="NONE"/>
+            <MfgParam Name="SPINDLE_SENSE" Value="CW"/>
+            <MfgParam Name="FLUTE_LENGTH" Value="-"/>
+            <MfgParam Name="ADAPTER_OFFSET_FROM_TOOL" Value="0"/>
+            <MfgParam Name="TOOL_COMMENT" Value="-"/>
+            <ToolSetUpOnWorkcell Position="7">
+                <OffsetDataCollection>
+                    <OffsetData Comment="" OffsetZ="0.000000" Register="-1" Tip="1"/>
+                </OffsetDataCollection>
+            </ToolSetUpOnWorkcell>
+        </Tool>
+        <Tool Id="BM125" RefXmlId="encref_8" Type="BULL MILL">
+            <Attr DataType="boolean" Name="UseOutline" Value="false"/>
+            <Attr DataType="boolean" Name="ProLibraryTool" Value="false"/>
+            <Attr DataType="boolean" Name="SketchTool" Value="false"/>
+            <Attr DataType="boolean" Name="ToolByRef" Value="false"/>
+            <MfgParam Name="LENGTH_UNITS" Value="INCH"/>
+            <MfgParam Name="CUTTER_DIAM" Value="0.125"/>
+            <MfgParam Name="CORNER_RADIUS" Value="0.03"/>
+            <MfgParam Name="LENGTH" Value="4"/>
+            <MfgParam Name="NUM_OF_TEETH" Value="-"/>
+            <MfgParam Name="TOOL_MATERIAL" Value="HSS"/>
+            <MfgParam Name="GAUGE_X_LENGTH" Value="-"/>
+            <MfgParam Name="GAUGE_Y_LENGTH" Value="-"/>
+            <MfgParam Name="GAUGE_Z_LENGTH" Value="-"/>
+            <MfgParam Name="COMP_OVERSIZE" Value="-"/>
+            <MfgParam Name="TOOL_LONG_FLAG" Value="NO"/>
+            <MfgParam Name="HOLDER_DIA" Value="-"/>
+            <MfgParam Name="HOLDER_LEN" Value="-"/>
+            <MfgParam Name="COOLANT_OPTION" Value="OFF"/>
+            <MfgParam Name="COOLANT_PRESSURE" Value="NONE"/>
+            <MfgParam Name="SPINDLE_SENSE" Value="CW"/>
+            <MfgParam Name="FLUTE_LENGTH" Value="-"/>
+            <MfgParam Name="ADAPTER_OFFSET_FROM_TOOL" Value="0"/>
+            <MfgParam Name="TOOL_COMMENT" Value="-"/>
+            <ToolSetUpOnWorkcell Position="8">
+                <OffsetDataCollection>
+                    <OffsetData Comment="" OffsetZ="0.000000" Register="-1" Tip="1"/>
+                </OffsetDataCollection>
+            </ToolSetUpOnWorkcell>
+        </Tool>
+    </ToolingSetup>
+</MfgSetupDocument>

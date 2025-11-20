@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MfgSetupDocument>
+    <DocType>PRO_NC_CUTTING_TOOL_SETUP</DocType>
+    <DocTitle>Multiple Cutting Tools Information</DocTitle>
+    <DateTime>2025-11-16T16:01:45</DateTime>
+    <ApplicationInfo AppName="Creo" AppVersion="12.4.2.0" FtVersion="400057" Language="usascii" MdlVersion="2572"/>
+    <ToolingSetup>
+        <Tool Id="CSINK250x82" RefXmlId="encref_1" Type="COUNTERSINK">
+            <Attr DataType="boolean" Name="UseOutline" Value="false"/>
+            <Attr DataType="boolean" Name="ProLibraryTool" Value="false"/>
+            <Attr DataType="boolean" Name="SketchTool" Value="false"/>
+            <Attr DataType="boolean" Name="ToolByRef" Value="false"/>
+            <MfgParam Name="LENGTH_UNITS" Value="INCH"/>
+            <MfgParam Name="CUTTER_DIAM" Value="0.25"/>
+            <MfgParam Name="POINT_ANGLE" Value="82"/>
+            <MfgParam Name="LENGTH" Value="2"/>
+            <MfgParam Name="TOOL_MATERIAL" Value="HSS"/>
+            <MfgParam Name="GAUGE_X_LENGTH" Value="-"/>
+            <MfgParam Name="GAUGE_Y_LENGTH" Value="-"/>
+            <MfgParam Name="GAUGE_Z_LENGTH" Value="-"/>
+            <MfgParam Name="POINT_DIAMETER" Value="-"/>
+            <MfgParam Name="GAUGE_OFFSET" Value="-"/>
+            <MfgParam Name="TOOL_LONG_FLAG" Value="NO"/>
+            <MfgParam Name="HOLDER_DIA" Value="-"/>
+            <MfgParam Name="HOLDER_LEN" Value="-"/>
+            <MfgParam Name="COOLANT_OPTION" Value="OFF"/>
+            <MfgParam Name="COOLANT_PRESSURE" Value="NONE"/>
+            <MfgParam Name="SPINDLE_SENSE" Value="CW"/>
+            <MfgParam Name="FLUTE_LENGTH" Value="0.25"/>
+            <MfgParam Name="ADAPTER_OFFSET_FROM_TOOL" Value="0"/>
+            <MfgParam Name="TOOL_COMMENT" Value="1/4 x 82 Countnersink"/>
+            <ToolSetUpOnWorkcell Position="1">
+                <OffsetDataCollection>
+                    <OffsetData Comment="1/4 x 82 Countnersink" OffsetZ="0.000000" Register="-1" Tip="1"/>
+                </OffsetDataCollection>
+            </ToolSetUpOnWorkcell>
+        </Tool>
+        <Tool Id="CSINK250x90" RefXmlId="encref_2" Type="COUNTERSINK">
+            <Attr DataType="boolean" Name="UseOutline" Value="false"/>
+            <Attr DataType="boolean" Name="ProLibraryTool" Value="false"/>
+            <Attr DataType="boolean" Name="SketchTool" Value="false"/>
+            <Attr DataType="boolean" Name="ToolByRef" Value="false"/>
+            <MfgParam Name="LENGTH_UNITS" Value="INCH"/>
+            <MfgParam Name="CUTTER_DIAM" Value="0.25"/>
+            <MfgParam Name="POINT_ANGLE" Value="90"/>
+            <MfgParam Name="LENGTH" Value="2"/>
+            <MfgParam Name="TOOL_MATERIAL" Value="HSS"/>
+            <MfgParam Name="GAUGE_X_LENGTH" Value="-"/>
+            <MfgParam Name="GAUGE_Y_LENGTH" Value="-"/>
+            <MfgParam Name="GAUGE_Z_LENGTH" Value="-"/>
+            <MfgParam Name="POINT_DIAMETER" Value="-"/>
+            <MfgParam Name="GAUGE_OFFSET" Value="-"/>
+            <MfgParam Name="TOOL_LONG_FLAG" Value="NO"/>
+            <MfgParam Name="HOLDER_DIA" Value="-"/>
+            <MfgParam Name="HOLDER_LEN" Value="-"/>
+            <MfgParam Name="COOLANT_OPTION" Value="OFF"/>
+            <MfgParam Name="COOLANT_PRESSURE" Value="NONE"/>
+            <MfgParam Name="SPINDLE_SENSE" Value="CW"/>
+            <MfgParam Name="FLUTE_LENGTH" Value="0.25"/>
+            <MfgParam Name="ADAPTER_OFFSET_FROM_TOOL" Value="0"/>
+            <MfgParam Name="TOOL_COMMENT" Value="1/4 x 90 Countnersink"/>
+            <ToolSetUpOnWorkcell Position="2">
+                <OffsetDataCollection>
+                    <OffsetData Comment="1/4 x 90 Countnersink" OffsetZ="0.000000" Register="-1" Tip="1"/>
+                </OffsetDataCollection>
+            </ToolSetUpOnWorkcell>
+        </Tool>
+        <Tool Id="CSINK500x82" RefXmlId="encref_3" Type="COUNTERSINK">
+            <Attr DataType="boolean" Name="UseOutline" Value="false"/>
+            <Attr DataType="boolean" Name="ProLibraryTool" Value="false"/>
+            <Attr DataType="boolean" Name="SketchTool" Value="false"/>
+            <Attr DataType="boolean" Name="ToolByRef" Value="false"/>
+            <MfgParam Name="LENGTH_UNITS" Value="INCH"/>
+            <MfgParam Name="CUTTER_DIAM" Value="0.5"/>
+            <MfgParam Name="POINT_ANGLE" Value="82"/>
+            <MfgParam Name="LENGTH" Value="0.5"/>
+            <MfgParam Name="TOOL_MATERIAL" Value="HSS"/>
+            <MfgParam Name="GAUGE_X_LENGTH" Value="-"/>
+            <MfgParam Name="GAUGE_Y_LENGTH" Value="-"/>
+            <MfgParam Name="GAUGE_Z_LENGTH" Value="-"/>
+            <MfgParam Name="POINT_DIAMETER" Value="-"/>
+            <MfgParam Name="GAUGE_OFFSET" Value="-"/>
+            <MfgParam Name="TOOL_LONG_FLAG" Value="NO"/>
+            <MfgParam Name="HOLDER_DIA" Value="0.25"/>
+            <MfgParam Name="HOLDER_LEN" Value="1"/>
+            <MfgParam Name="COOLANT_OPTION" Value="OFF"/>
+            <MfgParam Name="COOLANT_PRESSURE" Value="NONE"/>
+            <MfgParam Name="SPINDLE_SENSE" Value="CW"/>
+            <MfgParam Name="FLUTE_LENGTH" Value="0.25"/>
+            <MfgParam Name="ADAPTER_OFFSET_FROM_TOOL" Value="0"/>
+            <MfgParam Name="TOOL_COMMENT" Value="1/2 x 82 Countnersink"/>
+            <ToolSetUpOnWorkcell Position="3">
+                <OffsetDataCollection>
+                    <OffsetData Comment="1/2 x 82 Countnersink" OffsetZ="0.000000" Register="-1" Tip="1"/>
+                </OffsetDataCollection>
+            </ToolSetUpOnWorkcell>
+        </Tool>
+        <Tool Id="CSINK500x90" RefXmlId="encref_4" Type="COUNTERSINK">
+            <Attr DataType="boolean" Name="UseOutline" Value="false"/>
+            <Attr DataType="boolean" Name="ProLibraryTool" Value="false"/>
+            <Attr DataType="boolean" Name="SketchTool" Value="false"/>
+            <Attr DataType="boolean" Name="ToolByRef" Value="false"/>
+            <MfgParam Name="LENGTH_UNITS" Value="INCH"/>
+            <MfgParam Name="CUTTER_DIAM" Value="0.5"/>
+            <MfgParam Name="POINT_ANGLE" Value="90"/>
+            <MfgParam Name="LENGTH" Value="0.5"/>
+            <MfgParam Name="TOOL_MATERIAL" Value="HSS"/>
+            <MfgParam Name="GAUGE_X_LENGTH" Value="-"/>
+            <MfgParam Name="GAUGE_Y_LENGTH" Value="-"/>
+            <MfgParam Name="GAUGE_Z_LENGTH" Value="-"/>
+            <MfgParam Name="POINT_DIAMETER" Value="-"/>
+            <MfgParam Name="GAUGE_OFFSET" Value="-"/>
+            <MfgParam Name="TOOL_LONG_FLAG" Value="NO"/>
+            <MfgParam Name="HOLDER_DIA" Value="0.25"/>
+            <MfgParam Name="HOLDER_LEN" Value="1"/>
+            <MfgParam Name="COOLANT_OPTION" Value="OFF"/>
+            <MfgParam Name="COOLANT_PRESSURE" Value="NONE"/>
+            <MfgParam Name="SPINDLE_SENSE" Value="CW"/>
+            <MfgParam Name="FLUTE_LENGTH" Value="0.25"/>
+            <MfgParam Name="ADAPTER_OFFSET_FROM_TOOL" Value="0"/>
+            <MfgParam Name="TOOL_COMMENT" Value="1/2 x 90 Countnersink"/>
+            <ToolSetUpOnWorkcell Position="4">
+                <OffsetDataCollection>
+                    <OffsetData Comment="1/2 x 90 Countnersink" OffsetZ="0.000000" Register="-1" Tip="1"/>
+                </OffsetDataCollection>
+            </ToolSetUpOnWorkcell>
+        </Tool>
+        <Tool Id="CSINK750X82" RefXmlId="encref_5" Type="COUNTERSINK">
+            <Attr DataType="boolean" Name="UseOutline" Value="false"/>
+            <Attr DataType="boolean" Name="ProLibraryTool" Value="false"/>
+            <Attr DataType="boolean" Name="SketchTool" Value="false"/>
+            <Attr DataType="boolean" Name="ToolByRef" Value="false"/>
+            <MfgParam Name="LENGTH_UNITS" Value="INCH"/>
+            <MfgParam Name="CUTTER_DIAM" Value="0.75"/>
+            <MfgParam Name="POINT_ANGLE" Value="82"/>
+            <MfgParam Name="LENGTH" Value="1"/>
+            <MfgParam Name="TOOL_MATERIAL" Value="HSS"/>
+            <MfgParam Name="GAUGE_X_LENGTH" Value="-"/>
+            <MfgParam Name="GAUGE_Y_LENGTH" Value="-"/>
+            <MfgParam Name="GAUGE_Z_LENGTH" Value="-"/>
+            <MfgParam Name="POINT_DIAMETER" Value="-"/>
+            <MfgParam Name="GAUGE_OFFSET" Value="-"/>
+            <MfgParam Name="TOOL_LONG_FLAG" Value="NO"/>
+            <MfgParam Name="HOLDER_DIA" Value="0.375"/>
+            <MfgParam Name="HOLDER_LEN" Value="1"/>
+            <MfgParam Name="COOLANT_OPTION" Value="OFF"/>
+            <MfgParam Name="COOLANT_PRESSURE" Value="NONE"/>
+            <MfgParam Name="SPINDLE_SENSE" Value="CW"/>
+            <MfgParam Name="FLUTE_LENGTH" Value="0.5"/>
+            <MfgParam Name="ADAPTER_OFFSET_FROM_TOOL" Value="0"/>
+            <MfgParam Name="TOOL_COMMENT" Value="1/2 X 82 COUNTNERSINK"/>
+            <ToolSetUpOnWorkcell Position="5">
+                <OffsetDataCollection>
+                    <OffsetData Comment="1/2 x 82 Countnersink" OffsetZ="0.000000" Register="-1" Tip="1"/>
+                </OffsetDataCollection>
+            </ToolSetUpOnWorkcell>
+        </Tool>
+        <Tool Id="CSINK750X90" RefXmlId="encref_6" Type="COUNTERSINK">
+            <Attr DataType="boolean" Name="UseOutline" Value="false"/>
+            <Attr DataType="boolean" Name="ProLibraryTool" Value="false"/>
+            <Attr DataType="boolean" Name="SketchTool" Value="false"/>
+            <Attr DataType="boolean" Name="ToolByRef" Value="false"/>
+            <MfgParam Name="LENGTH_UNITS" Value="INCH"/>
+            <MfgParam Name="CUTTER_DIAM" Value="0.75"/>
+            <MfgParam Name="POINT_ANGLE" Value="90"/>
+            <MfgParam Name="LENGTH" Value="1"/>
+            <MfgParam Name="TOOL_MATERIAL" Value="HSS"/>
+            <MfgParam Name="GAUGE_X_LENGTH" Value="-"/>
+            <MfgParam Name="GAUGE_Y_LENGTH" Value="-"/>
+            <MfgParam Name="GAUGE_Z_LENGTH" Value="-"/>
+            <MfgParam Name="POINT_DIAMETER" Value="-"/>
+            <MfgParam Name="GAUGE_OFFSET" Value="-"/>
+            <MfgParam Name="TOOL_LONG_FLAG" Value="NO"/>
+            <MfgParam Name="HOLDER_DIA" Value="0.375"/>
+            <MfgParam Name="HOLDER_LEN" Value="1"/>
+            <MfgParam Name="COOLANT_OPTION" Value="OFF"/>
+            <MfgParam Name="COOLANT_PRESSURE" Value="NONE"/>
+            <MfgParam Name="SPINDLE_SENSE" Value="CW"/>
+            <MfgParam Name="FLUTE_LENGTH" Value="0.5"/>
+            <MfgParam Name="ADAPTER_OFFSET_FROM_TOOL" Value="0"/>
+            <MfgParam Name="TOOL_COMMENT" Value="1/2 X 90 COUNTNERSINK"/>
+            <ToolSetUpOnWorkcell Position="6">
+                <OffsetDataCollection>
+                    <OffsetData Comment="1/2 x 90 Countnersink" OffsetZ="0.000000" Register="-1" Tip="1"/>
+                </OffsetDataCollection>
+            </ToolSetUpOnWorkcell>
+        </Tool>
+    </ToolingSetup>
+</MfgSetupDocument>

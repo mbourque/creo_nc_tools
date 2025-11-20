@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MfgWpMaterialDoc>
+    <DocType>PRO_NC_WORKPIECE_MATERIAL_LIST</DocType>
+    <DocTitle>Workpiece Material List</DocTitle>
+    <DateTime>2009-08-21T11:59:44</DateTime>
+    <ApplicationInfo AppName="Pro/ENGINEER" AppVersion="M170"/>
+    <MfgWpMaterialList>
+        <MfgWpMaterial Name="AL6061"/>
+        <MfgWpMaterial Name="BRASS-HARD"/>
+        <MfgWpMaterial Name="BRASS-MEDIUM"/>
+        <MfgWpMaterial Name="GRAPHITE"/>
+        <MfgWpMaterial Name="STEEL-300"/>
+        <MfgWpMaterial Name="WALNUT"/>
+    </MfgWpMaterialList>
+</MfgWpMaterialDoc>

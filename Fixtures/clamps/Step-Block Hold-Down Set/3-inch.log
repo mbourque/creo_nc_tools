@@ -1,0 +1,10 @@
+proepview 11.1.0 - Build: parametric12000 21.1.0.0-QDMPSw x86e_win64
+Copyright (C) 2000-2024 PTC Inc. All Rights Reserved.
+
+proepview Error:56278: Failure getting Mdl Origin
+Recipe file: C:/ptc/Creo 12.4.0.0/Common Files/text/prodview/export_pvs.rcp
+Source file: ▩3-INCH0001
+Output file: C:/Users/micha/AppData/Local/Temp/b9510r7l/3-inch.pvs
+Processing ▩3-inch0001.prt : COMPLETE
+Getting Mass Properties : COMPLETE
+Generating Output : COMPLETE

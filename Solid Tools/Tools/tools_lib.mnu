@@ -1,0 +1,12 @@
+MFG#TOOLS
+#
+#
+/standard_t
+Manufacturing Tools ( mills,drills etc.), American Standard(inch series).
+#
+/metric_t
+Metric Manufacturing Tools ( taps,drills etc.), ANSI Standard.
+#
+/isotools
+Manufacturing Tools ( mills,drills etc.), ISO Standard.
+#

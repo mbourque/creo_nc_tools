@@ -1,0 +1,49 @@
+Features Obtained: PROE_DesignPrmP
+ ADDITIVE_MANUFACTURING
+ Advanced_Framework
+ Harness_Stickgen_Adv
+ Build_Process_Interface
+ NC-COMPLETE_SET
+ Comp-Aided_Verif_SET
+ CFD_BASIC
+ EZ_TOLERANCE_ANALYSIS
+ Expert_Moldbase
+ GDT_ENTERPRISE_SET
+ Generative_Design
+ Harness_Stickgen
+ 3AXIS_HSM
+ 3_AND_5_AXIS_HSM
+ ISDO_II_SET
+ Intralink_8_0
+ Layout_Authoring
+ Materialise_Support
+ Mechanism_Dynamics
+ Mold_Analysis
+ ObjectToolkitCpp
+ Options_Modeler_Standard_SET
+ Progressive_Die
+ Reverse_Engineering
+ Tool_Design_SET
+ TOOLKIT
+ Collaboration_Ext_CatiaV4
+ Collaboration_Ext_SolidWorks
+ Update_Control
+ VERIFY
+ CREO_ANSYS
+ CREO_SIMLIVECFD_SET
+ CFD_ADVANCED_PLUS_SET
+ NC_Sheetmetal_SET
+ Collaboration_Ext_Inventor
+Features Not Obtained: 
+ CREOVIEW_MBD_COMPARE
+ EDAwriter
+ ICM_CFG_1
+ ICM_CFG_4
+ InterComm_Expert
+ PVMCAD64
+ PVANIMATION
+ PVCOMPARE_CLI
+ PVCOMPARE_ECAD
+ PVDESIGNCHECK
+ PVINTERFERENCEERROR - C:\PTC\Start_Dir\Company_Standard\Creo_Manuf_Start\config.pro, linenum 7 :  Keyword 'GPOST_DIR' is not valid.
+gdi32_comm_shutdown wait for polling thread timed out.

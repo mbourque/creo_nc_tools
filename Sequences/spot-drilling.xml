@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AncppDocument>
+    <DocType>PRO_NC_STEP_TEMPLATE</DocType>
+    <DocTitle>Mfg Step Template</DocTitle>
+    <DateTime>2025-11-13T11:50:39</DateTime>
+    <ApplicationInfo AppName="Creo" AppVersion="12.4.2.0" FtVersion="400057" Language="usascii" MdlVersion="2572"/>
+    <AncppTemplate Type="Steps">
+        <Notes></Notes>
+        <TemplateParamCollection>
+            <TemplateParam DataType="string" Name="AUTHOR" Type="AUTHOR" Value=""/>
+            <TemplateParam DataType="string" Name="VERSION" Type="VERSION" Value=""/>
+            <TemplateParam DataType="string" Name="FACTORY" Type="FACTORY" Value=""/>
+            <TemplateParam DataType="string" Name="LINE" Type="LINE" Value=""/>
+            <TemplateParam DataType="string" Name="PRODUCT" Type="PRODUCT" Value=""/>
+        </TemplateParamCollection>
+        <CustomCycleCollection/>
+        <Units AngleUnit="rad" LengthUnit="in" MassUnit="lb" TemperatureUnit="F" TimeUnit="s"/>
+        <AERefCollection>
+            <AERefItem Editable="false" IsMultival="false" OwnerPath="" ProElemId="4350" ProeId="24" RefId="1" RefType="MFG_NC_REF_STEP_CSYS" RefXmlId="encref_2" Required="false" SuggestedNames="G54" Type="csys" Visible="true"><!--PRO_E_NCSEQ_CSYS-->
+                <RefLabel>Step Orientation</RefLabel>
+                <RefDescription>Coordinate system for step orientation</RefDescription>
+            </AERefItem>
+            <AERefItem Editable="false" IsMultival="false" MfgModeOnly="true" OwnerPath="" ProElemId="4354" ProeId="24" RefId="2" RefType="MFG_NC_REF_RETRACT_SURF" RefXmlId="encref_3" Required="false" SuggestedNames="G54" Type="csys" Visible="false"><!--PRO_E_RETR_SURF_REF--></AERefItem>
+            <AERefItem Editable="false" IsMultival="true" OwnerPath="16" ProElemId="1047" ProeId="82" RefId="3" RefType="MFG_REF_AXIS" RefXmlId="encref_4" Required="true" SuggestedNames="A_1" Type="axis" Visible="true"><!--PRO_E_HOLESET_SEL_INDIV_AXES-->
+                <RefLabel>Axis (Axes)</RefLabel>
+                <RefDescription>Axes for holes to machine</RefDescription>
+            </AERefItem>
+        </AERefCollection>
+        <Tools>
+            <Tool Id="SPOT250" RefXmlId="encref_1" Type="SPOT DRILL">
+                <Attr DataType="boolean" Name="UseOutline" Value="false"/>
+                <Attr DataType="boolean" Name="ProLibraryTool" Value="false"/>
+                <Attr DataType="boolean" Name="SketchTool" Value="false"/>
+                <Attr DataType="boolean" Name="ToolByRef" Value="false"/>
+                <MfgParam Name="LENGTH_UNITS" Value="INCH"/>
+                <MfgParam Name="CUTTER_DIAM" Value="0.25"/>
+                <MfgParam Name="POINT_ANGLE" Value="90"/>
+                <MfgParam Name="LENGTH" Value="2"/>
+                <MfgParam Name="TOOL_MATERIAL" Value="HSS"/>
+                <MfgParam Name="GAUGE_X_LENGTH" Value="-"/>
+                <MfgParam Name="GAUGE_Y_LENGTH" Value="-"/>
+                <MfgParam Name="GAUGE_Z_LENGTH" Value="-"/>
+                <MfgParam Name="TOOL_LONG_FLAG" Value="NO"/>
+                <MfgParam Name="HOLDER_DIA" Value="-"/>
+                <MfgParam Name="HOLDER_LEN" Value="-"/>
+                <MfgParam Name="COOLANT_OPTION" Value="OFF"/>
+                <MfgParam Name="COOLANT_PRESSURE" Value="NONE"/>
+                <MfgParam Name="SPINDLE_SENSE" Value="CW"/>
+                <MfgParam Name="FLUTE_LENGTH" Value="1"/>
+                <MfgParam Name="ADAPTER_OFFSET_FROM_TOOL" Value="0"/>
+                <MfgParam Name="TOOL_COMMENT" Value="STANDARD SPOT DRILL"/>
+                <ToolCutData>
+                    <Material>
+                        <MfgParam Name="STOCK_MATERIAL" Value="Unspecified"/>
+                    </Material>
+                    <CutDataUnitSystem>
+                        <MfgParam Name="CUT_DATA_UNITS" Value="ENGLISH"/>
+                    </CutDataUnitSystem>
+                    <Technology>
+                        <Condition>
+                            <MfgParam Name="APPLICATION_TYPE" Value="FINISHING"/>
+                        </Condition>
+                        <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="1000"/>
+                        <MfgParam Name="TOOL_SURFACE_SPEED" Unit="ft_per_min" Value="65.4498"/>
+                        <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="20"/>
+                        <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_rev" Value="0.02"/>
+                    </Technology>
+                </ToolCutData>
+            </Tool>
+        </Tools>
+        <FeatureCollection>
+            <AncppFeature IsObjCsysRetr="true" Referred_ae_refs="encref_2 encref_3 encref_4">
+                <FeatVersion OduiVersion="odui19"/>
+                <ToolRef Refers_to="encref_1"/>
+                <InfoParamCollection>
+                    <InfoParam Name="ESTIMATE_REMOVED_MATERIAL" Value="0"/>
+                    <InfoParam Name="MACHINING_DISTANCE" Value="4.25"/>
+                    <InfoParam Name="XMIN" Value="2.5"/>
+                    <InfoParam Name="XMAX" Value="2.5"/>
+                    <InfoParam Name="YMIN" Value="-2"/>
+                    <InfoParam Name="YMAX" Value="-2"/>
+                    <InfoParam Name="ZMIN" Value="-0.125"/>
+                    <InfoParam Name="ZMAX" Value="2"/>
+                    <InfoParam Name="X_STROKE" Value="0"/>
+                    <InfoParam Name="Y_STROKE" Value="0"/>
+                    <InfoParam Name="Z_STROKE" Value="2.125"/>
+                    <InfoParam Name="ESTIMATED_MACHINING_TIME" Value="0.07"/>
+                </InfoParamCollection>
+                <AncppParamCollection/>
+                <RelParCollection>
+                    <RelParInfo OwnerType="step">
+                        <Parameters>
+                            <FeatParam DataType="string" Name="PTC_MFG_PRM_CL_FILE" Value="-"/>
+                        </Parameters>
+                    </RelParInfo>
+                </RelParCollection>
+                <ElemTree>
+                    <PRO_E_FEATURE_TREE type="compound">
+                        <PRO_E_FEATURE_TYPE type="int"><!--DRILLING-->940</PRO_E_FEATURE_TYPE>
+                        <PRO_E_NCSEQ_TYPE type="int"><!--PRO_NCSEQ_HOLEMAKING-->5</PRO_E_NCSEQ_TYPE>
+                        <PRO_E_HOLEMAKING_TYPE type="int">4</PRO_E_HOLEMAKING_TYPE>
+                        <PRO_E_DRILL_MODE type="int">0</PRO_E_DRILL_MODE>
+                        <PRO_E_STD_FEATURE_NAME type="wstring">SPOT-DRILLING_1</PRO_E_STD_FEATURE_NAME>
+                        <PRO_E_OPERATION type="wstring">OP010</PRO_E_OPERATION>
+                        <PRO_E_MFG_HOLEMAKING_CYCLE_TYPE type="int">1</PRO_E_MFG_HOLEMAKING_CYCLE_TYPE>
+                        <PRO_E_MFG_SEQ_NUM_AXES_OPT type="int">3</PRO_E_MFG_SEQ_NUM_AXES_OPT>
+                        <PRO_E_NCSEQ_CSYS Referred_ae_ref="encref_2" type="selection"/>
+                        <PRO_E_RETR_SURF type="compound">
+                            <PRO_E_RETR_SURF_TYPE type="int">0</PRO_E_RETR_SURF_TYPE>
+                            <PRO_E_RETR_SURF_REF Referred_ae_ref="encref_3" type="selection"/>
+                            <PRO_E_RETR_SURF_ORIENT type="int">2</PRO_E_RETR_SURF_ORIENT>
+                            <PRO_E_RETR_SURF_VALUE type="double">2.000000</PRO_E_RETR_SURF_VALUE>
+                        </PRO_E_RETR_SURF>
+                        <PRO_E_MFG_TRIM_RETR_PLN type="selection"/>
+                        <PRO_E_MFG_SUB_SPINDLE_OPT type="int">0</PRO_E_MFG_SUB_SPINDLE_OPT>
+                        <PRO_E_MFG_TOOL_REF_COMPOUND type="compound">
+                            <PRO_E_MFG_TOOL_REF_HEAD_NUM type="int">0</PRO_E_MFG_TOOL_REF_HEAD_NUM>
+                            <PRO_E_MFG_TOOL_REF_POCKET type="int">4</PRO_E_MFG_TOOL_REF_POCKET>
+                            <PRO_E_MFG_TOOL_REF_ID type="wstring">SPOT250</PRO_E_MFG_TOOL_REF_ID>
+                        </PRO_E_MFG_TOOL_REF_COMPOUND>
+                        <PRO_E_MFG_TOOL_ADAPTER_NAME type="wstring"></PRO_E_MFG_TOOL_ADAPTER_NAME>
+                        <PRO_E_MFG_PARAM_SITE_NAME type="wstring"></PRO_E_MFG_PARAM_SITE_NAME>
+                        <PRO_E_MFG_PARAM_ARR type="array">
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">NCL_FILE</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">-</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">PRE_MACHINING_FILE</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">-</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">POST_MACHINING_FILE</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">-</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">CUT_FEED</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">20.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring"/>
+                                <PRO_E_MFG_PRM_ATTR type="int">2</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">ARC_FEED</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">-1.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring"/>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">FREE_FEED</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring"/>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">CUT_UNITS</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">IPM</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">RETRACT_UNITS</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">IPM</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">SCAN_TYPE</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">APPROX_SHORTEST</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">ORIENT_SCAN_TYPE</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">NO</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">CYCLE_OUTPUT</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">BY_HOLE</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">CUT_DIRECTION</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">STANDARD</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">CYCLE_OPTIMIZE</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">YES</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">CONSIDER_TOOL_LENGTH</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">YES</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">CYCLE_FORMAT</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">COUPLET</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">BOUND_CURVE</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">NO</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">RETRACT_SURF_TOL</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.100000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring"/>
+                                <PRO_E_MFG_PRM_ATTR type="int">2</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">RETRACT_CLEARANCE_TIP</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">DEFAULT_TIP</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">TOLERANCE</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.001000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring"/>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">CHK_SRF_STOCK_ALLOW</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring"/>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">PECK_DEPTH</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.025000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring"/>
+                                <PRO_E_MFG_PRM_ATTR type="int">2</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">BREAKOUT_DISTANCE</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring"/>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">HOLE_REDUCTION_FACTOR</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">1.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring"/>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">SKIP_INTERM_RETRACT</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">NO</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">SPINDLE_SPEED</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">1000.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring"/>
+                                <PRO_E_MFG_PRM_ATTR type="int">2</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">SPINDLE_STATUS</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">ON</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">SPINDLE_SENSE</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">CW</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">2</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">MAX_SPINDLE_RPM</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring"/>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">SPEED_CONTROL</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">CONST_RPM</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">SPINDLE_RANGE</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">NO_RANGE</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">RANGE_NUMBER</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring"/>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">LINTOL</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring"/>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">CIRC_INTERPOLATION</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">ARC_ONLY</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">NUMBER_OF_ARC_PTS</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">1.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring"/>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">COOLANT_OPTION</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">OFF</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">2</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">COOLANT_PRESSURE</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">NONE</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">2</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">FIXT_OFFSET_REG</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">-1.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring"/>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">COORDINATE_OUTPUT</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">MACHINE_CSYS</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">DELAY</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">-1.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring"/>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">DELAY_UNITS</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">SECONDS</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">TIP_CONTROL_POINT</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">1</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">TLCHG_TIP_NUMBER</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">INITIAL</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">CLEAR_DIST</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">1.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring"/>
+                                <PRO_E_MFG_PRM_ATTR type="int">2</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">PULLOUT_DIST</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">1.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring"/>
+                                <PRO_E_MFG_PRM_ATTR type="int">2</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">INTER_RET_HEIGHT</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">-1.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring"/>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">FULL_RETRACT_DEPTH</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring"/>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">RAPTO_DIST</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">-1.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring"/>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">CLEARANCE_OFFSET</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">-1.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring"/>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">START_MOTION</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">DIRECT</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">END_MOTION</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">DIRECT</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">FEED_UNITS</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">IPM</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">END_STOP_CONDITION</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">NONE</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">COOLANT_PRESSURE_VALUE</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring"/>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">COOLANT_PRESSURE_UNIT</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">BAR</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">GO_HOME_REGISTER</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">-1.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring"/>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                        </PRO_E_MFG_PARAM_ARR>
+                        <PRO_E_MFG_CUSTOM_CYCLE_NAME type="wstring"/>
+                        <PRO_E_HOLESETS type="array">
+                            <PRO_E_HOLESET type="compound">
+                                <PRO_E_HOLESET_ID type="int">0</PRO_E_HOLESET_ID>
+                                <PRO_E_HOLESET_TYPE type="int">4</PRO_E_HOLESET_TYPE>
+                                <PRO_E_HOLESET_START type="compound">
+                                    <PRO_E_HOLESET_START_TYPE type="int">2</PRO_E_HOLESET_START_TYPE>
+                                    <PRO_E_HOLESET_START_SURFACE type="selection"/>
+                                    <PRO_E_HOLESET_START_Z_OFFSET type="double">0.000000</PRO_E_HOLESET_START_Z_OFFSET>
+                                </PRO_E_HOLESET_START>
+                                <PRO_E_HOLESET_END type="compound">
+                                    <PRO_E_HOLESET_END_TYPE type="int">4</PRO_E_HOLESET_END_TYPE>
+                                    <PRO_E_HOLESET_END_MEASURE_BY type="int">1</PRO_E_HOLESET_END_MEASURE_BY>
+                                    <PRO_E_HOLESET_END_SURFACE type="selection"/>
+                                    <PRO_E_HOLESET_DEPTH_VALUE type="double">0.125000</PRO_E_HOLESET_DEPTH_VALUE>
+                                    <PRO_E_HOLESET_END_Z_OFFSET type="double">0.000000</PRO_E_HOLESET_END_Z_OFFSET>
+                                    <PRO_E_HOLESET_CSINK_DIAM type="double">0.000000</PRO_E_HOLESET_CSINK_DIAM>
+                                    <PRO_E_HOLESET_USE_BRKOUT_DIST type="int">0</PRO_E_HOLESET_USE_BRKOUT_DIST>
+                                </PRO_E_HOLESET_END>
+                                <PRO_E_HOLESET_DEPTH type="compound">
+                                    <PRO_E_HOLESET_DEPTH_TYPE type="int">0</PRO_E_HOLESET_DEPTH_TYPE>
+                                    <PRO_E_HOLESET_DEPTH_BY_TYPE type="int">0</PRO_E_HOLESET_DEPTH_BY_TYPE>
+                                    <PRO_E_HOLESET_DEPTH_PLATES type="array">
+                                        <PRO_E_HOLESET_DEPTH_PLATE type="compound">
+                                            <PRO_E_HOLESET_PLATE_START type="selection"/>
+                                            <PRO_E_HOLESET_PLATE_END_OPT type="int">0</PRO_E_HOLESET_PLATE_END_OPT>
+                                            <PRO_E_HOLESET_PLATE_END type="selection"/>
+                                            <PRO_E_HOLESET_PLATE_DEPTH type="double">0.000000</PRO_E_HOLESET_PLATE_DEPTH>
+                                            <PRO_E_HOLESET_PLATE_BRKOUT type="int">0</PRO_E_HOLESET_PLATE_BRKOUT>
+                                        </PRO_E_HOLESET_DEPTH_PLATE>
+                                    </PRO_E_HOLESET_DEPTH_PLATES>
+                                </PRO_E_HOLESET_DEPTH>
+                                <PRO_E_DRILL_PART_DATA type="compound">
+                                    <PRO_E_AUTO_SEL_DRILL_PARTS type="int">1</PRO_E_AUTO_SEL_DRILL_PARTS>
+                                </PRO_E_DRILL_PART_DATA>
+                                <PRO_E_AUTODRILL_INFO type="compound">
+                                    <PRO_E_HOLESET_AUTODRILL_REF_INDEX type="int">0</PRO_E_HOLESET_AUTODRILL_REF_INDEX>
+                                    <PRO_E_AUTODRILL_DEPTH_BY_TABLE type="int">0</PRO_E_AUTODRILL_DEPTH_BY_TABLE>
+                                </PRO_E_AUTODRILL_INFO>
+                                <PRO_E_HOLESET_ORIENT_TYPE type="int">0</PRO_E_HOLESET_ORIENT_TYPE>
+                                <PRO_E_HOLESET_ORIENT_REF type="selection"/>
+                                <PRO_E_HOLESET_TIP_CTRL_PNT type="int">0</PRO_E_HOLESET_TIP_CTRL_PNT>
+                                <PRO_E_HOLESET_SELECTION_RULES type="compound">
+                                    <PRO_E_HOLESET_SEL_AUTO_CHAMFER type="int">0</PRO_E_HOLESET_SEL_AUTO_CHAMFER>
+                                    <PRO_E_HOLESET_SEL_AXIS_PATTS type="multivalue"/>
+                                    <PRO_E_MFG_HSET_DRILL_GROUP_REF type="multivalue"/>
+                                    <PRO_E_HOLESET_SEL_BY_SURFACES type="multivalue"/>
+                                    <PRO_E_MFG_HSET_DIAM_TYPE_OPT type="int">1</PRO_E_MFG_HSET_DIAM_TYPE_OPT>
+                                    <PRO_E_MFG_HSET_DIAM_ARR type="array"/>
+                                    <PRO_E_MFG_HSET_PARAM_RULE_OPT type="int">1</PRO_E_MFG_HSET_PARAM_RULE_OPT>
+                                    <PRO_E_MFG_HSET_PARAM_ARR type="array"/>
+                                    <PRO_E_HOLESET_SEL_UNSEL_AXES type="multivalue"/>
+                                    <PRO_E_HOLESET_SEL_INDIV_AXES Referred_ae_ref="encref_4" type="multivalue"/>
+                                </PRO_E_HOLESET_SELECTION_RULES>
+                                <PRO_E_MFG_HSET_START_HOLE_REF type="selection"/>
+                                <PRO_E_HOLESET_GANG_TOOL_INFO type="compound">
+                                    <PRO_E_HSET_GANG_TOOL_PARENT_ID type="int">-1</PRO_E_HSET_GANG_TOOL_PARENT_ID>
+                                    <PRO_E_HSET_IS_GANG_TOOL_LEADER type="int">0</PRO_E_HSET_IS_GANG_TOOL_LEADER>
+                                </PRO_E_HOLESET_GANG_TOOL_INFO>
+                            </PRO_E_HOLESET>
+                        </PRO_E_HOLESETS>
+                        <PRO_E_TOOL_MTN_ARR type="array">
+                            <PRO_E_TOOL_MTN type="compound">
+                                <PRO_E_TOOL_MTN_TYPE type="int">28</PRO_E_TOOL_MTN_TYPE>
+                                <PRO_E_MFG_PARAM_ARR type="array">
+                                    <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                        <PRO_E_MFG_PRM_NAME type="wstring">SPINDLE_SPEED</PRO_E_MFG_PRM_NAME>
+                                        <PRO_E_MFG_PRM_VAL_DBL type="double">1000.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                        <PRO_E_MFG_PRM_VAL_STR type="wstring"/>
+                                        <PRO_E_MFG_PRM_ATTR type="int">3</PRO_E_MFG_PRM_ATTR>
+                                    </PRO_E_MFG_PARAM_COMPOUND>
+                                    <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                        <PRO_E_MFG_PRM_NAME type="wstring">SPINDLE_SENSE</PRO_E_MFG_PRM_NAME>
+                                        <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                        <PRO_E_MFG_PRM_VAL_STR type="wstring">CW</PRO_E_MFG_PRM_VAL_STR>
+                                        <PRO_E_MFG_PRM_ATTR type="int">3</PRO_E_MFG_PRM_ATTR>
+                                    </PRO_E_MFG_PARAM_COMPOUND>
+                                    <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                        <PRO_E_MFG_PRM_NAME type="wstring">MAX_SPINDLE_RPM</PRO_E_MFG_PRM_NAME>
+                                        <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                        <PRO_E_MFG_PRM_VAL_STR type="wstring"/>
+                                        <PRO_E_MFG_PRM_ATTR type="int">4</PRO_E_MFG_PRM_ATTR>
+                                    </PRO_E_MFG_PARAM_COMPOUND>
+                                    <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                        <PRO_E_MFG_PRM_NAME type="wstring">SPEED_CONTROL</PRO_E_MFG_PRM_NAME>
+                                        <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                        <PRO_E_MFG_PRM_VAL_STR type="wstring">CONST_RPM</PRO_E_MFG_PRM_VAL_STR>
+                                        <PRO_E_MFG_PRM_ATTR type="int">3</PRO_E_MFG_PRM_ATTR>
+                                    </PRO_E_MFG_PARAM_COMPOUND>
+                                    <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                        <PRO_E_MFG_PRM_NAME type="wstring">SPINDLE_RANGE</PRO_E_MFG_PRM_NAME>
+                                        <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                        <PRO_E_MFG_PRM_VAL_STR type="wstring">NO_RANGE</PRO_E_MFG_PRM_VAL_STR>
+                                        <PRO_E_MFG_PRM_ATTR type="int">3</PRO_E_MFG_PRM_ATTR>
+                                    </PRO_E_MFG_PARAM_COMPOUND>
+                                    <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                        <PRO_E_MFG_PRM_NAME type="wstring">RANGE_NUMBER</PRO_E_MFG_PRM_NAME>
+                                        <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                        <PRO_E_MFG_PRM_VAL_STR type="wstring"/>
+                                        <PRO_E_MFG_PRM_ATTR type="int">3</PRO_E_MFG_PRM_ATTR>
+                                    </PRO_E_MFG_PARAM_COMPOUND>
+                                    <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                        <PRO_E_MFG_PRM_NAME type="wstring">COOLANT_OPTION</PRO_E_MFG_PRM_NAME>
+                                        <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                        <PRO_E_MFG_PRM_VAL_STR type="wstring">OFF</PRO_E_MFG_PRM_VAL_STR>
+                                        <PRO_E_MFG_PRM_ATTR type="int">3</PRO_E_MFG_PRM_ATTR>
+                                    </PRO_E_MFG_PARAM_COMPOUND>
+                                    <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                        <PRO_E_MFG_PRM_NAME type="wstring">COOLANT_PRESSURE</PRO_E_MFG_PRM_NAME>
+                                        <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                        <PRO_E_MFG_PRM_VAL_STR type="wstring">NONE</PRO_E_MFG_PRM_VAL_STR>
+                                        <PRO_E_MFG_PRM_ATTR type="int">3</PRO_E_MFG_PRM_ATTR>
+                                    </PRO_E_MFG_PARAM_COMPOUND>
+                                    <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                        <PRO_E_MFG_PRM_NAME type="wstring">COOLANT_PRESSURE_VALUE</PRO_E_MFG_PRM_NAME>
+                                        <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                        <PRO_E_MFG_PRM_VAL_STR type="wstring"/>
+                                        <PRO_E_MFG_PRM_ATTR type="int">4</PRO_E_MFG_PRM_ATTR>
+                                    </PRO_E_MFG_PARAM_COMPOUND>
+                                    <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                        <PRO_E_MFG_PRM_NAME type="wstring">COOLANT_PRESSURE_UNIT</PRO_E_MFG_PRM_NAME>
+                                        <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                        <PRO_E_MFG_PRM_VAL_STR type="wstring">BAR</PRO_E_MFG_PRM_VAL_STR>
+                                        <PRO_E_MFG_PRM_ATTR type="int">3</PRO_E_MFG_PRM_ATTR>
+                                    </PRO_E_MFG_PARAM_COMPOUND>
+                                </PRO_E_MFG_PARAM_ARR>
+                                <PRO_E_TOOL_MTN_REF_ID type="int">0</PRO_E_TOOL_MTN_REF_ID>
+                            </PRO_E_TOOL_MTN>
+                        </PRO_E_TOOL_MTN_ARR>
+                        <PRO_E_MFG_START_PNT type="selection"/>
+                        <PRO_E_MFG_END_PNT type="selection"/>
+                        <PRO_E_MFG_PROCESS_REF type="multivalue"/>
+                        <PRO_E_MFG_FEAT_VIEW_NAME type="wstring"></PRO_E_MFG_FEAT_VIEW_NAME>
+                        <PRO_E_MFG_SIMP_REP_NAME type="wstring"></PRO_E_MFG_SIMP_REP_NAME>
+                        <PRO_E_MFG_TIME_ESTIMATE type="double">0.000000</PRO_E_MFG_TIME_ESTIMATE>
+                        <PRO_E_MFG_COST_ESTIMATE type="double">0.000000</PRO_E_MFG_COST_ESTIMATE>
+                        <PRO_E_MFG_TIME_ACTUAL type="double">0.000000</PRO_E_MFG_TIME_ACTUAL>
+                        <PRO_E_MFG_COMMENTS type="wstring"></PRO_E_MFG_COMMENTS>
+                    </PRO_E_FEATURE_TREE>
+                </ElemTree>
+                <FeatTypeLabel>STANDARD DRILLING</FeatTypeLabel>
+            </AncppFeature>
+        </FeatureCollection>
+    </AncppTemplate>
+</AncppDocument>

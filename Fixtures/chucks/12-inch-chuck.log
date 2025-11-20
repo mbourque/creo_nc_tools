@@ -1,0 +1,29 @@
+proepview 11.1.0 - Build: parametric12000 21.1.0.0-QDMPSw x86e_win64
+Copyright (C) 2000-2024 PTC Inc. All Rights Reserved.
+
+Recipe file: C:/ptc/Creo 12.4.2.0/Common Files/text/prodview/export_pvs.rcp
+Source file: G:/My Drive/Cad Files/Creo/Library/NC/Fixtures/chucks/12-inch-chuck.asm.2
+Output file: C:/Users/micha/AppData/Local/Temp/_dn8twcf/12-inch-chuck.pvs
+Processing 12-inch-chuck.asm : ...
+Processing hch12<<12-inch-chuck>>.prt : COMPLETE
+Getting Mass Properties : COMPLETE
+Processing jaw<<12-inch-chuck>>.asm : ...
+Processing mj12<<12-inch-chuck>>.prt : COMPLETE
+Getting Mass Properties : COMPLETE
+Processing htj12<<12-inch-chuck>>.prt : COMPLETE
+Getting Mass Properties : COMPLETE
+... jaw<<12-inch-chuck>>.asm : COMPLETE
+Processing jaw<<12-inch-chuck>>.asm : ...
+Processing mj12<<12-inch-chuck>>.prt : COMPLETE
+Getting Mass Properties : COMPLETE
+Processing htj12<<12-inch-chuck>>.prt : COMPLETE
+Getting Mass Properties : COMPLETE
+... jaw<<12-inch-chuck>>.asm : COMPLETE
+Processing jaw<<12-inch-chuck>>.asm : ...
+Processing mj12<<12-inch-chuck>>.prt : COMPLETE
+Getting Mass Properties : COMPLETE
+Processing htj12<<12-inch-chuck>>.prt : COMPLETE
+Getting Mass Properties : COMPLETE
+... jaw<<12-inch-chuck>>.asm : COMPLETE
+... 12-inch-chuck.asm : COMPLETE
+Generating Output : COMPLETE

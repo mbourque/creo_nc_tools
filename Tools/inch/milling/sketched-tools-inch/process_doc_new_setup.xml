@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MfgSessionSetupDocument>
+    <DocType>PRO_NC_SESSION_SETUP</DocType>
+    <DocTitle>Manufacturing Session Configuration</DocTitle>
+    <DateTime>2008-08-26T11:32:13</DateTime>
+    <ApplicationInfo AppName="Pro/ENGINEER" AppVersion="Unreleased" Language="usascii"/>
+    <ProcessDocSetup>
+        <ViewCollection>
+            <ViewSetup LayoutType="Summary" Name="Summary">
+                <ColumnCollection>
+                    <Column Num="1">
+                        <Property Label="Orientation" Name="PRO_E_MACH_CSYS" Type="NC_SETUP_ITEM"/>
+                    </Column>
+                    <Column Num="2">
+                        <Property Label="Machining Time ( Min. )" Name="MACHINING_TIME" Type="MFG_INFO_PARAM"/>
+                    </Column>
+                    <Column Num="3">
+                        <Property Label="Stock Material" Name="STOCK_MATERIAL" Type="MFG_INFO_PARAM"/>
+                    </Column>
+                    <Column Num="4">
+                        <Property Label="Z Minimum" Name="ZMIN" Type="MFG_INFO_PARAM"/>
+                    </Column>
+                    <Column Num="5">
+                        <Property Label="Z Maximum" Name="ZMAX" Type="MFG_INFO_PARAM"/>
+                    </Column>
+                    <Column Num="6">
+                        <Property Label="Workcell" Name="PRO_E_WCELL" Type="NC_SETUP_ITEM"/>
+                    </Column>
+                    <Column Num="7">
+                        <Property Label="Workcell Type" Name="PRO_E_WCELL_TYPE" Type="NC_SETUP_ITEM"/>
+                    </Column>
+                    <Column Num="8">
+                        <Property Label="NCL_FILE" Name="NCL_FILE" Type="MFG_PARAM"/>
+                    </Column>
+                    <Column Num="9">
+                        <Property Label="PARTNO" Name="PARTNO" Type="MFG_PARAM"/>
+                    </Column>
+                    <Column Num="10">
+                        <Property Label="POST_MACHINING_FILE" Name="POST_MACHINING_FILE" Type="MFG_PARAM"/>
+                    </Column>
+                    <Column Num="11">
+                        <Property Label="PRE_MACHINING_FILE" Name="PRE_MACHINING_FILE" Type="MFG_PARAM"/>
+                    </Column>
+                    <Column Num="12">
+                        <Property Label="Actual machining time" Name="ACTUAL_MACHINING_TIME" Type="MFG_INFO_PARAM"/>
+                    </Column>
+                </ColumnCollection>
+            </ViewSetup>
+            <ViewSetup LayoutType="Sequence" Name="Sequence List">
+                <ColumnCollection>
+                    <Column Num="1">
+                        <Property Label="Tool" Name="PRO_E_TOOL" Type="NC_SETUP_ITEM"/>
+                    </Column>
+                    <Column Num="2">
+                        <Property Label="Tool Number" Name="PRO_E_POCKET_NUMBER" Type="NC_SETUP_ITEM"/>
+                    </Column>
+                    <Column Num="3">
+                        <Property Label="Head" Name="PRO_E_MACH_HEAD" Type="NC_SETUP_ITEM"/>
+                    </Column>
+                    <Column Num="4">
+                        <Property Label="Type" Name="PRO_E_FEATURE_TYPE" Type="NC_SETUP_ITEM"/>
+                    </Column>
+                    <Column Num="5">
+                        <Property Label="Orientation" Name="PRO_E_CSYS" Type="NC_SETUP_ITEM"/>
+                    </Column>
+                    <Column Num="6">
+                        <Property Label="Comments" Name="PRO_E_COMMENTS" Type="NC_SETUP_ITEM"/>
+                    </Column>
+                    <Column Num="7">
+                        <Property Label="Z Minimum" Name="ZMIN" Type="MFG_INFO_PARAM"/>
+                    </Column>
+                    <Column Num="8">
+                        <Property Label="Z Maximum" Name="ZMAX" Type="MFG_INFO_PARAM"/>
+                    </Column>
+                    <Column Num="9">
+                        <Property Label="Machining Time ( Min. )" Name="MACHINING_TIME" Type="MFG_INFO_PARAM"/>
+                    </Column>
+                    <Column Num="10">
+                        <Property Label="CUTTER_DIAM" Name="CUTTER_DIAM" Type="TOOL_PARAM"/>
+                    </Column>
+                    <Column Num="11">
+                        <Property Label="CUT_FEED" Name="CUT_FEED" Type="MFG_PARAM"/>
+                    </Column>
+                    <Column Num="12">
+                        <Property Label="STEP_DEPTH" Name="STEP_DEPTH" Type="MFG_PARAM"/>
+                    </Column>
+                    <Column Num="13">
+                        <Property Label="SPINDLE_SPEED" Name="SPINDLE_SPEED" Type="MFG_PARAM"/>
+                    </Column>
+                    <Column Num="14">
+                        <Property Label="NCL_FILE" Name="NCL_FILE" Type="MFG_PARAM"/>
+                    </Column>
+                    <Column Num="15">
+                        <Property Label="COOLANT_OPTION" Name="COOLANT_OPTION" Type="MFG_PARAM"/>
+                    </Column>
+                    <Column Num="16">
+                        <Property Label="FREE_FEED" Name="FREE_FEED" Type="MFG_PARAM"/>
+                    </Column>
+                    <Column Num="17">
+                        <Property Label="STEP_OVER" Name="STEP_OVER" Type="MFG_PARAM"/>
+                    </Column>
+                    <Column Num="18">
+                        <Property Label="MAX_STEP_DEPTH" Name="MAX_STEP_DEPTH" Type="MFG_PARAM"/>
+                    </Column>
+                </ColumnCollection>
+            </ViewSetup>
+            <ViewSetup LayoutType="Tool" Name="Tool List">
+                <ColumnCollection>
+                    <Column Num="1">
+                        <Property Label="TOOL_TYPE" Name="TOOL_TYPE" Type="TOOL_PARAM"/>
+                    </Column>
+                    <Column Num="2">
+                        <Property Label="CUTTER_DIAM" Name="CUTTER_DIAM" Type="TOOL_PARAM"/>
+                    </Column>
+                    <Column Num="3">
+                        <Property Label="TOOL_COMMENT" Name="TOOL_COMMENT" Type="TOOL_PARAM"/>
+                    </Column>
+                    <Column Num="4">
+                        <Property Label="TOOL_MATERIAL" Name="TOOL_MATERIAL" Type="TOOL_PARAM"/>
+                    </Column>
+                    <Column Num="5">
+                        <Property Label="FLUTE_LENGTH" Name="FLUTE_LENGTH" Type="TOOL_PARAM"/>
+                    </Column>
+                    <Column Num="6">
+                        <Property Label="NUM_OF_TEETH" Name="NUM_OF_TEETH" Type="TOOL_PARAM"/>
+                    </Column>
+                    <Column Num="7">
+                        <Property Label="TIP_OFFSET" Name="TIP_OFFSET" Type="TOOL_PARAM"/>
+                    </Column>
+                    <Column Num="8">
+                        <Property Label="NUM_OF_TIPS" Name="NUM_OF_TIPS" Type="TOOL_PARAM"/>
+                    </Column>
+                    <Column Num="9">
+                        <Property Label="NOSE_RADIUS" Name="NOSE_RADIUS" Type="TOOL_PARAM"/>
+                    </Column>
+                    <Column Num="10">
+                        <Property Label="GAUGE_X_LENGTH" Name="GAUGE_X_LENGTH" Type="TOOL_PARAM"/>
+                    </Column>
+                    <Column Num="11">
+                        <Property Label="GAUGE_Y_LENGTH" Name="GAUGE_Y_LENGTH" Type="TOOL_PARAM"/>
+                    </Column>
+                    <Column Num="12">
+                        <Property Label="GAUGE_Z_LENGTH" Name="GAUGE_Z_LENGTH" Type="TOOL_PARAM"/>
+                    </Column>
+                </ColumnCollection>
+            </ViewSetup>
+        </ViewCollection>
+        <CustomLabelCollection/>
+        <CompanyInfo/>
+        <UserImageColl/>
+        <SpecialInstructions/>
+    </ProcessDocSetup>
+</MfgSessionSetupDocument>

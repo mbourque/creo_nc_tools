@@ -1,0 +1,57 @@
+proepview 11.1.0 - Build: parametric12000 21.1.0.0-QDMPSw x86e_win64
+Copyright (C) 2000-2024 PTC Inc. All Rights Reserved.
+
+Recipe file: C:/PTC/Creo 12.4.2.0/Common Files/text/prodview/export_pvs.rcp
+Source file: G:/My Drive/Cad Files/Creo/Library/NC/Fixtures/assemblies/table-vise.asm.2
+Output file: C:/Users/micha/AppData/Local/Temp/hqcp15ah/table-vise.pvs
+Processing table-vise.asm : ...
+Processing jig-plate<<table-vise>>.prt : COMPLETE
+Getting Mass Properties : COMPLETE
+Processing adjustable-vise<<table-vise>>.prt : COMPLETE
+Getting Mass Properties : COMPLETE
+Getting Mass Properties : COMPLETE
+Processing clamp<<table-vise>>.asm : ...
+Processing 3-inch<<table-vise>>.prt : COMPLETE
+Getting Mass Properties : COMPLETE
+Processing clamp-kick-bolt<<table-vise>>.prt : COMPLETE
+Getting Mass Properties : COMPLETE
+Processing clamp-thread-rod<<table-vise>>.prt : COMPLETE
+Getting Mass Properties : COMPLETE
+Processing clamp-nut<<table-vise>>.prt : COMPLETE
+Getting Mass Properties : COMPLETE
+... clamp<<table-vise>>.asm : COMPLETE
+Processing clamp<<table-vise>>.asm : ...
+Processing 3-inch<<table-vise>>.prt : COMPLETE
+Getting Mass Properties : COMPLETE
+Processing clamp-kick-bolt<<table-vise>>.prt : COMPLETE
+Getting Mass Properties : COMPLETE
+Processing clamp-thread-rod<<table-vise>>.prt : COMPLETE
+Getting Mass Properties : COMPLETE
+Processing clamp-nut<<table-vise>>.prt : COMPLETE
+Getting Mass Properties : COMPLETE
+... clamp<<table-vise>>.asm : COMPLETE
+Processing clamp<<table-vise>>.asm : ...
+Processing 3-inch<<table-vise>>.prt : COMPLETE
+Getting Mass Properties : COMPLETE
+Processing clamp-kick-bolt<<table-vise>>.prt : COMPLETE
+Getting Mass Properties : COMPLETE
+Processing clamp-thread-rod<<table-vise>>.prt : COMPLETE
+Getting Mass Properties : COMPLETE
+Processing clamp-nut<<table-vise>>.prt : COMPLETE
+Getting Mass Properties : COMPLETE
+... clamp<<table-vise>>.asm : COMPLETE
+Processing clamp<<table-vise>>.asm : ...
+Processing 3-inch<<table-vise>>.prt : COMPLETE
+Getting Mass Properties : COMPLETE
+Processing clamp-kick-bolt<<table-vise>>.prt : COMPLETE
+Getting Mass Properties : COMPLETE
+Processing clamp-thread-rod<<table-vise>>.prt : COMPLETE
+Getting Mass Properties : COMPLETE
+Processing clamp-nut<<table-vise>>.prt : COMPLETE
+Getting Mass Properties : COMPLETE
+... clamp<<table-vise>>.asm : COMPLETE
+Processing adjustable-vise-jaw<<table-vise>>.prt : COMPLETE
+Getting Mass Properties : COMPLETE
+Getting Mass Properties : COMPLETE
+... table-vise.asm : COMPLETE
+Generating Output : COMPLETE

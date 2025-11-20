@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<MfgSetupDocument>
+    <DocType>PRO_NC_CUTTING_TOOL_SETUP</DocType>
+    <DocTitle>Cutting Tool Information</DocTitle>
+    <DateTime>2008-05-25T19:07:39</DateTime>
+    <ApplicationInfo AppName="Pro/ENGINEER" Language="usascii" AppVersion="M020"/>
+    <ToolingSetup>
+        <Tool Id="06" Type="CENTER-DRILLING" RefXmlId="encref_1">
+            <Attr Name="UseOutline" Value="false" DataType="boolean"/>
+            <Attr Name="ProLibraryTool" Value="false" DataType="boolean"/>
+            <Attr Name="SketchTool" Value="false" DataType="boolean"/>
+            <Attr Name="ToolByRef" Value="false" DataType="boolean"/>
+            <MfgParam Name="LENGTH_UNITS" Value="MILLIMETER"/>
+            <MfgParam Name="CUTTER_DIAM" Value="13"/>
+            <MfgParam Name="POINT_ANGLE" Value="118"/>
+            <MfgParam Name="LENGTH" Value="70"/>
+            <MfgParam Name="TOOL_MATERIAL" Value="-"/>
+            <MfgParam Name="GAUGE_X_LENGTH" Value="-"/>
+            <MfgParam Name="GAUGE_Z_LENGTH" Value="-"/>
+            <MfgParam Name="CSINK_ANGLE" Value="118"/>
+            <MfgParam Name="DRILL_DIAMETER" Value="6"/>
+            <MfgParam Name="DRILL_LENGTH" Value="6"/>
+            <MfgParam Name="TOOL_LONG_FLAG" Value="NO"/>
+            <MfgParam Name="HOLDER_DIA" Value="-"/>
+            <MfgParam Name="HOLDER_LEN" Value="-"/>
+            <MfgParam Name="COOLANT_OPTION" Value="OFF"/>
+            <MfgParam Name="COOLANT_PRESSURE" Value="NONE"/>
+            <MfgParam Name="SPINDLE_SENSE" Value="CW"/>
+            <MfgParam Name="FLUTE_LENGTH" Value="-"/>
+            <MfgParam Name="TOOL_COMMENT" Value="-"/>
+            <ToolSetUpOnWorkcell>
+                <OffsetDataCollection>
+                    <OffsetData Tip="1" Comment="" OffsetZ="0.000000" Register="-1"/>
+                </OffsetDataCollection>
+            </ToolSetUpOnWorkcell>
+        </Tool>
+    </ToolingSetup>
+</MfgSetupDocument>

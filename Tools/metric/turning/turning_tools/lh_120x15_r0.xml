@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<MfgSetupDocument>
+    <DocType>PRO_NC_CUTTING_TOOL_SETUP</DocType>
+    <DocTitle>Cutting Tool Information</DocTitle>
+    <DateTime>2011-11-26T12:05:45</DateTime>
+    <ApplicationInfo AppName="Creo" Language="usascii" FtVersion="290047" AppVersion="F000" MdlVersion="1543"/>
+    <ToolingSetup>
+        <Tool Id="LH_120X15_R0" Type="TURNING" RefXmlId="encref_1">
+            <Attr Name="UseOutline" Value="false" DataType="boolean"/>
+            <Attr Name="ProLibraryTool" Value="false" DataType="boolean"/>
+            <Attr Name="SketchTool" Value="false" DataType="boolean"/>
+            <Attr Name="ToolByRef" Value="false" DataType="boolean"/>
+            <MfgParam Name="LENGTH_UNITS" Value="MILLIMETER"/>
+            <MfgParam Name="NOSE_RADIUS" Value="0"/>
+            <MfgParam Name="SIDE_ANGLE" Value="120"/>
+            <MfgParam Name="END_ANGLE" Value="15"/>
+            <MfgParam Name="TOOL_WIDTH" Value="25"/>
+            <MfgParam Name="SIDE_WIDTH" Value="40"/>
+            <MfgParam Name="LENGTH" Value="125"/>
+            <MfgParam Name="TOOL_MATERIAL" Value="-"/>
+            <MfgParam Name="GAUGE_X_LENGTH" Value="-"/>
+            <MfgParam Name="GAUGE_Z_LENGTH" Value="-"/>
+            <MfgParam Name="COMP_OVERSIZE" Value="-"/>
+            <MfgParam Name="HOLDER_TYPE" Value="LEFT_HAND"/>
+            <MfgParam Name="COOLANT_OPTION" Value="OFF"/>
+            <MfgParam Name="COOLANT_PRESSURE" Value="NONE"/>
+            <MfgParam Name="SPINDLE_SENSE" Value="CW"/>
+            <MfgParam Name="TOOL_COMMENT" Value="-"/>
+            <ToolSetUpOnWorkcell>
+                <OffsetDataCollection>
+                    <OffsetData Tip="1" Comment="" OffsetZ="0.000000" Register="-1"/>
+                </OffsetDataCollection>
+            </ToolSetUpOnWorkcell>
+        </Tool>
+    </ToolingSetup>
+</MfgSetupDocument>

@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AncppDocument>
+    <DocType>PRO_NC_WORKCELL_TEMPLATE</DocType>
+    <DocTitle>Mfg Workcell Template</DocTitle>
+    <DateTime>2025-09-30T11:21:57</DateTime>
+    <ApplicationInfo AppName="Creo" AppVersion="12.4.1.0" FtVersion="400056" Language="usascii" MdlVersion="2562"/>
+    <AncppTemplate Image="file:///C:/Users/micha/Downloads/mazak.jpg" Type="Workcells">
+        <Notes>Specifications		Unit	VC-Ez 16
+
+Capacity	Table width	in / mm	37.40 in / 950 mm
+
+Table depth	in / mm	14.17 in / 360 mm
+
+Table Weight Capacity	Table Weight Capacity	lbs / kg	1,543 lb / 700 kg
+
+Spindle Face to Table Surface	Min - Max	in / mm	3.93 in (100 mm) / 24.01 in (610 mm)
+
+Rapid Rates	Rapid Rates	ipm	1417 IPM
+
+Spindle	Spindle Taper		CAT-40
+
+Maximum Speed	rpm	12000 rpm
+
+Motor Output (5-minute rating)	hp / kw	25.0 hp / 18.5 kw
+
+Torque	ft-lbs / N-m	70.4 ft-lbs / 95.5 N-m
+
+Magazine	Number of Tools	Standard / Optional	30 / 50
+
+Feed Axes	Travel (X Axis)	in/mm	30.00 in / 762 mm
+
+Travel (Y Axis)	in/mm	16.14 in / 410 mm
+
+Travel (Z Axis)	in/mm	20.08 in / 510 mm
+
+Maximum Tool Diameter	Without adjacent pockets empty	in / mm	2.95" / 75mm
+
+With adjacent pockets empty	in / mm	5.94 / 150
+
+Maximum Tool Length		in / mm	13.78 / 350
+
+Maximum Tool Weight		lbs / kg	17.64 / 8
+
+Tool Change Time	Tool to tool	sec	2.2 sec.
+
+Dimensions	Machine Depth	in / mm	101.7" / 2588 mm
+
+Machine Width	in / mm	95.08" / 2415 mm
+
+Machine Height	in</Notes>
+        <TemplateParamCollection>
+            <TemplateParam DataType="string" Name="AUTHOR" Type="AUTHOR" Value="Michael Bourque"/>
+            <TemplateParam DataType="string" Name="VERSION" Type="VERSION" Value=""/>
+            <TemplateParam DataType="string" Name="FACTORY" Type="FACTORY" Value=""/>
+            <TemplateParam DataType="string" Name="LINE" Type="LINE" Value=""/>
+            <TemplateParam DataType="string" Name="PRODUCT" Type="PRODUCT" Value=""/>
+        </TemplateParamCollection>
+        <CustomCycleCollection/>
+        <Units AngleUnit="rad" LengthUnit="in" MassUnit="lb" TemperatureUnit="F" TimeUnit="s"/>
+        <AERefCollection/>
+        <Tools/>
+        <FeatureCollection>
+            <AncppFeature>
+                <FeatVersion OduiVersion="odui19"/>
+                <InfoParamCollection/>
+                <AncppParamCollection/>
+                <RelParCollection/>
+                <ElemTree>
+                    <PRO_E_FEATURE_TREE type="compound">
+                        <PRO_E_FEATURE_TYPE type="int"><!--WORKCELL-->1008</PRO_E_FEATURE_TYPE>
+                        <PRO_E_WCELL_TYPE type="int">4</PRO_E_WCELL_TYPE>
+                        <PRO_E_STD_FEATURE_NAME type="wstring">MAZAK_VC-EZ</PRO_E_STD_FEATURE_NAME>
+                        <PRO_E_MFG_WCELL_NUM_AXES type="int">3</PRO_E_MFG_WCELL_NUM_AXES>
+                        <PRO_E_MFG_WCELL_ENABLE_CMM_OPT type="int">0</PRO_E_MFG_WCELL_ENABLE_CMM_OPT>
+                        <PRO_E_MFG_PARAM_ARR type="array">
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">MACH_NAME</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">UNCX01</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">MACH_ID</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">1</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">MACH_ASSEM_NAME</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">-</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">CL_DATA_MODE</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">MULTAX_DATA</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">LOCATION</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">Machine Shop</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">2</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">CONTROLLER</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">Mazatrol</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">2</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">SPINDLE_HP</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">25.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring"/>
+                                <PRO_E_MFG_PRM_ATTR type="int">2</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">RAPID_FEED_RATE</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">1417.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring"/>
+                                <PRO_E_MFG_PRM_ATTR type="int">2</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">RAPID_FEED_UNITS</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">IPM</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">TOOL_CHANGE_TIME_SECONDS</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring"/>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">CELL_X_STROKE</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">14.170000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring"/>
+                                <PRO_E_MFG_PRM_ATTR type="int">2</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">CELL_Y_STROKE</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">37.400000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring"/>
+                                <PRO_E_MFG_PRM_ATTR type="int">2</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">CELL_Z_STROKE</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">24.010000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring"/>
+                                <PRO_E_MFG_PRM_ATTR type="int">2</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">CELL_X_MIN</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">-7.085000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring"/>
+                                <PRO_E_MFG_PRM_ATTR type="int">2</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">CELL_X_MAX</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">7.085000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring"/>
+                                <PRO_E_MFG_PRM_ATTR type="int">2</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">CELL_Y_MIN</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">-18.700000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring"/>
+                                <PRO_E_MFG_PRM_ATTR type="int">2</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">CELL_Y_MAX</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">18.700000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring"/>
+                                <PRO_E_MFG_PRM_ATTR type="int">2</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">CELL_Z_MIN</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">-12.005000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring"/>
+                                <PRO_E_MFG_PRM_ATTR type="int">2</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">CELL_Z_MAX</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">12.005000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring"/>
+                                <PRO_E_MFG_PRM_ATTR type="int">2</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">CELL_MAX_FEED</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring"/>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">CELL_MAX_SPINDLE</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">12000.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring"/>
+                                <PRO_E_MFG_PRM_ATTR type="int">2</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">FROM_OUTPUT</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">NO_FROM_S</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">ROTATE_MODE</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">INCREMENTAL</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">ROTATE_DIRECTION</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">SHORTEST</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">CUTCOM_GEOMETRY_TYPE</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">OUTPUT_ON_CENTER</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">CUTCOM_CONCAVE_ADJUST</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">STRAIGHT_CORNER</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">CUTCOM_RADIUS_SAFETY</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.050000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring"/>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">A_AXIS_ROTATION</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">NO</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">B_AXIS_ROTATION</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">NO</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">COOLNT_OFF_OUTPUT</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">YES</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">SPINDL_OFF_OUTPUT</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">YES</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">LOADTL_OUTPUT</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">MODAL_OUTPUT</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">PTMEAS_OUTPUT_POINT</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring">STYLUS_CENTER</PRO_E_MFG_PRM_VAL_STR>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                            <PRO_E_MFG_PARAM_COMPOUND type="compound">
+                                <PRO_E_MFG_PRM_NAME type="wstring">CMM_MACH_FREQ</PRO_E_MFG_PRM_NAME>
+                                <PRO_E_MFG_PRM_VAL_DBL type="double">0.000000</PRO_E_MFG_PRM_VAL_DBL>
+                                <PRO_E_MFG_PRM_VAL_STR type="wstring"/>
+                                <PRO_E_MFG_PRM_ATTR type="int">1</PRO_E_MFG_PRM_ATTR>
+                            </PRO_E_MFG_PARAM_COMPOUND>
+                        </PRO_E_MFG_PARAM_ARR>
+                        <PRO_E_MFG_WCELL_HEAD_1 type="compound">
+                            <PRO_E_MFG_WCELL_TOOL_SETUP_ARR type="array"/>
+                        </PRO_E_MFG_WCELL_HEAD_1>
+                        <PRO_E_MFG_WCELL_CMM_HEAD type="compound">
+                            <PRO_E_MFG_CMM_TOOL_SETUP_ARR type="array"/>
+                        </PRO_E_MFG_WCELL_CMM_HEAD>
+                        <PRO_E_MFG_WCELL_CUST_CYCLE_ARR type="array"/>
+                        <PRO_E_MFG_WCELL_ASSEM_COMPOUND type="compound">
+                            <PRO_E_MFG_WCELL_ASSEMBLY_NAME type="wstring">-</PRO_E_MFG_WCELL_ASSEMBLY_NAME>
+                            <PRO_E_MFG_WCELL_LOCAL_CSYS_REF type="selection"/>
+                        </PRO_E_MFG_WCELL_ASSEM_COMPOUND>
+                        <PRO_E_MFG_COMMENTS type="wstring"></PRO_E_MFG_COMMENTS>
+                    </PRO_E_FEATURE_TREE>
+                </ElemTree>
+                <FeatTypeLabel>WORKCELL</FeatTypeLabel>
+            </AncppFeature>
+        </FeatureCollection>
+    </AncppTemplate>
+</AncppDocument>

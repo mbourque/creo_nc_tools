@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MfgSetupDocument>
+    <DocType>PRO_NC_CUTTING_TOOL_SETUP</DocType>
+    <DocTitle>Multiple Cutting Tools Information</DocTitle>
+    <DateTime>2024-04-02T10:33:02</DateTime>
+    <ApplicationInfo AppName="Creo" AppVersion="10.0.3.0" FtVersion="380051" Language="usascii" MdlVersion="2159"/>
+    <ToolingSetup>
+        <Tool Id="BEM_VF50_LL" RefXmlId="encref_1" Type="BALL MILL">
+            <Attr DataType="boolean" Name="UseOutline" Value="false"/>
+            <Attr DataType="boolean" Name="ProLibraryTool" Value="false"/>
+            <Attr DataType="boolean" Name="SketchTool" Value="false"/>
+            <Attr DataType="boolean" Name="ToolByRef" Value="true"/>
+            <ModelInfo InstanceName="BEM_VF50_LL" Type="Assembly"/>
+            <MfgParam Name="LENGTH_UNITS" Value="INCH"/>
+            <MfgParam Name="CUTTER_DIAM" Value="0.3125"/>
+            <MfgParam Name="LENGTH" Value="3.3125"/>
+            <MfgParam Name="NUM_OF_TEETH" Value="2"/>
+            <MfgParam Name="TOOL_MATERIAL" Value="hss"/>
+            <MfgParam Name="GAUGE_X_LENGTH" Value="-"/>
+            <MfgParam Name="GAUGE_Z_LENGTH" Value="-"/>
+            <MfgParam Name="COMP_OVERSIZE" Value="-"/>
+            <MfgParam Name="TOOL_LONG_FLAG" Value="NO"/>
+            <MfgParam Name="HOLDER_DIA" Value="-"/>
+            <MfgParam Name="HOLDER_LEN" Value="-"/>
+            <MfgParam Name="COOLANT_OPTION" Value="OFF"/>
+            <MfgParam Name="COOLANT_PRESSURE" Value="NONE"/>
+            <MfgParam Name="SPINDLE_SENSE" Value="CW"/>
+            <MfgParam Name="FLUTE_LENGTH" Value="-"/>
+            <MfgParam Name="ADAPTER_OFFSET_FROM_TOOL" Value="0"/>
+            <MfgParam Name="TOOL_COMMENT" Value="-"/>
+            <BOM>
+                <BOMComponent Comments=" " Name="VFCC50" Quantity="1" Type="GENERAL"/>
+                <BOMComponent Comments=" " Name="BEM_LONG" Quantity="1" Type="GENERAL"/>
+            </BOM>
+            <ToolSetUpOnWorkcell Position="1">
+                <OffsetDataCollection>
+                    <OffsetData Comment="" OffsetZ="0.000000" Register="-1" Tip="1"/>
+                </OffsetDataCollection>
+            </ToolSetUpOnWorkcell>
+        </Tool>
+    </ToolingSetup>
+</MfgSetupDocument>

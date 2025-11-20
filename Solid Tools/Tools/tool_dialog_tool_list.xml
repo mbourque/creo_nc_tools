@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MfgSetupDocument>
+    <DocType>PRO_NC_TOOL_DIALOG_COLUMN_SETUP</DocType>
+    <DocTitle>Tool Dialog Column Setup</DocTitle>
+    <DateTime>2022-08-08T12:33:01</DateTime>
+    <ApplicationInfo AppName="Creo" AppVersion="9.0.1.0" FtVersion="370048" Language="usascii" MdlVersion="2028"/>
+    <ToolingSetup>
+        <ToolRecord>
+            <ToolRecordParam Name="TOOL POSITION" Value="1"/>
+            <ToolRecordParam Name="TOOL_ID" Value="FACE_MILL"/>
+            <MfgParam Name="TOOL_TYPE" Value="MILLING"/>
+            <MfgParam Name="CUTTER_DIAM" Value="8"/>
+            <ToolRecordParam Name="TOOL OFFSET NUMBER" Value="0"/>
+            <ToolRecordParam Name="Comments" Value=""/>
+        </ToolRecord>
+        <ToolRecord>
+            <ToolRecordParam Name="TOOL POSITION" Value="2"/>
+            <ToolRecordParam Name="TOOL_ID" Value="FEM_VF50CC_12500XL"/>
+            <MfgParam Name="TOOL_TYPE" Value="MILLING"/>
+            <MfgParam Name="CUTTER_DIAM" Value="1.25"/>
+            <ToolRecordParam Name="TOOL OFFSET NUMBER" Value="0"/>
+            <ToolRecordParam Name="Comments" Value=""/>
+        </ToolRecord>
+        <ToolRecord>
+            <ToolRecordParam Name="TOOL POSITION" Value="3"/>
+            <ToolRecordParam Name="TOOL_ID" Value="FEM_VF50CC_10000XL"/>
+            <MfgParam Name="TOOL_TYPE" Value="MILLING"/>
+            <MfgParam Name="CUTTER_DIAM" Value="1"/>
+            <ToolRecordParam Name="TOOL OFFSET NUMBER" Value="0"/>
+            <ToolRecordParam Name="Comments" Value=""/>
+        </ToolRecord>
+        <ToolRecord>
+            <ToolRecordParam Name="TOOL POSITION" Value="4"/>
+            <ToolRecordParam Name="TOOL_ID" Value="FEM_VF50CC_07500XL"/>
+            <MfgParam Name="TOOL_TYPE" Value="MILLING"/>
+            <MfgParam Name="CUTTER_DIAM" Value="0.75"/>
+            <ToolRecordParam Name="TOOL OFFSET NUMBER" Value="0"/>
+            <ToolRecordParam Name="Comments" Value=""/>
+        </ToolRecord>
+        <ToolRecord>
+            <ToolRecordParam Name="TOOL POSITION" Value="5"/>
+            <ToolRecordParam Name="TOOL_ID" Value="FEM_VF50CC_05000XL"/>
+            <MfgParam Name="TOOL_TYPE" Value="MILLING"/>
+            <MfgParam Name="CUTTER_DIAM" Value="0.5"/>
+            <ToolRecordParam Name="TOOL OFFSET NUMBER" Value="0"/>
+            <ToolRecordParam Name="Comments" Value=""/>
+        </ToolRecord>
+        <ToolRecord>
+            <ToolRecordParam Name="TOOL POSITION" Value="6"/>
+            <ToolRecordParam Name="TOOL_ID" Value="FEM_VF50CC_03750XL"/>
+            <MfgParam Name="TOOL_TYPE" Value="MILLING"/>
+            <MfgParam Name="CUTTER_DIAM" Value="0.375"/>
+            <ToolRecordParam Name="TOOL OFFSET NUMBER" Value="0"/>
+            <ToolRecordParam Name="Comments" Value=""/>
+        </ToolRecord>
+        <ToolRecord>
+            <ToolRecordParam Name="TOOL POSITION" Value="7"/>
+            <ToolRecordParam Name="TOOL_ID" Value="FEM_VF50CC_02500XL"/>
+            <MfgParam Name="TOOL_TYPE" Value="MILLING"/>
+            <MfgParam Name="CUTTER_DIAM" Value="0.25"/>
+            <ToolRecordParam Name="TOOL OFFSET NUMBER" Value="0"/>
+            <ToolRecordParam Name="Comments" Value=""/>
+        </ToolRecord>
+        <ToolRecord>
+            <ToolRecordParam Name="TOOL POSITION" Value="10"/>
+            <ToolRecordParam Name="TOOL_ID" Value="BEM_VF50LL_10000"/>
+            <MfgParam Name="TOOL_TYPE" Value="BALL MILL"/>
+            <MfgParam Name="CUTTER_DIAM" Value="1"/>
+            <ToolRecordParam Name="TOOL OFFSET NUMBER" Value="0"/>
+            <ToolRecordParam Name="Comments" Value=""/>
+        </ToolRecord>
+        <ToolRecord>
+            <ToolRecordParam Name="TOOL POSITION" Value="11"/>
+            <ToolRecordParam Name="TOOL_ID" Value="BEM_VF50LL_07500"/>
+            <MfgParam Name="TOOL_TYPE" Value="BALL MILL"/>
+            <MfgParam Name="CUTTER_DIAM" Value="0.75"/>
+            <ToolRecordParam Name="TOOL OFFSET NUMBER" Value="0"/>
+            <ToolRecordParam Name="Comments" Value=""/>
+        </ToolRecord>
+        <ToolRecord>
+            <ToolRecordParam Name="TOOL POSITION" Value="12"/>
+            <ToolRecordParam Name="TOOL_ID" Value="BEM_VF50LL_05000"/>
+            <MfgParam Name="TOOL_TYPE" Value="BALL MILL"/>
+            <MfgParam Name="CUTTER_DIAM" Value="0.5"/>
+            <ToolRecordParam Name="TOOL OFFSET NUMBER" Value="0"/>
+            <ToolRecordParam Name="Comments" Value=""/>
+        </ToolRecord>
+        <ToolRecord>
+            <ToolRecordParam Name="TOOL POSITION" Value="13"/>
+            <ToolRecordParam Name="TOOL_ID" Value="BEM_VF50LL_03750"/>
+            <MfgParam Name="TOOL_TYPE" Value="BALL MILL"/>
+            <MfgParam Name="CUTTER_DIAM" Value="0.375"/>
+            <ToolRecordParam Name="TOOL OFFSET NUMBER" Value="0"/>
+            <ToolRecordParam Name="Comments" Value=""/>
+        </ToolRecord>
+        <ToolRecord>
+            <ToolRecordParam Name="TOOL POSITION" Value="14"/>
+            <ToolRecordParam Name="TOOL_ID" Value="BEM_VF50LL_03125"/>
+            <MfgParam Name="TOOL_TYPE" Value="BALL MILL"/>
+            <MfgParam Name="CUTTER_DIAM" Value="0.3125"/>
+            <ToolRecordParam Name="TOOL OFFSET NUMBER" Value="0"/>
+            <ToolRecordParam Name="Comments" Value=""/>
+        </ToolRecord>
+        <ToolRecord>
+            <ToolRecordParam Name="TOOL POSITION" Value="15"/>
+            <ToolRecordParam Name="TOOL_ID" Value="BEM_VF50LL_02500"/>
+            <MfgParam Name="TOOL_TYPE" Value="BALL MILL"/>
+            <MfgParam Name="CUTTER_DIAM" Value="0.25"/>
+            <ToolRecordParam Name="TOOL OFFSET NUMBER" Value="0"/>
+            <ToolRecordParam Name="Comments" Value=""/>
+        </ToolRecord>
+        <ToolRecord>
+            <ToolRecordParam Name="TOOL POSITION" Value="16"/>
+            <ToolRecordParam Name="TOOL_ID" Value="BEM_VF50LL_01250"/>
+            <MfgParam Name="TOOL_TYPE" Value="BALL MILL"/>
+            <MfgParam Name="CUTTER_DIAM" Value="0.125"/>
+            <ToolRecordParam Name="TOOL OFFSET NUMBER" Value="0"/>
+            <ToolRecordParam Name="Comments" Value=""/>
+        </ToolRecord>
+        <ToolRecord>
+            <ToolRecordParam Name="TOOL POSITION" Value="20"/>
+            <ToolRecordParam Name="TOOL_ID" Value="CENTER_DRILL_5"/>
+            <MfgParam Name="TOOL_TYPE" Value="CENTER-DRILLING"/>
+            <MfgParam Name="CUTTER_DIAM" Value="0.4375"/>
+            <ToolRecordParam Name="TOOL OFFSET NUMBER" Value="0"/>
+            <ToolRecordParam Name="Comments" Value=""/>
+        </ToolRecord>
+        <ToolRecord>
+            <ToolRecordParam Name="TOOL POSITION" Value="21"/>
+            <ToolRecordParam Name="TOOL_ID" Value="90CHAMFER"/>
+            <MfgParam Name="TOOL_TYPE" Value="CHAMFERING"/>
+            <MfgParam Name="CUTTER_DIAM" Value="0.47"/>
+            <ToolRecordParam Name="TOOL OFFSET NUMBER" Value="0"/>
+            <ToolRecordParam Name="Comments" Value=""/>
+        </ToolRecord>
+        <ToolRecord>
+            <ToolRecordParam Name="TOOL POSITION" Value="22"/>
+            <ToolRecordParam Name="TOOL_ID" Value="NTX_PROBE"/>
+            <MfgParam Name="TOOL_TYPE" Value="MILLING"/>
+            <MfgParam Name="CUTTER_DIAM" Value="0.241"/>
+            <ToolRecordParam Name="TOOL OFFSET NUMBER" Value="0"/>
+            <ToolRecordParam Name="Comments" Value=""/>
+        </ToolRecord>
+        <ToolRecord>
+            <ToolRecordParam Name="TOOL POSITION" Value="23"/>
+            <ToolRecordParam Name="TOOL_ID" Value="DRL075000"/>
+            <MfgParam Name="TOOL_TYPE" Value="DRILLING"/>
+            <MfgParam Name="CUTTER_DIAM" Value="0.75"/>
+            <ToolRecordParam Name="TOOL OFFSET NUMBER" Value="0"/>
+            <ToolRecordParam Name="Comments" Value=""/>
+        </ToolRecord>
+        <ToolRecord>
+            <ToolRecordParam Name="TOOL POSITION" Value="24"/>
+            <ToolRecordParam Name="TOOL_ID" Value="DRL10000"/>
+            <MfgParam Name="TOOL_TYPE" Value="DRILLING"/>
+            <MfgParam Name="CUTTER_DIAM" Value="1"/>
+            <ToolRecordParam Name="TOOL OFFSET NUMBER" Value="0"/>
+            <ToolRecordParam Name="Comments" Value=""/>
+        </ToolRecord>
+    </ToolingSetup>
+</MfgSetupDocument>

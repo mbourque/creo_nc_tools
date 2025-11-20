@@ -1,0 +1,36 @@
+METRIC#DRILLS
+#
+#
+ssjlm.prt
+S.S.T.D. - Jobbers Length, metric size -thru 17.5mm dia.
+#
+ssjltm.prt
+S.S.T.D. - Jobbers Length. w/tangs, metric size -thru 17.5mm dia.
+#
+sssmlm.prt
+S.S.T.D. - Screw Machine Length, metric size -thru 25mm dia.
+#
+sssmltm.prt
+S.S.T.D. - Screw Machine Length, w/tangs, metric size -thru 25mm dia.
+#
+sstdm.prt
+S.S.T.D. - Screw Machine Length, metric size - 26-50mm dia
+#
+sstlm.prt
+S.S.T.D. - Taper Length, metric size -thru 12.5mm dia.
+#
+sstlom.prt
+S.S.T.D. - Taper Length, metric size -over 12.8mm dia.
+#
+sstlotm.prt
+S.S.T.D. - Taper Length, w/tangs, metric size -over 12.8mm dia.
+#
+sstltm.prt
+S.S.T.D. - Taper Length, w/tangs, metric size -thru 12.5mm dia.
+#
+tsdrm.prt
+Taper Shank Twist Drills with regular shank.
+#
+tsdsm.prt
+Taper Shank Twist Drills with shank smaller than regular.
+#
