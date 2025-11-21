@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MfgParamValuesDocument>
+    <DocType>PRO_NC_PARAM_VALUES</DocType>
+    <DocTitle>Manufacturing Parameters Values</DocTitle>
+    <DateTime>2011-06-14T18:17:50</DateTime>
+    <ApplicationInfo AppName="Creo" Language="usascii" FtVersion="290047" AppVersion="F000" MdlVersion="1543"/>
+    <AssemblyUnits LengthUnit="mm"/>
+    <MfgParamCollection>
+        <MfgParam Name="NCL_FILE" Value="-"/>
+        <MfgParam Name="PRE_MACHINING_FILE" Value="-"/>
+        <MfgParam Name="POST_MACHINING_FILE" Value="-"/>
+        <MfgParam Name="CUT_FEED" Value="3000"/>
+        <MfgParam Name="ARC_FEED" Value="-"/>
+        <MfgParam Name="FREE_FEED" Value="-"/>
+        <MfgParam Name="RETRACT_FEED" Value="-"/>
+        <MfgParam Name="CUT_UNITS" Value="MMPM"/>
+        <MfgParam Name="RETRACT_UNITS" Value="MMPM"/>
+        <MfgParam Name="ENTRY_TO_SHALLOW_AREA" Value="NORMAL"/>
+        <MfgParam Name="CUT_TYPE" Value="CLIMB"/>
+        <MfgParam Name="STEEP_CONNECT_OPTION" Value="S_CONNECT"/>
+        <MfgParam Name="RETRACT_OPTION" Value="SMART"/>
+        <MfgParam Name="LACE_OPTION" Value="LINE_CONNECT"/>
+        <MfgParam Name="CUSTOMIZE_AUTO_RETRACT" Value="YES"/>
+        <MfgParam Name="SLOPE_ANGLE_LOCMILL" Value="45"/>
+        <MfgParam Name="TRIM_TOOLPATH_ON_HOLDER" Value="NO"/>
+        <MfgParam Name="CALCULATE_MIN_TOOL_LENGTH" Value="NO"/>
+        <MfgParam Name="STEP_OVER" Value="5.45455">
+            <Relation>CUTTER_DIAM/2.2</Relation>
+        </MfgParam>
+        <MfgParam Name="STEEP_STEP_OVER" Value="-"/>
+        <MfgParam Name="FINISH_STOCK_ALLOW" Value="0"/>
+        <MfgParam Name="SCALLOP_HGT" Value="-"/>
+        <MfgParam Name="STEEP_SCALLOP_HGT" Value="-"/>
+        <MfgParam Name="AXIS_SHIFT" Value="0"/>
+        <MfgParam Name="HOLDER_CLEARANCE" Value="0"/>
+        <MfgParam Name="CUT_ANGLE" Value="0"/>
+        <MfgParam Name="INSIDE_TOLERANCE" Value="0.06"/>
+        <MfgParam Name="OUTSIDE_TOLERANCE" Value="0.06"/>
+        <MfgParam Name="POINT_DISTRIBUTION" Value="ALIGNED"/>
+        <MfgParam Name="MAX_DISCRETIZ_STEP" Value="-"/>
+        <MfgParam Name="SPINDLE_SPEED" Value="20000"/>
+        <MfgParam Name="SPINDLE_SENSE" Value="CW"/>
+        <MfgParam Name="MAX_SPINDLE_RPM" Value="-"/>
+        <MfgParam Name="SPEED_CONTROL" Value="CONST_RPM"/>
+        <MfgParam Name="SPINDLE_RANGE" Value="NO_RANGE"/>
+        <MfgParam Name="RANGE_NUMBER" Value="0"/>
+        <MfgParam Name="LINTOL" Value="-"/>
+        <MfgParam Name="CIRC_INTERPOLATION" Value="ARC_ONLY"/>
+        <MfgParam Name="NUMBER_OF_ARC_PTS" Value="1"/>
+        <MfgParam Name="OUTPUT_3DNURBS" Value="NO"/>
+        <MfgParam Name="COOLANT_OPTION" Value="ON"/>
+        <MfgParam Name="COOLANT_PRESSURE" Value="NONE"/>
+        <MfgParam Name="FIXT_OFFSET_REG" Value="-"/>
+        <MfgParam Name="COORDINATE_OUTPUT" Value="MACHINE_CSYS"/>
+        <MfgParam Name="TIP_CONTROL_POINT" Value="1"/>
+        <MfgParam Name="TLCHG_TIP_NUMBER" Value="INITIAL"/>
+        <MfgParam Name="PLUNGE_FEED" Value="-"/>
+        <MfgParam Name="PLUNGE_UNITS" Value="MMPM"/>
+        <MfgParam Name="RAMP_ANGLE" Value="60"/>
+        <MfgParam Name="RAMP_FEED" Value="-"/>
+        <MfgParam Name="CLEAR_DIST" Value="5"/>
+        <MfgParam Name="PULLOUT_DIST" Value="-"/>
+        <MfgParam Name="PLUNGE_DISTANCE" Value="-"/>
+        <MfgParam Name="LEAD_RADIUS" Value="0"/>
+        <MfgParam Name="TANGENT_LEAD_STEP" Value="0"/>
+        <MfgParam Name="NORMAL_LEAD_STEP" Value="0"/>
+        <MfgParam Name="OVERTRAVEL_DISTANCE" Value="0"/>
+        <MfgParam Name="ENTRY_ANGLE" Value="90"/>
+        <MfgParam Name="EXIT_ANGLE" Value="90"/>
+        <MfgParam Name="HELICAL_DIAMETER" Value="6">
+            <Relation>CUTTER_DIAM/2</Relation>
+        </MfgParam>
+        <MfgParam Name="START_MOTION" Value="DIRECT"/>
+        <MfgParam Name="END_MOTION" Value="DIRECT"/>
+        <MfgParam Name="FEED_UNITS" Value="MMPM"/>
+        <MfgParam Name="END_STOP_CONDITION" Value="NONE"/>
+        <MfgParam Name="FINISHING_ORDER" Value="SHALLOW_AREA_FIRST"/>
+        <MfgParam Name="FINISH_OPTION" Value="COMBINED_CUTS"/>
+        <MfgParam Name="FLAT_AREA" Value="FLAT_INCLUDED"/>
+        <MfgParam Name="SHALLOW_AREA_SCAN" Value="SPIRAL_SCAN"/>
+        <MfgParam Name="SPIRAL_SCAN_DIRECTION" Value="INSIDE_OUT"/>
+        <MfgParam Name="SPIRAL_CONNECTION_TYPE" Value="S_CONNECT"/>
+        <MfgParam Name="OVERLAP_ANGLE" Value="5"/>
+    </MfgParamCollection>
+</MfgParamValuesDocument>

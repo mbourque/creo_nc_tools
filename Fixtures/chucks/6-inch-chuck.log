@@ -1,0 +1,23 @@
+proepview 11.1.0 - Build: parametric12000 21.1.0.0-QDMPSw x86e_win64
+Copyright (C) 2000-2024 PTC Inc. All Rights Reserved.
+
+Recipe file: C:/ptc/Creo 12.4.2.0/Common Files/text/prodview/export_pvs.rcp
+Source file: C:/PTC/Local Cad/Kevin NC/Manufacturing/Manufacturing_Library/Fixture_Library/chuck_jaws/lathe_fixture.asm.1
+Output file: C:/Users/micha/AppData/Local/Temp/f4mh1p6k/6-inch-chuck.pvs
+Processing lathe_fixture.asm : ...
+Processing main_chuck<<lathe_fixture>>.prt : COMPLETE
+Getting Mass Properties : COMPLETE
+Processing jaws_chuck<<lathe_fixture>>.prt : COMPLETE
+Getting Mass Properties : COMPLETE
+Processing jaws_chuck<<lathe_fixture>>.prt : COMPLETE
+Getting Mass Properties : COMPLETE
+Processing jaws_chuck<<lathe_fixture>>.prt : COMPLETE
+Getting Mass Properties : COMPLETE
+Processing jaws_soft2<<lathe_fixture>>.prt : COMPLETE
+Getting Mass Properties : COMPLETE
+Processing jaws_soft2<<lathe_fixture>>.prt : COMPLETE
+Getting Mass Properties : COMPLETE
+Processing jaws_soft2<<lathe_fixture>>.prt : COMPLETE
+Getting Mass Properties : COMPLETE
+... lathe_fixture.asm : COMPLETE
+Generating Output : COMPLETE

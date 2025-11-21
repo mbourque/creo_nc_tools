@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MfgParamValuesDocument>
+    <DocType>PRO_NC_PARAM_VALUES</DocType>
+    <DocTitle>Manufacturing Parameters Values</DocTitle>
+    <DateTime>2011-06-08T17:26:06</DateTime>
+    <ApplicationInfo AppName="Creo" AppVersion="F000" FtVersion="290046" Language="usascii" MdlVersion="1543"/>
+    <AssemblyUnits LengthUnit="mm"/>
+    <MfgParamCollection>
+        <MfgParam Name="NCL_FILE" Value="-"/>
+        <MfgParam Name="PRE_MACHINING_FILE" Value="-"/>
+        <MfgParam Name="POST_MACHINING_FILE" Value="-"/>
+        <MfgParam Name="CUT_FEED" Value="3000"/>
+        <MfgParam Name="FREE_FEED" Value="-"/>
+        <MfgParam Name="SCAN_TYPE" Value="CONSTANT_LOAD"/>
+        <MfgParam Name="CLOSED_AREA_ENTRY" Value="AUTOMATIC"/>
+        <MfgParam Name="CUT_TYPE" Value="CLIMB"/>
+        <MfgParam Name="ROUGH_OPTION" Value="ROUGH_AND_PROF"/>
+        <MfgParam Name="TRIM_TO_WORKPIECE" Value="NO"/>
+        <MfgParam Name="SLICE_PATH_SCAN" Value="PASS_BY_PASS"/>
+        <MfgParam Name="TRIM_TOOLPATH_ON_HOLDER" Value="NO"/>
+        <MfgParam Name="TOLERANCE" Value="0.06"/>
+        <MfgParam Name="STEP_OVER" Value="9.09091">
+            <Relation>CUTTER_DIAM/2.2</Relation>
+        </MfgParam>
+        <MfgParam Name="PROF_STOCK_ALLOW" Value="-"/>
+        <MfgParam Name="ROUGH_STOCK_ALLOW" Value="1"/>
+        <MfgParam Name="BOTTOM_STOCK_ALLOW" Value="1"/>
+        <MfgParam Name="SCALLOP_HGT" Value="-"/>
+        <MfgParam Name="AXIS_SHIFT" Value="0"/>
+        <MfgParam Name="HOLDER_CLEARANCE" Value="0"/>
+        <MfgParam Name="CUT_ANGLE" Value="0"/>
+        <MfgParam Name="LIFT_TOOL_CLEARANCE" Value="-"/>
+        <MfgParam Name="MAX_STEP_DEPTH" Value="10"/>
+        <MfgParam Name="SPINDLE_SPEED" Value="20000"/>
+        <MfgParam Name="SPINDLE_SENSE" Value="CW"/>
+        <MfgParam Name="MAX_SPINDLE_RPM" Value="-"/>
+        <MfgParam Name="SPEED_CONTROL" Value="CONST_RPM"/>
+        <MfgParam Name="SPINDLE_RANGE" Value="NO_RANGE"/>
+        <MfgParam Name="RANGE_NUMBER" Value="0"/>
+        <MfgParam Name="CIRC_INTERPOLATION" Value="ARC_ONLY"/>
+        <MfgParam Name="COOLANT_OPTION" Value="ON"/>
+        <MfgParam Name="COOLANT_PRESSURE" Value="NONE"/>
+        <MfgParam Name="CUTCOM" Value="OFF"/>
+        <MfgParam Name="CUTCOM_REGISTER" Value="-"/>
+        <MfgParam Name="FIXT_OFFSET_REG" Value="-"/>
+        <MfgParam Name="COORDINATE_OUTPUT" Value="MACHINE_CSYS"/>
+        <MfgParam Name="SMOOTH_RADIUS" Value="-"/>
+        <MfgParam Name="PLUNGE_FEED" Value="-"/>
+        <MfgParam Name="PULLOUT_FEED" Value="-"/>
+        <MfgParam Name="RAMP_ANGLE" Value="60"/>
+        <MfgParam Name="RAMP_FEED" Value="-"/>
+        <MfgParam Name="CLEAR_DIST" Value="5"/>
+        <MfgParam Name="PULLOUT_DIST" Value="-"/>
+        <MfgParam Name="LEAD_RADIUS" Value="5"/>
+        <MfgParam Name="TANGENT_LEAD_STEP" Value="5"/>
+        <MfgParam Name="FEED_UNITS" Value="MMPM"/>
+        <MfgParam Name="END_STOP_CONDITION" Value="NONE"/>
+        <MfgParam Name="MIN_RETRACT_DISTANCE" Value="-"/>
+        <MfgParam Name="COOLANT_PRESSURE_VALUE" Value="-"/>
+        <MfgParam Name="COOLANT_PRESSURE_UNIT" Value="BAR"/>
+        <MfgParam Name="MACHINE_FLATLANDS" Value="YES"/>
+        <MfgParam Name="MINIMUM_WIDTH" Value="1"/>
+        <MfgParam Name="FILTER_TYPE" Value="INSCRIBED_CIRCLE"/>
+        <MfgParam Name="THRESHOLD_VALUE_PERCENT" Value="0"/>
+        <MfgParam Name="REMOVE_CORNER_PEGS" Value="NO"/>
+        <MfgParam Name="NUMBER_INTERMEDIATE_SLICES" Value="0"/>
+        <MfgParam Name="START_HEIGHT" Value="-"/>
+        <MfgParam Name="END_HEIGHT" Value="-"/>
+        <MfgParam Name="HELICAL_DIAMETER_PERC" Value="80"/>
+        <MfgParam Name="ALLOW_ENTRY_OUTSIDE" Value="YES"/>
+        <MfgParam Name="INTERMEDIATE_SLICE_ADJUST" Value="DURING"/>
+        <MfgParam Name="GO_HOME_REGISTER" Value="-"/>
+        <MfgParam Name="APPR_EXIT_CLEARANCE" Value="100"/>
+        <MfgParam Name="ALLOW_TOOL_OUTSIDE_WORKPIECE" Value="YES"/>
+        <MfgParam Name="ADAPTIVE_FEED_CONTROL" Value="NO"/>
+        <MfgParam Name="MIN_ADAPTIVE_FEED" Value="10"/>
+    </MfgParamCollection>
+</MfgParamValuesDocument>

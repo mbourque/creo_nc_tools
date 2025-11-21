@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MfgParamValuesDocument>
+    <DocType>PRO_NC_PARAM_VALUES</DocType>
+    <DocTitle>Manufacturing Parameters Values</DocTitle>
+    <DateTime>2008-06-04T16:39:08</DateTime>
+    <ApplicationInfo AppName="Pro/ENGINEER" AppVersion="M020" Language="usascii"/>
+    <AssemblyUnits LengthUnit="mm"/>
+    <MfgParamCollection>
+        <MfgParam Name="NCL_FILE" Value="-"/>
+        <MfgParam Name="PRE_MACHINING_FILE" Value="-"/>
+        <MfgParam Name="POST_MACHINING_FILE" Value="-"/>
+        <MfgParam Name="CUT_FEED" Value="200"/>
+        <MfgParam Name="ARC_FEED" Value="-"/>
+        <MfgParam Name="FREE_FEED" Value="-"/>
+        <MfgParam Name="RETRACT_FEED" Value="-"/>
+        <MfgParam Name="RETRACT_UNITS" Value="MMPM"/>
+        <MfgParam Name="SCAN_TYPE" Value="TYPE_3"/>
+        <MfgParam Name="CUT_TYPE" Value="CLIMB"/>
+        <MfgParam Name="STEPOVER_ADJUST" Value="YES"/>
+        <MfgParam Name="TRIM_TO_WORKPIECE" Value="YES"/>
+        <MfgParam Name="LACE_OPTION" Value="ARC_CONNECT"/>
+        <MfgParam Name="CUSTOMIZE_AUTO_RETRACT" Value="YES"/>
+        <MfgParam Name="BOUND_CURVE" Value="NO"/>
+        <MfgParam Name="STEP_DEPTH" Value="4"/>
+        <MfgParam Name="TOLERANCE" Value="0.01"/>
+        <MfgParam Name="STEP_OVER" Value="30"/>
+        <MfgParam Name="TOOL_OVERLAP" Value="-"/>
+        <MfgParam Name="NUMBER_PASSES" Value="2"/>
+        <MfgParam Name="ONE_PASS_OFFSET" Value="0"/>
+        <MfgParam Name="BOTTOM_STOCK_ALLOW" Value="-"/>
+        <MfgParam Name="AXIS_SHIFT" Value="0"/>
+        <MfgParam Name="CUT_ANGLE" Value="0"/>
+        <MfgParam Name="END_OVERTRAVEL" Value="0"/>
+        <MfgParam Name="START_OVERTRAVEL" Value="0"/>
+        <MfgParam Name="INITIAL_EDGE_OFFSET" Value="0"/>
+        <MfgParam Name="FINAL_EDGE_OFFSET" Value="0"/>
+        <MfgParam Name="SPINDLE_SPEED" Value="1000"/>
+        <MfgParam Name="SPINDLE_SENSE" Value="CCW"/>
+        <MfgParam Name="MAX_SPINDLE_RPM" Value="-"/>
+        <MfgParam Name="SPEED_CONTROL" Value="CONST_RPM"/>
+        <MfgParam Name="SPINDLE_RANGE" Value="NO_RANGE"/>
+        <MfgParam Name="RANGE_NUMBER" Value="0"/>
+        <MfgParam Name="LINTOL" Value="-"/>
+        <MfgParam Name="CIRC_INTERPOLATION" Value="ARC_ONLY"/>
+        <MfgParam Name="NUMBER_OF_ARC_PTS" Value="1"/>
+        <MfgParam Name="OUTPUT_3DNURBS" Value="NO"/>
+        <MfgParam Name="COOLANT_OPTION" Value="OFF"/>
+        <MfgParam Name="COOLANT_PRESSURE" Value="NONE"/>
+        <MfgParam Name="FIXT_OFFSET_REG" Value="-"/>
+        <MfgParam Name="COORDINATE_OUTPUT" Value="MACHINE_CSYS"/>
+        <MfgParam Name="TIP_CONTROL_POINT" Value="1"/>
+        <MfgParam Name="TLCHG_TIP_NUMBER" Value="INITIAL"/>
+        <MfgParam Name="APPROACH_FEED" Value="-"/>
+        <MfgParam Name="EXIT_FEED" Value="-"/>
+        <MfgParam Name="PLUNGE_FEED" Value="-"/>
+        <MfgParam Name="PLUNGE_UNITS" Value="MMPM"/>
+        <MfgParam Name="PULLOUT_FEED" Value="-"/>
+        <MfgParam Name="CLEAR_DIST" Value="2"/>
+        <MfgParam Name="PULLOUT_DIST" Value="-"/>
+        <MfgParam Name="INTER_RET_HEIGHT" Value="-"/>
+        <MfgParam Name="LEAD_RADIUS" Value="0"/>
+        <MfgParam Name="TANGENT_LEAD_STEP" Value="0"/>
+        <MfgParam Name="NORMAL_LEAD_STEP" Value="0"/>
+        <MfgParam Name="APPROACH_DISTANCE" Value="20"/>
+        <MfgParam Name="EXIT_DISTANCE" Value="20"/>
+        <MfgParam Name="CLEARANCE_EDGE" Value="HEEL"/>
+        <MfgParam Name="ENTRY_EDGE" Value="LEADING_EDGE"/>
+        <MfgParam Name="ENTRY_ANGLE" Value="90"/>
+        <MfgParam Name="EXIT_ANGLE" Value="90"/>
+        <MfgParam Name="START_MOTION" Value="DIRECT"/>
+        <MfgParam Name="END_MOTION" Value="DIRECT"/>
+        <MfgParam Name="NUMBER_CUTS" Value="0"/>
+        <MfgParam Name="FEED_UNITS" Value="MMPM"/>
+        <MfgParam Name="END_STOP_CONDITION" Value="NONE"/>
+        <MfgParam Name="COOLANT_PRESSURE_VALUE" Value="-"/>
+        <MfgParam Name="COOLANT_PRESSURE_UNIT" Value="BAR"/>
+        <MfgParam Name="GO_HOME_REGISTER" Value="-"/>
+    </MfgParamCollection>
+</MfgParamValuesDocument>

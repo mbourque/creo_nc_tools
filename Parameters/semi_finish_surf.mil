@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MfgParamValuesDocument>
+    <DocType>PRO_NC_PARAM_VALUES</DocType>
+    <DocTitle>Manufacturing Parameters Values</DocTitle>
+    <DateTime>2008-07-04T11:06:00</DateTime>
+    <ApplicationInfo AppName="Pro/ENGINEER" Language="usascii" AppVersion="F000"/>
+    <AssemblyUnits LengthUnit="mm"/>
+    <MfgParamCollection>
+        <MfgParam Name="NCL_FILE" Value="-"/>
+        <MfgParam Name="PRE_MACHINING_FILE" Value="-"/>
+        <MfgParam Name="POST_MACHINING_FILE" Value="-"/>
+        <MfgParam Name="SCAN_TYPE" Value="TYPE_1"/>
+        <MfgParam Name="CUT_TYPE" Value="CLIMB"/>
+        <MfgParam Name="ALLOW_NEG_Z_MOVES" Value="YES"/>
+        <MfgParam Name="TRIM_TO_WORKPIECE" Value="NO"/>
+        <MfgParam Name="CUT_DIRECTION" Value="STANDARD"/>
+        <MfgParam Name="LACE_OPTION" Value="LINE_CONNECT"/>
+        <MfgParam Name="REMAINDER_SURFACE" Value="NO"/>
+        <MfgParam Name="CUSTOMIZE_AUTO_RETRACT" Value="YES"/>
+        <MfgParam Name="SKIP_PATH" Value="NO_SKIP"/>
+        <MfgParam Name="ROUGH_STEP_DEPTH" Value="-"/>
+        <MfgParam Name="TOLERANCE" Value="0.01"/>
+        <MfgParam Name="MAX_DISCRETIZ_STEP" Value="-"/>
+        <MfgParam Name="POINT_DISTRIBUTION" Value="ALIGNED"/>
+        <MfgParam Name="STEP_OVER" Value="12.5">
+            <Relation>CUTTER_DIAM/2</Relation>
+        </MfgParam>
+        <MfgParam Name="TOOL_OVERLAP" Value="-"/>
+        <MfgParam Name="NUMBER_PASSES" Value="0"/>
+        <MfgParam Name="PROF_STOCK_ALLOW" Value="0"/>
+        <MfgParam Name="CHK_SRF_STOCK_ALLOW" Value="-"/>
+        <MfgParam Name="SCALLOP_HGT" Value="-"/>
+        <MfgParam Name="AXIS_SHIFT" Value="0"/>
+        <MfgParam Name="CUT_ANGLE" Value="0"/>
+        <MfgParam Name="ZONE_PULLOUT_DIST" Value="-"/>
+        <MfgParam Name="CUT_FEED" Value="600"/>
+        <MfgParam Name="FREE_FEED" Value="-"/>
+        <MfgParam Name="RETRACT_FEED" Value="-"/>
+        <MfgParam Name="PLUNGE_FEED" Value="-"/>
+        <MfgParam Name="RAMP_FEED" Value="-"/>
+        <MfgParam Name="CUT_UNITS" Value="MMPM"/>
+        <MfgParam Name="RETRACT_UNITS" Value="MMPM"/>
+        <MfgParam Name="PLUNGE_UNITS" Value="MMPM"/>
+        <MfgParam Name="SPINDLE_SPEED" Value="2000"/>
+        <MfgParam Name="SPINDLE_SENSE" Value="CW"/>
+        <MfgParam Name="MAX_SPINDLE_RPM" Value="-"/>
+        <MfgParam Name="SPEED_CONTROL" Value="CONST_RPM"/>
+        <MfgParam Name="SPINDLE_RANGE" Value="NO_RANGE"/>
+        <MfgParam Name="RANGE_NUMBER" Value="0"/>
+        <MfgParam Name="LINTOL" Value="-"/>
+        <MfgParam Name="OUTPUT_3DNURBS" Value="NO"/>
+        <MfgParam Name="COOLANT_OPTION" Value="ON"/>
+        <MfgParam Name="COOLANT_PRESSURE" Value="NONE"/>
+        <MfgParam Name="3D_COMP" Value="NO"/>
+        <MfgParam Name="FIXT_OFFSET_REG" Value="-"/>
+        <MfgParam Name="COORDINATE_OUTPUT" Value="MACHINE_CSYS"/>
+        <MfgParam Name="HOLDER_DIAMETER" Value="-"/>
+        <MfgParam Name="HOLDER_LENGTH" Value="-"/>
+        <MfgParam Name="END_STOP_CONDITION" Value="NONE"/>
+        <MfgParam Name="TIP_CONTROL_POINT" Value="1"/>
+        <MfgParam Name="TLCHG_TIP_NUMBER" Value="INITIAL"/>
+        <MfgParam Name="RAMP_ANGLE" Value="90"/>
+        <MfgParam Name="CLEAR_DIST" Value="2"/>
+        <MfgParam Name="PULLOUT_DIST" Value="-"/>
+        <MfgParam Name="LEAD_RADIUS" Value="0"/>
+        <MfgParam Name="TANGENT_LEAD_STEP" Value="0"/>
+        <MfgParam Name="NORMAL_LEAD_STEP" Value="0"/>
+        <MfgParam Name="APPROACH_DISTANCE" Value="-"/>
+        <MfgParam Name="EXIT_DISTANCE" Value="-"/>
+        <MfgParam Name="OVERTRAVEL_DISTANCE" Value="0"/>
+        <MfgParam Name="ENTRY_ANGLE" Value="90"/>
+        <MfgParam Name="EXIT_ANGLE" Value="90"/>
+        <MfgParam Name="HELICAL_DIAMETER" Value="-"/>
+        <MfgParam Name="START_MOTION" Value="DIRECT"/>
+        <MfgParam Name="END_MOTION" Value="DIRECT"/>
+        <MfgParam Name="TOOLPATH_CREATION_TYPE" Value="AUTOMATICALLY"/>
+        <MfgParam Name="CUT_ENTRY_EXT" Value="NONE"/>
+        <MfgParam Name="CUT_EXIT_EXT" Value="NONE"/>
+        <MfgParam Name="INITIAL_ENTRY_EXT" Value="NONE"/>
+        <MfgParam Name="FINAL_EXIT_EXT" Value="NONE"/>
+    </MfgParamCollection>
+</MfgParamValuesDocument>
