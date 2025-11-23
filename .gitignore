@@ -1,0 +1,10 @@
+# Ignore build/output and Creo-related files
+*.out
+*.stp
+*.idx
+*.log
+*.log.xml
+*.pvz
+*.mnu
+*.tph
+*.tst
