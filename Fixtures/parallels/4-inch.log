@@ -1,9 +1,0 @@
-proepview 11.1.0 - Build: parametric12000 21.1.0.0-QDMPSw x86e_win64
-Copyright (C) 2000-2024 PTC Inc. All Rights Reserved.
-
-Recipe file: C:/ptc/Creo 12.4.2.0/Common Files/text/prodview/export_pvs.rcp
-Source file: C:/PTC/Local Cad/NC/Fixtures/parallels/box-parallel.prt.2
-Output file: C:/Users/micha/AppData/Local/Temp/6kdj_6zx/4-inch.pvs
-Processing 4-inch<box-parallel>.prt : COMPLETE
-Getting Mass Properties : COMPLETE
-Generating Output : COMPLETE
