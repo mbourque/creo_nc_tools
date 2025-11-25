@@ -86,12 +86,15 @@ tools/countersinks
 # Usage
 
 Copy the files into a Creo library folder.  
-Load them through Manufacturing mode or individual NC sequences.  
+Set an environment variable "nc_tools_path" to where you stored these files.  
+Add a config option to point to the search.pro located in the library:  
+	search_path_file C:\PTC\Local Cad\search.pro  
+Load tools through Manufacturing mode or individual NC sequences.  
 Creo will read parameter driven tools automatically.  
 Solid tools will load with their referenced geometry.
 
 # Compatibility
 
-Compatible with Creo 12  
+Compatible with Creo 12 and up  
 Uses only standard NC parameters  
 Tested in both milling and turning sequences
