@@ -26,6 +26,7 @@
 "$nc_tools_path/Hardware/socket-head-cap-screws"
 "$nc_tools_path/Hardware/standoffs"
 "$nc_tools_path/Hardware/washers"
+"$nc_tools_path/Hardware/dowel-pins"
 "$nc_tools_path/Misc"
 "$nc_tools_path/Parameters"
 "$nc_tools_path/Sequences"
