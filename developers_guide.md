@@ -47,6 +47,7 @@ The following guidelines define the required standards for creating and managing
 
 - Family tables:
   - Use family tables to create solid tool variations within a tool type and maintain naming conventions.
+  - Use meaningful names. If appropriate, use parameters as dimension names like cutter_diam. 
 
 - File and folder standards:
   - Always maintain one version of the model; Git will strip common files such as `.log`, `.pvz`, and `.idx`.
