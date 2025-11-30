@@ -77,6 +77,7 @@
 "$nc_tools_path/Solid Tools/holder_lib/v_flange/str_shank_v"
 "$nc_tools_path/Solid Tools/Tools"
 "$nc_tools_path/Solid Tools/Tools/ball endmills"
+"$nc_tools_path/Solid Tools/Tools/boring"
 "$nc_tools_path/Solid Tools/Tools/bull endmills"
 "$nc_tools_path/Solid Tools/Tools/center drills"
 "$nc_tools_path/Solid Tools/Tools/chamfering"
