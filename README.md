@@ -98,3 +98,8 @@ tools/metric/countersinks
 - Compatible with Creo 12 and up  
 - Uses only standard NC parameters  
 - Tested in both milling and turning sequences
+
+# Contributers
+If you'd like to contribute to the library, please read the developers guide. 
+
+https://github.com/mbourque/creo_nc_tools/blob/main/developers_guide.md
