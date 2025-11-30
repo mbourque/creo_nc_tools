@@ -21,6 +21,7 @@ The following guidelines define the required standards for creating and managing
   - FLUTE_LENGTH
   - NUM_OF_TEETH
   - TOOL_MATERIAL
+  - TOOL_COMMENT
   - Speeds and feeds using AXIAL_DEPTH and RADIAL_DEPTH when possible
 
 - For solid tools:

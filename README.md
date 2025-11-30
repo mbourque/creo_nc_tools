@@ -4,9 +4,9 @@ This repository contains cutting tool definitions for Creo Parametric 12. All to
 
 # Creo Version
 
-Creo Parametric 12  
-Tested with version 12.4.x  
-XML files follow the Creo manufacturing tool definition format
+- Creo Parametric 12  
+- Tested with version 12.4.x  
+- XML files follow the Creo manufacturing tool definition format
 
 # Tool Types Included
 
@@ -26,7 +26,7 @@ Each file contains cutter diameter, flute length, overall length, tool material,
 
 ## Ball Endmills (BEM Series)
 
-Ball nose endmills in matching sizes:
+Ball endmills in matching sizes:
 BEM062  
 BEM125  
 BEM250  
@@ -77,24 +77,24 @@ HOLDER_LEN
 
 # Folder Structure
 
-tools/endmills  
-tools/ball_endmills  
-tools/drills  
-tools/reamers  
-tools/countersinks
+tools/inch/endmills  
+tools/inch/ball_endmills  
+tools/inch/drills  
+tools/metric/reamers  
+tools/metric/countersinks
 
 # Usage
 
-Copy the files into a Creo library folder.  
-Set an environment variable "nc_tools_path" to where you stored these files.  
-Add a config option to point to the search.pro located in the library:  
-	search_path_file C:\PTC\Local Cad\nc\search.pro  
-Load tools through Manufacturing mode or individual NC sequences.  
-Creo will read parameter driven tools automatically.  
-Solid tools will load with their referenced geometry.
+- Copy the files into a Creo library folder.  
+- Set an environment variable "nc_tools_path" to where you stored these files.  
+- Add a config option to point to the search.pro located in the library:  
+    - search_path_file C:\PTC\Local Cad\nc\search.pro  
+- Load tools through Manufacturing mode or individual NC sequences.  
+- Creo will read parameter driven tools automatically.  
+- Solid tools will load with their referenced geometry.
 
 # Compatibility
 
-Compatible with Creo 12 and up  
-Uses only standard NC parameters  
-Tested in both milling and turning sequences
+- Compatible with Creo 12 and up  
+- Uses only standard NC parameters  
+- Tested in both milling and turning sequences
