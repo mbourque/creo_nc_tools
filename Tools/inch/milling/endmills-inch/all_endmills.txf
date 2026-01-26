@@ -27,10 +27,10 @@
             <MfgParam Name="SPINDLE_SENSE" Value="CW"/>
             <MfgParam Name="FLUTE_LENGTH" Value="0.125"/>
             <MfgParam Name="ADAPTER_OFFSET_FROM_TOOL" Value="0"/>
-            <MfgParam Name="TOOL_COMMENT" Value="0.062 Endmill"/>
+            <MfgParam Name="TOOL_COMMENT" Value="0.062&quot; Endmill"/>
             <ToolSetUpOnWorkcell Position="1">
                 <OffsetDataCollection>
-                    <OffsetData Comment="0.062 Endmill" OffsetZ="0.000000" Register="-1" Tip="1"/>
+                    <OffsetData Comment="0.062&quot; Endmill" OffsetZ="0.000000" Register="-1" Tip="1"/>
                 </OffsetDataCollection>
             </ToolSetUpOnWorkcell>
         </Tool>
@@ -56,10 +56,10 @@
             <MfgParam Name="SPINDLE_SENSE" Value="CW"/>
             <MfgParam Name="FLUTE_LENGTH" Value="0.375"/>
             <MfgParam Name="ADAPTER_OFFSET_FROM_TOOL" Value="0"/>
-            <MfgParam Name="TOOL_COMMENT" Value="0.125 Endmill"/>
+            <MfgParam Name="TOOL_COMMENT" Value="0.125&quot; Endmill"/>
             <ToolSetUpOnWorkcell Position="2">
                 <OffsetDataCollection>
-                    <OffsetData Comment="0.125 Endmill" OffsetZ="0.000000" Register="-1" Tip="1"/>
+                    <OffsetData Comment="0.125&quot; Endmill" OffsetZ="0.000000" Register="-1" Tip="1"/>
                 </OffsetDataCollection>
             </ToolSetUpOnWorkcell>
         </Tool>
@@ -85,10 +85,10 @@
             <MfgParam Name="SPINDLE_SENSE" Value="CW"/>
             <MfgParam Name="FLUTE_LENGTH" Value="0.75"/>
             <MfgParam Name="ADAPTER_OFFSET_FROM_TOOL" Value="0"/>
-            <MfgParam Name="TOOL_COMMENT" Value="0.250 Endmill"/>
+            <MfgParam Name="TOOL_COMMENT" Value="0.250&quot; Endmill"/>
             <ToolSetUpOnWorkcell Position="3">
                 <OffsetDataCollection>
-                    <OffsetData Comment="0.250 Endmill" OffsetZ="0.000000" Register="-1" Tip="1"/>
+                    <OffsetData Comment="0.250&quot; Endmill" OffsetZ="0.000000" Register="-1" Tip="1"/>
                 </OffsetDataCollection>
             </ToolSetUpOnWorkcell>
         </Tool>
@@ -114,10 +114,10 @@
             <MfgParam Name="SPINDLE_SENSE" Value="CW"/>
             <MfgParam Name="FLUTE_LENGTH" Value="1"/>
             <MfgParam Name="ADAPTER_OFFSET_FROM_TOOL" Value="0"/>
-            <MfgParam Name="TOOL_COMMENT" Value="0.375 Endmill"/>
+            <MfgParam Name="TOOL_COMMENT" Value="0.375&quot; Endmill"/>
             <ToolSetUpOnWorkcell Position="4">
                 <OffsetDataCollection>
-                    <OffsetData Comment="0.375 Endmill" OffsetZ="0.000000" Register="-1" Tip="1"/>
+                    <OffsetData Comment="0.375&quot; Endmill" OffsetZ="0.000000" Register="-1" Tip="1"/>
                 </OffsetDataCollection>
             </ToolSetUpOnWorkcell>
         </Tool>
@@ -143,10 +143,10 @@
             <MfgParam Name="SPINDLE_SENSE" Value="CW"/>
             <MfgParam Name="FLUTE_LENGTH" Value="1.25"/>
             <MfgParam Name="ADAPTER_OFFSET_FROM_TOOL" Value="0"/>
-            <MfgParam Name="TOOL_COMMENT" Value="0.500 Endmill"/>
+            <MfgParam Name="TOOL_COMMENT" Value="0.500&quot; Endmill"/>
             <ToolSetUpOnWorkcell Position="5">
                 <OffsetDataCollection>
-                    <OffsetData Comment="0.500 Endmill" OffsetZ="0.000000" Register="-1" Tip="1"/>
+                    <OffsetData Comment="0.500&quot; Endmill" OffsetZ="0.000000" Register="-1" Tip="1"/>
                 </OffsetDataCollection>
             </ToolSetUpOnWorkcell>
         </Tool>
@@ -172,10 +172,10 @@
             <MfgParam Name="SPINDLE_SENSE" Value="CW"/>
             <MfgParam Name="FLUTE_LENGTH" Value="1.5"/>
             <MfgParam Name="ADAPTER_OFFSET_FROM_TOOL" Value="0"/>
-            <MfgParam Name="TOOL_COMMENT" Value="0.625 Endmill"/>
+            <MfgParam Name="TOOL_COMMENT" Value="0.625&quot; Endmill"/>
             <ToolSetUpOnWorkcell Position="6">
                 <OffsetDataCollection>
-                    <OffsetData Comment="0.625 Endmill" OffsetZ="0.000000" Register="-1" Tip="1"/>
+                    <OffsetData Comment="0.625&quot; Endmill" OffsetZ="0.000000" Register="-1" Tip="1"/>
                 </OffsetDataCollection>
             </ToolSetUpOnWorkcell>
         </Tool>
@@ -201,10 +201,10 @@
             <MfgParam Name="SPINDLE_SENSE" Value="CW"/>
             <MfgParam Name="FLUTE_LENGTH" Value="1.75"/>
             <MfgParam Name="ADAPTER_OFFSET_FROM_TOOL" Value="0"/>
-            <MfgParam Name="TOOL_COMMENT" Value="0.750 Endmill"/>
+            <MfgParam Name="TOOL_COMMENT" Value="0.750&quot; Endmill"/>
             <ToolSetUpOnWorkcell Position="7">
                 <OffsetDataCollection>
-                    <OffsetData Comment="0.750 Endmill" OffsetZ="0.000000" Register="-1" Tip="1"/>
+                    <OffsetData Comment="0.750&quot; Endmill" OffsetZ="0.000000" Register="-1" Tip="1"/>
                 </OffsetDataCollection>
             </ToolSetUpOnWorkcell>
         </Tool>
@@ -230,10 +230,10 @@
             <MfgParam Name="SPINDLE_SENSE" Value="CW"/>
             <MfgParam Name="FLUTE_LENGTH" Value="2"/>
             <MfgParam Name="ADAPTER_OFFSET_FROM_TOOL" Value="0"/>
-            <MfgParam Name="TOOL_COMMENT" Value="1 Endmill"/>
+            <MfgParam Name="TOOL_COMMENT" Value="1&quot; Endmill"/>
             <ToolSetUpOnWorkcell Position="8">
                 <OffsetDataCollection>
-                    <OffsetData Comment="1 Endmill" OffsetZ="0.000000" Register="-1" Tip="1"/>
+                    <OffsetData Comment="1&quot; Endmill" OffsetZ="0.000000" Register="-1" Tip="1"/>
                 </OffsetDataCollection>
             </ToolSetUpOnWorkcell>
         </Tool>
