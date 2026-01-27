@@ -2,22 +2,22 @@
 <MfgSetupDocument>
     <DocType>PRO_NC_CUTTING_TOOL_SETUP</DocType>
     <DocTitle>Cutting Tool Information</DocTitle>
-    <DateTime>2025-11-15T09:22:19</DateTime>
+    <DateTime>2026-01-27T13:47:33</DateTime>
     <ApplicationInfo AppName="Creo" AppVersion="12.4.2.0" FtVersion="400057" Language="usascii" MdlVersion="2572"/>
     <ToolingSetup>
-        <Tool Id="CH1000" RefXmlId="encref_1" Type="CHAMFERING">
+        <Tool Id="ISO_CHMF_1" RefXmlId="encref_1" Type="CHAMFERING">
             <Attr DataType="boolean" Name="UseOutline" Value="false"/>
             <Attr DataType="boolean" Name="ProLibraryTool" Value="false"/>
             <Attr DataType="boolean" Name="SketchTool" Value="false"/>
             <Attr DataType="boolean" Name="ToolByRef" Value="false"/>
-            <MfgParam Name="LENGTH_UNITS" Value="INCH"/>
-            <MfgParam Name="CUTTER_DIAM" Value="1"/>
-            <MfgParam Name="POINT_ANGLE" Value="90"/>
-            <MfgParam Name="LENGTH" Value="2"/>
-            <MfgParam Name="TOOL_MATERIAL" Value="HSS"/>
+            <MfgParam Name="LENGTH_UNITS" Value="MILLIMETER"/>
+            <MfgParam Name="CUTTER_DIAM" Value="20"/>
+            <MfgParam Name="POINT_ANGLE" Value="45"/>
+            <MfgParam Name="LENGTH" Value="88"/>
+            <MfgParam Name="TOOL_MATERIAL" Value="CARBIDE"/>
             <MfgParam Name="GAUGE_X_LENGTH" Value="-"/>
             <MfgParam Name="GAUGE_Y_LENGTH" Value="-"/>
-            <MfgParam Name="GAUGE_Z_LENGTH" Value="-"/>
+            <MfgParam Name="GAUGE_Z_LENGTH" Value="60"/>
             <MfgParam Name="POINT_DIAMETER" Value="-"/>
             <MfgParam Name="GAUGE_OFFSET" Value="-"/>
             <MfgParam Name="TOOL_LONG_FLAG" Value="NO"/>
@@ -26,12 +26,13 @@
             <MfgParam Name="COOLANT_OPTION" Value="OFF"/>
             <MfgParam Name="COOLANT_PRESSURE" Value="NONE"/>
             <MfgParam Name="SPINDLE_SENSE" Value="CW"/>
-            <MfgParam Name="FLUTE_LENGTH" Value="-"/>
+            <MfgParam Name="FLUTE_LENGTH" Value="18"/>
             <MfgParam Name="ADAPTER_OFFSET_FROM_TOOL" Value="0"/>
-            <MfgParam Name="TOOL_COMMENT" Value="1&quot; x 90° Chamfer Mill"/>
+            <MfgParam Name="TOOL_COMMENT" Value="20mm x 45° Chamfering Mill"/>
+            <MfgParam Name="NUM_OF_TEETH" Value="2"/>
             <ToolSetUpOnWorkcell>
                 <OffsetDataCollection>
-                    <OffsetData Comment="1&quot; x 90° Chamfer Mill" OffsetZ="0.000000" Register="-1" Tip="1"/>
+                    <OffsetData Comment="20mm x 45° Chamfering Mill" OffsetZ="0.000000" Register="-1" Tip="1"/>
                 </OffsetDataCollection>
             </ToolSetUpOnWorkcell>
         </Tool>
