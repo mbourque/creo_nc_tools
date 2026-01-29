@@ -2,7 +2,7 @@
 <MfgWpMaterialDoc>
     <DocType>PRO_NC_WORKPIECE_MATERIAL_LIST</DocType>
     <DocTitle>Workpiece Material List</DocTitle>
-    <DateTime>2026-01-29T11:11:10</DateTime>
+    <DateTime>2026-01-29T11:21:25</DateTime>
     <ApplicationInfo AppName="Creo" AppVersion="12.4.2.0" FtVersion="400057" Language="usascii" MdlVersion="2572"/>
     <MfgWpMaterialList>
         <MfgWpMaterial Name="Aluminum"/>
@@ -17,10 +17,10 @@
         <MfgWpMaterial Name="Magnesium"/>
         <MfgWpMaterial Name="Monel"/>
         <MfgWpMaterial Name="Plastics"/>
-        <MfgWpMaterial Name="Stainless steel"/>
+        <MfgWpMaterial Name="Stainless_steel"/>
         <MfgWpMaterial Name="Steel"/>
         <MfgWpMaterial Name="Titanium"/>
-        <MfgWpMaterial Name="Tool steels"/>
+        <MfgWpMaterial Name="Tool_steels"/>
         <MfgWpMaterial Name="Wood"/>
     </MfgWpMaterialList>
 </MfgWpMaterialDoc>
