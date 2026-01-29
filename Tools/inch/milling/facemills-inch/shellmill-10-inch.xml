@@ -2,7 +2,7 @@
 <MfgSetupDocument>
     <DocType>PRO_NC_CUTTING_TOOL_SETUP</DocType>
     <DocTitle>Cutting Tool Information</DocTitle>
-    <DateTime>2025-11-17T08:11:51</DateTime>
+    <DateTime>2026-01-29T17:47:25</DateTime>
     <ApplicationInfo AppName="Creo" AppVersion="12.4.2.0" FtVersion="400057" Language="usascii" MdlVersion="2572"/>
     <ToolingSetup>
         <Tool Id="SHELLMILL-10-INCH" RefXmlId="encref_1" Type="END MILL">
@@ -28,53 +28,10 @@
             <MfgParam Name="SPINDLE_SENSE" Value="CW"/>
             <MfgParam Name="FLUTE_LENGTH" Value="-"/>
             <MfgParam Name="ADAPTER_OFFSET_FROM_TOOL" Value="0"/>
-            <MfgParam Name="TOOL_COMMENT" Value="-"/>
-            <BOM>
-                <BOMComponent Comments=" " Name="CUT-36&lt;&lt;SHELLMILL-10-INCH>>" Quantity="1" Type="GENERAL"/>
-                <BOMComponent Comments=" " Name="CUT-37&lt;&lt;SHELLMILL-10-INCH>>" Quantity="1" Type="GENERAL"/>
-                <BOMComponent Comments=" " Name="CUT-38&lt;&lt;SHELLMILL-10-INCH>>" Quantity="1" Type="GENERAL"/>
-                <BOMComponent Comments=" " Name="CUT-39&lt;&lt;SHELLMILL-10-INCH>>" Quantity="1" Type="GENERAL"/>
-                <BOMComponent Comments=" " Name="CUT-40&lt;&lt;SHELLMILL-10-INCH>>" Quantity="1" Type="GENERAL"/>
-                <BOMComponent Comments=" " Name="CUT-41&lt;&lt;SHELLMILL-10-INCH>>" Quantity="1" Type="GENERAL"/>
-                <BOMComponent Comments=" " Name="CUT-42&lt;&lt;SHELLMILL-10-INCH>>" Quantity="1" Type="GENERAL"/>
-                <BOMComponent Comments=" " Name="CUT-43&lt;&lt;SHELLMILL-10-INCH>>" Quantity="1" Type="GENERAL"/>
-                <BOMComponent Comments=" " Name="CUT-44&lt;&lt;SHELLMILL-10-INCH>>" Quantity="1" Type="GENERAL"/>
-                <BOMComponent Comments=" " Name="CUT-45&lt;&lt;SHELLMILL-10-INCH>>" Quantity="1" Type="GENERAL"/>
-                <BOMComponent Comments=" " Name="CUT-46&lt;&lt;SHELLMILL-10-INCH>>" Quantity="1" Type="GENERAL"/>
-                <BOMComponent Comments=" " Name="CUT-47&lt;&lt;SHELLMILL-10-INCH>>" Quantity="1" Type="GENERAL"/>
-                <BOMComponent Comments=" " Name="CUT-48&lt;&lt;SHELLMILL-10-INCH>>" Quantity="1" Type="GENERAL"/>
-                <BOMComponent Comments=" " Name="CUT-49&lt;&lt;SHELLMILL-10-INCH>>" Quantity="1" Type="GENERAL"/>
-                <BOMComponent Comments=" " Name="CUT-50&lt;&lt;SHELLMILL-10-INCH>>" Quantity="1" Type="GENERAL"/>
-                <BOMComponent Comments=" " Name="CUT-51&lt;&lt;SHELLMILL-10-INCH>>" Quantity="1" Type="GENERAL"/>
-                <BOMComponent Comments=" " Name="CUT-52&lt;&lt;SHELLMILL-10-INCH>>" Quantity="1" Type="GENERAL"/>
-                <BOMComponent Comments=" " Name="CUT-53&lt;&lt;SHELLMILL-10-INCH>>" Quantity="1" Type="GENERAL"/>
-                <BOMComponent Comments=" " Name="CUT-54&lt;&lt;SHELLMILL-10-INCH>>" Quantity="1" Type="GENERAL"/>
-                <BOMComponent Comments=" " Name="CUT-55&lt;&lt;SHELLMILL-10-INCH>>" Quantity="1" Type="GENERAL"/>
-                <BOMComponent Comments=" " Name="NOCUT-56&lt;&lt;SHELLMILL-10-INCH>>" Quantity="1" Type="GENERAL"/>
-                <BOMComponent Comments=" " Name="NOCUT-57&lt;&lt;SHELLMILL-10-INCH>>" Quantity="1" Type="GENERAL"/>
-                <BOMComponent Comments=" " Name="NOCUT-58&lt;&lt;SHELLMILL-10-INCH>>" Quantity="1" Type="GENERAL"/>
-                <BOMComponent Comments=" " Name="NOCUT-59&lt;&lt;SHELLMILL-10-INCH>>" Quantity="1" Type="GENERAL"/>
-                <BOMComponent Comments=" " Name="NOCUT-60&lt;&lt;SHELLMILL-10-INCH>>" Quantity="1" Type="GENERAL"/>
-                <BOMComponent Comments=" " Name="NOCUT-61&lt;&lt;SHELLMILL-10-INCH>>" Quantity="1" Type="GENERAL"/>
-                <BOMComponent Comments=" " Name="NOCUT-62&lt;&lt;SHELLMILL-10-INCH>>" Quantity="1" Type="GENERAL"/>
-                <BOMComponent Comments=" " Name="NOCUT-63&lt;&lt;SHELLMILL-10-INCH>>" Quantity="1" Type="GENERAL"/>
-                <BOMComponent Comments=" " Name="NOCUT-64&lt;&lt;SHELLMILL-10-INCH>>" Quantity="1" Type="GENERAL"/>
-                <BOMComponent Comments=" " Name="NOCUT-65&lt;&lt;SHELLMILL-10-INCH>>" Quantity="1" Type="GENERAL"/>
-                <BOMComponent Comments=" " Name="NOCUT-66&lt;&lt;SHELLMILL-10-INCH>>" Quantity="1" Type="GENERAL"/>
-                <BOMComponent Comments=" " Name="NOCUT-67&lt;&lt;SHELLMILL-10-INCH>>" Quantity="1" Type="GENERAL"/>
-                <BOMComponent Comments=" " Name="NOCUT-68&lt;&lt;SHELLMILL-10-INCH>>" Quantity="1" Type="GENERAL"/>
-                <BOMComponent Comments=" " Name="NOCUT-69&lt;&lt;SHELLMILL-10-INCH>>" Quantity="1" Type="GENERAL"/>
-                <BOMComponent Comments=" " Name="NOCUT-70&lt;&lt;SHELLMILL-10-INCH>>" Quantity="1" Type="GENERAL"/>
-                <BOMComponent Comments=" " Name="NOCUT-71&lt;&lt;SHELLMILL-10-INCH>>" Quantity="1" Type="GENERAL"/>
-                <BOMComponent Comments=" " Name="NOCUT-72&lt;&lt;SHELLMILL-10-INCH>>" Quantity="1" Type="GENERAL"/>
-                <BOMComponent Comments=" " Name="NOCUT-73&lt;&lt;SHELLMILL-10-INCH>>" Quantity="1" Type="GENERAL"/>
-                <BOMComponent Comments=" " Name="NOCUT-74&lt;&lt;SHELLMILL-10-INCH>>" Quantity="1" Type="GENERAL"/>
-                <BOMComponent Comments=" " Name="NOCUT-75&lt;&lt;SHELLMILL-10-INCH>>" Quantity="1" Type="GENERAL"/>
-                <BOMComponent Comments=" " Name="NOCUT-4961&lt;&lt;SHELLMILL-10-INCH>>" Quantity="1" Type="GENERAL"/>
-            </BOM>
+            <MfgParam Name="TOOL_COMMENT" Value="10&quot; SHELLMILL"/>
             <ToolSetUpOnWorkcell>
                 <OffsetDataCollection>
-                    <OffsetData Comment="" OffsetZ="0.000000" Register="-1" Tip="1"/>
+                    <OffsetData Comment="10&quot; SHELLMILL" OffsetZ="0.000000" Register="-1" Tip="1"/>
                 </OffsetDataCollection>
             </ToolSetUpOnWorkcell>
         </Tool>
