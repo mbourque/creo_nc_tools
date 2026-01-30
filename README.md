@@ -37,8 +37,8 @@ tools/metric/countersinks
 - `EM25` = 25mmØ Endmill 
 - `CH6x45` = 6mmØ x 45° Chamfer Tool 
 - `DRILL_1_64` = 1/64″Ø Drill 
-- `DRILL_0320` = .320Ø Drill 
-- `DRILL_F` = F Drill
+- `DRILL_0320` = .320"Ø Drill 
+- `DRILL_F` = #F Drill
 - `DRILL_M16x2_0` = M16-2 Tap Drill 
 - `TAP_1_4_20` = 1/4″-20 Tap 
 - `REAM500` = 1/2"Ø Reamer 
