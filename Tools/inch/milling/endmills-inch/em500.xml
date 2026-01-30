@@ -60,6 +60,456 @@
             </ToolCutData>
             <ToolCutData>
                 <Material>
+                    <MfgParam Name="STOCK_MATERIAL" Value="Brass"/>
+                </Material>
+                <CutDataUnitSystem>
+                    <MfgParam Name="CUT_DATA_UNITS" Value="ENGLISH"/>
+                </CutDataUnitSystem>
+                <Technology>
+                    <Condition>
+                        <MfgParam Name="APPLICATION_TYPE" Value="ROUGHING"/>
+                    </Condition>
+                    <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="2672"/>
+                    <MfgParam Name="TOOL_SURFACE_SPEED" Unit="ft_per_min" Value="350"/>
+                    <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="27"/>
+                    <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_tooth" Value="0.005"/>
+                    <MfgParam Name="TOOL_AXIAL_DEPTH" Unit="in" Value="0.5"/>
+                    <MfgParam Name="TOOL_RADIAL_DEPTH" Unit="in" Value="0.375"/>
+                </Technology>
+                <Technology>
+                    <Condition>
+                        <MfgParam Name="APPLICATION_TYPE" Value="FINISHING"/>
+                    </Condition>
+                    <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="3054"/>
+                    <MfgParam Name="TOOL_SURFACE_SPEED" Unit="ft_per_min" Value="400"/>
+                    <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="12"/>
+                    <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_tooth" Value="0.002"/>
+                    <MfgParam Name="TOOL_AXIAL_DEPTH" Unit="in" Value="0.02"/>
+                    <MfgParam Name="TOOL_RADIAL_DEPTH" Unit="in" Value="0.02"/>
+                </Technology>
+            </ToolCutData>
+            <ToolCutData>
+                <Material>
+                    <MfgParam Name="STOCK_MATERIAL" Value="Bronze"/>
+                </Material>
+                <CutDataUnitSystem>
+                    <MfgParam Name="CUT_DATA_UNITS" Value="ENGLISH"/>
+                </CutDataUnitSystem>
+                <Technology>
+                    <Condition>
+                        <MfgParam Name="APPLICATION_TYPE" Value="ROUGHING"/>
+                    </Condition>
+                    <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="1910"/>
+                    <MfgParam Name="TOOL_SURFACE_SPEED" Unit="ft_per_min" Value="250"/>
+                    <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="15"/>
+                    <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_tooth" Value="0.004"/>
+                    <MfgParam Name="TOOL_AXIAL_DEPTH" Unit="in" Value="0.5"/>
+                    <MfgParam Name="TOOL_RADIAL_DEPTH" Unit="in" Value="0.375"/>
+                </Technology>
+                <Technology>
+                    <Condition>
+                        <MfgParam Name="APPLICATION_TYPE" Value="FINISHING"/>
+                    </Condition>
+                    <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="2292"/>
+                    <MfgParam Name="TOOL_SURFACE_SPEED" Unit="ft_per_min" Value="300"/>
+                    <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="9"/>
+                    <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_tooth" Value="0.002"/>
+                    <MfgParam Name="TOOL_AXIAL_DEPTH" Unit="in" Value="0.02"/>
+                    <MfgParam Name="TOOL_RADIAL_DEPTH" Unit="in" Value="0.02"/>
+                </Technology>
+            </ToolCutData>
+            <ToolCutData>
+                <Material>
+                    <MfgParam Name="STOCK_MATERIAL" Value="Composites"/>
+                </Material>
+                <CutDataUnitSystem>
+                    <MfgParam Name="CUT_DATA_UNITS" Value="ENGLISH"/>
+                </CutDataUnitSystem>
+                <Technology>
+                    <Condition>
+                        <MfgParam Name="APPLICATION_TYPE" Value="ROUGHING"/>
+                    </Condition>
+                    <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="1528"/>
+                    <MfgParam Name="TOOL_SURFACE_SPEED" Unit="ft_per_min" Value="200"/>
+                    <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="6"/>
+                    <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_tooth" Value="0.002"/>
+                    <MfgParam Name="TOOL_AXIAL_DEPTH" Unit="in" Value="0.25"/>
+                    <MfgParam Name="TOOL_RADIAL_DEPTH" Unit="in" Value="0.25"/>
+                </Technology>
+                <Technology>
+                    <Condition>
+                        <MfgParam Name="APPLICATION_TYPE" Value="FINISHING"/>
+                    </Condition>
+                    <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="1910"/>
+                    <MfgParam Name="TOOL_SURFACE_SPEED" Unit="ft_per_min" Value="250"/>
+                    <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="4"/>
+                    <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_tooth" Value="0.001"/>
+                    <MfgParam Name="TOOL_AXIAL_DEPTH" Unit="in" Value="0.02"/>
+                    <MfgParam Name="TOOL_RADIAL_DEPTH" Unit="in" Value="0.02"/>
+                </Technology>
+            </ToolCutData>
+            <ToolCutData>
+                <Material>
+                    <MfgParam Name="STOCK_MATERIAL" Value="Copper"/>
+                </Material>
+                <CutDataUnitSystem>
+                    <MfgParam Name="CUT_DATA_UNITS" Value="ENGLISH"/>
+                </CutDataUnitSystem>
+                <Technology>
+                    <Condition>
+                        <MfgParam Name="APPLICATION_TYPE" Value="ROUGHING"/>
+                    </Condition>
+                    <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="1528"/>
+                    <MfgParam Name="TOOL_SURFACE_SPEED" Unit="ft_per_min" Value="200"/>
+                    <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="12"/>
+                    <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_tooth" Value="0.004"/>
+                    <MfgParam Name="TOOL_AXIAL_DEPTH" Unit="in" Value="0.5"/>
+                    <MfgParam Name="TOOL_RADIAL_DEPTH" Unit="in" Value="0.375"/>
+                </Technology>
+                <Technology>
+                    <Condition>
+                        <MfgParam Name="APPLICATION_TYPE" Value="FINISHING"/>
+                    </Condition>
+                    <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="1910"/>
+                    <MfgParam Name="TOOL_SURFACE_SPEED" Unit="ft_per_min" Value="250"/>
+                    <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="8"/>
+                    <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_tooth" Value="0.002"/>
+                    <MfgParam Name="TOOL_AXIAL_DEPTH" Unit="in" Value="0.02"/>
+                    <MfgParam Name="TOOL_RADIAL_DEPTH" Unit="in" Value="0.02"/>
+                </Technology>
+            </ToolCutData>
+            <ToolCutData>
+                <Material>
+                    <MfgParam Name="STOCK_MATERIAL" Value="Foam"/>
+                </Material>
+                <CutDataUnitSystem>
+                    <MfgParam Name="CUT_DATA_UNITS" Value="ENGLISH"/>
+                </CutDataUnitSystem>
+                <Technology>
+                    <Condition>
+                        <MfgParam Name="APPLICATION_TYPE" Value="ROUGHING"/>
+                    </Condition>
+                    <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="6111"/>
+                    <MfgParam Name="TOOL_SURFACE_SPEED" Unit="ft_per_min" Value="800"/>
+                    <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="98"/>
+                    <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_tooth" Value="0.008"/>
+                    <MfgParam Name="TOOL_AXIAL_DEPTH" Unit="in" Value="0.5"/>
+                    <MfgParam Name="TOOL_RADIAL_DEPTH" Unit="in" Value="0.375"/>
+                </Technology>
+                <Technology>
+                    <Condition>
+                        <MfgParam Name="APPLICATION_TYPE" Value="FINISHING"/>
+                    </Condition>
+                    <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="7640"/>
+                    <MfgParam Name="TOOL_SURFACE_SPEED" Unit="ft_per_min" Value="1000"/>
+                    <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="31"/>
+                    <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_tooth" Value="0.002"/>
+                    <MfgParam Name="TOOL_AXIAL_DEPTH" Unit="in" Value="0.02"/>
+                    <MfgParam Name="TOOL_RADIAL_DEPTH" Unit="in" Value="0.02"/>
+                </Technology>
+            </ToolCutData>
+            <ToolCutData>
+                <Material>
+                    <MfgParam Name="STOCK_MATERIAL" Value="Graphite"/>
+                </Material>
+                <CutDataUnitSystem>
+                    <MfgParam Name="CUT_DATA_UNITS" Value="ENGLISH"/>
+                </CutDataUnitSystem>
+                <Technology>
+                    <Condition>
+                        <MfgParam Name="APPLICATION_TYPE" Value="ROUGHING"/>
+                    </Condition>
+                    <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="1910"/>
+                    <MfgParam Name="TOOL_SURFACE_SPEED" Unit="ft_per_min" Value="250"/>
+                    <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="8"/>
+                    <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_tooth" Value="0.002"/>
+                    <MfgParam Name="TOOL_AXIAL_DEPTH" Unit="in" Value="0.25"/>
+                    <MfgParam Name="TOOL_RADIAL_DEPTH" Unit="in" Value="0.25"/>
+                </Technology>
+                <Technology>
+                    <Condition>
+                        <MfgParam Name="APPLICATION_TYPE" Value="FINISHING"/>
+                    </Condition>
+                    <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="2292"/>
+                    <MfgParam Name="TOOL_SURFACE_SPEED" Unit="ft_per_min" Value="300"/>
+                    <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="5"/>
+                    <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_tooth" Value="0.001"/>
+                    <MfgParam Name="TOOL_AXIAL_DEPTH" Unit="in" Value="0.02"/>
+                    <MfgParam Name="TOOL_RADIAL_DEPTH" Unit="in" Value="0.02"/>
+                </Technology>
+            </ToolCutData>
+            <ToolCutData>
+                <Material>
+                    <MfgParam Name="STOCK_MATERIAL" Value="Inconel"/>
+                </Material>
+                <CutDataUnitSystem>
+                    <MfgParam Name="CUT_DATA_UNITS" Value="ENGLISH"/>
+                </CutDataUnitSystem>
+                <Technology>
+                    <Condition>
+                        <MfgParam Name="APPLICATION_TYPE" Value="ROUGHING"/>
+                    </Condition>
+                    <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="191"/>
+                    <MfgParam Name="TOOL_SURFACE_SPEED" Unit="ft_per_min" Value="25"/>
+                    <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="1"/>
+                    <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_tooth" Value="0.002"/>
+                    <MfgParam Name="TOOL_AXIAL_DEPTH" Unit="in" Value="0.15"/>
+                    <MfgParam Name="TOOL_RADIAL_DEPTH" Unit="in" Value="0.1"/>
+                </Technology>
+                <Technology>
+                    <Condition>
+                        <MfgParam Name="APPLICATION_TYPE" Value="FINISHING"/>
+                    </Condition>
+                    <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="229"/>
+                    <MfgParam Name="TOOL_SURFACE_SPEED" Unit="ft_per_min" Value="30"/>
+                    <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="1"/>
+                    <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_tooth" Value="0.001"/>
+                    <MfgParam Name="TOOL_AXIAL_DEPTH" Unit="in" Value="0.02"/>
+                    <MfgParam Name="TOOL_RADIAL_DEPTH" Unit="in" Value="0.02"/>
+                </Technology>
+            </ToolCutData>
+            <ToolCutData>
+                <Material>
+                    <MfgParam Name="STOCK_MATERIAL" Value="Magnesium"/>
+                </Material>
+                <CutDataUnitSystem>
+                    <MfgParam Name="CUT_DATA_UNITS" Value="ENGLISH"/>
+                </CutDataUnitSystem>
+                <Technology>
+                    <Condition>
+                        <MfgParam Name="APPLICATION_TYPE" Value="ROUGHING"/>
+                    </Condition>
+                    <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="7500"/>
+                    <MfgParam Name="TOOL_SURFACE_SPEED" Unit="ft_per_min" Value="981.748"/>
+                    <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="90"/>
+                    <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_tooth" Value="0.006"/>
+                    <MfgParam Name="TOOL_AXIAL_DEPTH" Unit="in" Value="0.5"/>
+                    <MfgParam Name="TOOL_RADIAL_DEPTH" Unit="in" Value="0.375"/>
+                </Technology>
+                <Technology>
+                    <Condition>
+                        <MfgParam Name="APPLICATION_TYPE" Value="FINISHING"/>
+                    </Condition>
+                    <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="7500"/>
+                    <MfgParam Name="TOOL_SURFACE_SPEED" Unit="ft_per_min" Value="981.748"/>
+                    <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="30"/>
+                    <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_tooth" Value="0.002"/>
+                    <MfgParam Name="TOOL_AXIAL_DEPTH" Unit="in" Value="0.02"/>
+                    <MfgParam Name="TOOL_RADIAL_DEPTH" Unit="in" Value="0.02"/>
+                </Technology>
+            </ToolCutData>
+            <ToolCutData>
+                <Material>
+                    <MfgParam Name="STOCK_MATERIAL" Value="Monel"/>
+                </Material>
+                <CutDataUnitSystem>
+                    <MfgParam Name="CUT_DATA_UNITS" Value="ENGLISH"/>
+                </CutDataUnitSystem>
+                <Technology>
+                    <Condition>
+                        <MfgParam Name="APPLICATION_TYPE" Value="ROUGHING"/>
+                    </Condition>
+                    <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="306"/>
+                    <MfgParam Name="TOOL_SURFACE_SPEED" Unit="ft_per_min" Value="40"/>
+                    <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="2"/>
+                    <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_tooth" Value="0.003"/>
+                    <MfgParam Name="TOOL_AXIAL_DEPTH" Unit="in" Value="0.2"/>
+                    <MfgParam Name="TOOL_RADIAL_DEPTH" Unit="in" Value="0.15"/>
+                </Technology>
+                <Technology>
+                    <Condition>
+                        <MfgParam Name="APPLICATION_TYPE" Value="FINISHING"/>
+                    </Condition>
+                    <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="382"/>
+                    <MfgParam Name="TOOL_SURFACE_SPEED" Unit="ft_per_min" Value="50"/>
+                    <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="1"/>
+                    <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_tooth" Value="0.001"/>
+                    <MfgParam Name="TOOL_AXIAL_DEPTH" Unit="in" Value="0.02"/>
+                    <MfgParam Name="TOOL_RADIAL_DEPTH" Unit="in" Value="0.02"/>
+                </Technology>
+            </ToolCutData>
+            <ToolCutData>
+                <Material>
+                    <MfgParam Name="STOCK_MATERIAL" Value="Plastics"/>
+                </Material>
+                <CutDataUnitSystem>
+                    <MfgParam Name="CUT_DATA_UNITS" Value="ENGLISH"/>
+                </CutDataUnitSystem>
+                <Technology>
+                    <Condition>
+                        <MfgParam Name="APPLICATION_TYPE" Value="ROUGHING"/>
+                    </Condition>
+                    <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="2292"/>
+                    <MfgParam Name="TOOL_SURFACE_SPEED" Unit="ft_per_min" Value="300"/>
+                    <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="28"/>
+                    <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_tooth" Value="0.006"/>
+                    <MfgParam Name="TOOL_AXIAL_DEPTH" Unit="in" Value="0.5"/>
+                    <MfgParam Name="TOOL_RADIAL_DEPTH" Unit="in" Value="0.375"/>
+                </Technology>
+                <Technology>
+                    <Condition>
+                        <MfgParam Name="APPLICATION_TYPE" Value="FINISHING"/>
+                    </Condition>
+                    <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="3054"/>
+                    <MfgParam Name="TOOL_SURFACE_SPEED" Unit="ft_per_min" Value="400"/>
+                    <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="12"/>
+                    <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_tooth" Value="0.002"/>
+                    <MfgParam Name="TOOL_AXIAL_DEPTH" Unit="in" Value="0.02"/>
+                    <MfgParam Name="TOOL_RADIAL_DEPTH" Unit="in" Value="0.02"/>
+                </Technology>
+            </ToolCutData>
+            <ToolCutData>
+                <Material>
+                    <MfgParam Name="STOCK_MATERIAL" Value="Stainless_steel"/>
+                </Material>
+                <CutDataUnitSystem>
+                    <MfgParam Name="CUT_DATA_UNITS" Value="ENGLISH"/>
+                </CutDataUnitSystem>
+                <Technology>
+                    <Condition>
+                        <MfgParam Name="APPLICATION_TYPE" Value="ROUGHING"/>
+                    </Condition>
+                    <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="764"/>
+                    <MfgParam Name="TOOL_SURFACE_SPEED" Unit="ft_per_min" Value="100"/>
+                    <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="5"/>
+                    <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_tooth" Value="0.003"/>
+                    <MfgParam Name="TOOL_AXIAL_DEPTH" Unit="in" Value="0.35"/>
+                    <MfgParam Name="TOOL_RADIAL_DEPTH" Unit="in" Value="0.25"/>
+                </Technology>
+                <Technology>
+                    <Condition>
+                        <MfgParam Name="APPLICATION_TYPE" Value="FINISHING"/>
+                    </Condition>
+                    <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="916"/>
+                    <MfgParam Name="TOOL_SURFACE_SPEED" Unit="ft_per_min" Value="120"/>
+                    <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="2"/>
+                    <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_tooth" Value="0.001"/>
+                    <MfgParam Name="TOOL_AXIAL_DEPTH" Unit="in" Value="0.02"/>
+                    <MfgParam Name="TOOL_RADIAL_DEPTH" Unit="in" Value="0.02"/>
+                </Technology>
+            </ToolCutData>
+            <ToolCutData>
+                <Material>
+                    <MfgParam Name="STOCK_MATERIAL" Value="Steel"/>
+                </Material>
+                <CutDataUnitSystem>
+                    <MfgParam Name="CUT_DATA_UNITS" Value="ENGLISH"/>
+                </CutDataUnitSystem>
+                <Technology>
+                    <Condition>
+                        <MfgParam Name="APPLICATION_TYPE" Value="ROUGHING"/>
+                    </Condition>
+                    <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="764"/>
+                    <MfgParam Name="TOOL_SURFACE_SPEED" Unit="ft_per_min" Value="100"/>
+                    <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="5"/>
+                    <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_tooth" Value="0.003"/>
+                    <MfgParam Name="TOOL_AXIAL_DEPTH" Unit="in" Value="0.35"/>
+                    <MfgParam Name="TOOL_RADIAL_DEPTH" Unit="in" Value="0.25"/>
+                </Technology>
+                <Technology>
+                    <Condition>
+                        <MfgParam Name="APPLICATION_TYPE" Value="FINISHING"/>
+                    </Condition>
+                    <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="916"/>
+                    <MfgParam Name="TOOL_SURFACE_SPEED" Unit="ft_per_min" Value="120"/>
+                    <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="2"/>
+                    <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_tooth" Value="0.001"/>
+                    <MfgParam Name="TOOL_AXIAL_DEPTH" Unit="in" Value="0.02"/>
+                    <MfgParam Name="TOOL_RADIAL_DEPTH" Unit="in" Value="0.02"/>
+                </Technology>
+            </ToolCutData>
+            <ToolCutData>
+                <Material>
+                    <MfgParam Name="STOCK_MATERIAL" Value="Titanium"/>
+                </Material>
+                <CutDataUnitSystem>
+                    <MfgParam Name="CUT_DATA_UNITS" Value="ENGLISH"/>
+                </CutDataUnitSystem>
+                <Technology>
+                    <Condition>
+                        <MfgParam Name="APPLICATION_TYPE" Value="ROUGHING"/>
+                    </Condition>
+                    <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="306"/>
+                    <MfgParam Name="TOOL_SURFACE_SPEED" Unit="ft_per_min" Value="40"/>
+                    <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="2"/>
+                    <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_tooth" Value="0.003"/>
+                    <MfgParam Name="TOOL_AXIAL_DEPTH" Unit="in" Value="0.2"/>
+                    <MfgParam Name="TOOL_RADIAL_DEPTH" Unit="in" Value="0.15"/>
+                </Technology>
+                <Technology>
+                    <Condition>
+                        <MfgParam Name="APPLICATION_TYPE" Value="FINISHING"/>
+                    </Condition>
+                    <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="382"/>
+                    <MfgParam Name="TOOL_SURFACE_SPEED" Unit="ft_per_min" Value="50"/>
+                    <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="1"/>
+                    <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_tooth" Value="0.001"/>
+                    <MfgParam Name="TOOL_AXIAL_DEPTH" Unit="in" Value="0.02"/>
+                    <MfgParam Name="TOOL_RADIAL_DEPTH" Unit="in" Value="0.02"/>
+                </Technology>
+            </ToolCutData>
+            <ToolCutData>
+                <Material>
+                    <MfgParam Name="STOCK_MATERIAL" Value="Tool_steels"/>
+                </Material>
+                <CutDataUnitSystem>
+                    <MfgParam Name="CUT_DATA_UNITS" Value="ENGLISH"/>
+                </CutDataUnitSystem>
+                <Technology>
+                    <Condition>
+                        <MfgParam Name="APPLICATION_TYPE" Value="ROUGHING"/>
+                    </Condition>
+                    <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="611"/>
+                    <MfgParam Name="TOOL_SURFACE_SPEED" Unit="ft_per_min" Value="80"/>
+                    <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="4"/>
+                    <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_tooth" Value="0.003"/>
+                    <MfgParam Name="TOOL_AXIAL_DEPTH" Unit="in" Value="0.3"/>
+                    <MfgParam Name="TOOL_RADIAL_DEPTH" Unit="in" Value="0.2"/>
+                </Technology>
+                <Technology>
+                    <Condition>
+                        <MfgParam Name="APPLICATION_TYPE" Value="FINISHING"/>
+                    </Condition>
+                    <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="764"/>
+                    <MfgParam Name="TOOL_SURFACE_SPEED" Unit="ft_per_min" Value="100"/>
+                    <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="2"/>
+                    <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_tooth" Value="0.001"/>
+                    <MfgParam Name="TOOL_AXIAL_DEPTH" Unit="in" Value="0.02"/>
+                    <MfgParam Name="TOOL_RADIAL_DEPTH" Unit="in" Value="0.02"/>
+                </Technology>
+            </ToolCutData>
+            <ToolCutData>
+                <Material>
+                    <MfgParam Name="STOCK_MATERIAL" Value="Wood"/>
+                </Material>
+                <CutDataUnitSystem>
+                    <MfgParam Name="CUT_DATA_UNITS" Value="ENGLISH"/>
+                </CutDataUnitSystem>
+                <Technology>
+                    <Condition>
+                        <MfgParam Name="APPLICATION_TYPE" Value="ROUGHING"/>
+                    </Condition>
+                    <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="3054"/>
+                    <MfgParam Name="TOOL_SURFACE_SPEED" Unit="ft_per_min" Value="400"/>
+                    <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="37"/>
+                    <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_tooth" Value="0.006"/>
+                    <MfgParam Name="TOOL_AXIAL_DEPTH" Unit="in" Value="0.5"/>
+                    <MfgParam Name="TOOL_RADIAL_DEPTH" Unit="in" Value="0.375"/>
+                </Technology>
+                <Technology>
+                    <Condition>
+                        <MfgParam Name="APPLICATION_TYPE" Value="FINISHING"/>
+                    </Condition>
+                    <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="3820"/>
+                    <MfgParam Name="TOOL_SURFACE_SPEED" Unit="ft_per_min" Value="500"/>
+                    <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="15"/>
+                    <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_tooth" Value="0.002"/>
+                    <MfgParam Name="TOOL_AXIAL_DEPTH" Unit="in" Value="0.02"/>
+                    <MfgParam Name="TOOL_RADIAL_DEPTH" Unit="in" Value="0.02"/>
+                </Technology>
+            </ToolCutData>
+            <ToolCutData>
+                <Material>
                     <MfgParam Name="STOCK_MATERIAL" Value="Unspecified"/>
                 </Material>
                 <CutDataUnitSystem>
