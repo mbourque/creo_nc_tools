@@ -2,6 +2,8 @@
 
 This repository contains cutting tool definitions for Creo Parametric 12. All tools are stored as XML files using the standard PRO_NC_CUTTING_TOOL_SETUP format. The library includes solid tools and parameter driven tools.
 
+Each file contains cutter diameter, flute length, overall length, tool material, and the standard Creo NC tool parameters.
+
 # Creo Version
 
 - Creo Parametric 12  
@@ -10,78 +12,31 @@ This repository contains cutting tool definitions for Creo Parametric 12. All to
 
 # Tool Types Included
 
-## Flat Endmills (EM Series)
+Back Spot Facings, Ball Endmills, Barrel Lens Mills, Barrel Taper Mills, Barrel Tangent Mills, Basic Drills, Boring Bars, Center Drills, Chamfer Mills, Corner Round Mills, Countersinks, Drills, Endmills, Engraving Tools, Facemills, Groove Mills, Grooving Tools, Key Mills, Lollipop Mills, Mill Tools, Mills, Multi Tips, Plunge Mills, Reamers, Side Mills, Sketched Tools, Slitting Saws, Spot Drills, Taper Ball Endmills, Taper Endmills, Taps, Thread Mills, Turning Tools, Wire EDMs
 
-Standard inch sizes:
-EM062  
-EM125  
-EM250  
-EM375  
-EM500  
-EM625  
-EM750  
-EM1000
-
-Each file contains cutter diameter, flute length, overall length, tool material, and the standard Creo NC tool parameters.
-
-## Ball Endmills (BEM Series)
-
-Ball endmills in matching sizes:
-BEM062  
-BEM125  
-BEM250  
-BEM375  
-BEM500  
-BEM625  
-BEM750  
-BEM1000
-
-Each file defines diameter, flute length, overall length, and Creo NC parameters.
-
-## Drills
-
-Includes fractional drills, number drills, letter drills, and tap drills.  
-Each file contains diameter, overall length, point angle, and tap drill information where needed.
-
-## Reamers
-
-Fractional reamers up to 1/2 inch.  
-Includes nominal reamers, undersized reamers, and oversized reamers.  
-Files include decimal size, flute length, and overall length.
-
-## Countersinks
-
-Includes 82 degree and 90 degree countersinks.  
-Each file includes cutting diameter, angle, shank size, and overall length.
-
-# Solid Tools
-
-Solid tools use Creo part geometry.  
-These tools support simulation, collision detection, and tool visualization.  
-XML files reference the matching .prt tool model when required.
-
-# Parameter Driven Tools
-
-Parameter driven tools contain all tool information in the XML file.  
-No solid geometry is required.  
-
-Common parameters include:
-CUTTER_DIAM  
-FLUTE_LENGTH  
-LENGTH  
-POINT_ANGLE  
-TOOL_MATERIAL  
-SPINDLE_SENSE  
-HOLDER_DIA  
-HOLDER_LEN
-
-# Folder Structure
+# Example Folder Structure
 
 tools/inch/endmills  
 tools/inch/ball_endmills  
 tools/inch/drills  
 tools/metric/reamers  
 tools/metric/countersinks
+
+# Naming Conventions
+
+**Pattern:** *Prefix* (tool type) + *Size/parameters*
+
+- **Inch:** Size in **thousandths** (no decimal) — e.g. 500 = 0.5″Ø, 6000 = 6″Ø, 125 = 0.125″Ø
+- **Metric:** Size in **mm** — e.g. 25 = 25mmØ, 4 = 4mmØ
+- **Angle tools (metric):** *Diameter*x*angle* — e.g. `CH6x45` = 6mmØ 45°; `CSINK16x60` = 16mmØ 60°
+
+**Examples:** `EM500` = 1/2″Ø Endmill; `FM6000` = 6″Ø Facemill; `EM25` = 25mmØ Endmill; `CH6x45` = 6mmØ 45° Chamfer. Drills: inch fraction = `DRILL_1_64` = 1/64″Ø Drill; decimal = `DRILL_0320` = .320Ø Drill; letter = `DRILL_F` = F Drill; metric tap = `DRILL_M16x2_0` = M16-2 Tap Drill. Taps = `TAP_1_4_20` = 1/4″-20 Tap. Reamers: nominal = `REAM500` = 1/2"Ø Reamer; undersized = `REAM_690` = .690mmØ Reamer
+
+# Solid Tools
+
+Solid tools use Creo part geometry.  
+These tools support simulation, collision detection, and tool visualization.  
+XML files reference the matching .prt tool model when required.
 
 # Usage
 
