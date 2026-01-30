@@ -28,10 +28,10 @@
             <MfgParam Name="FLUTE_LENGTH" Value="-"/>
             <MfgParam Name="CONVEX_TIP_RADIUS" Value="3"/>
             <MfgParam Name="ADAPTER_OFFSET_FROM_TOOL" Value="0"/>
-            <MfgParam Name="TOOL_COMMENT" Value="-"/>
+            <MfgParam Name="TOOL_COMMENT" Value="1&quot; Barrel Lens Mill"/>
             <ToolSetUpOnWorkcell>
                 <OffsetDataCollection>
-                    <OffsetData Comment="" OffsetZ="0.000000" Register="-1" Tip="1"/>
+                    <OffsetData Comment="1&quot; Barrel Lens Mill" OffsetZ="0.000000" Register="-1" Tip="1"/>
                 </OffsetDataCollection>
             </ToolSetUpOnWorkcell>
         </Tool>

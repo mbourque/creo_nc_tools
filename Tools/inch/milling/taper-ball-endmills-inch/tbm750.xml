@@ -29,10 +29,12 @@
             <MfgParam Name="COOLANT_PRESSURE" Value="NONE"/>
             <MfgParam Name="SPINDLE_SENSE" Value="CW"/>
             <MfgParam Name="ADAPTER_OFFSET_FROM_TOOL" Value="0"/>
-            <MfgParam Name="TOOL_COMMENT" Value="-"/>
+            <MfgParam Name="TOOL_COMMENT" Value="3/4&quot; Taper Ball Mill"/>
+   33              <ToolSetUpOnWorkcell>"/>
             <ToolSetUpOnWorkcell>
                 <OffsetDataCollection>
-                    <OffsetData Comment="" OffsetZ="0.000000" Register="-1" Tip="1"/>
+                    <OffsetData Comment="3/4&quot; Taper Ball Mill"/>
+   33              <ToolSetUpOnWorkcell>" OffsetZ="0.000000" Register="-1" Tip="1"/>
                 </OffsetDataCollection>
             </ToolSetUpOnWorkcell>
         </Tool>

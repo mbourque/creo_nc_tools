@@ -31,10 +31,10 @@
             <MfgParam Name="PROFILE_RADIUS" Value="8"/>
             <MfgParam Name="UPPER_RADIUS" Value="-"/>
             <MfgParam Name="ADAPTER_OFFSET_FROM_TOOL" Value="0"/>
-            <MfgParam Name="TOOL_COMMENT" Value="-"/>
+            <MfgParam Name="TOOL_COMMENT" Value="1/2&quot; Barrel Taper Mill"/>
             <ToolSetUpOnWorkcell>
                 <OffsetDataCollection>
-                    <OffsetData Comment="" OffsetZ="0.000000" Register="-1" Tip="1"/>
+                    <OffsetData Comment="1/2&quot; Barrel Taper Mill" OffsetZ="0.000000" Register="-1" Tip="1"/>
                 </OffsetDataCollection>
             </ToolSetUpOnWorkcell>
         </Tool>
