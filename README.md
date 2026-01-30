@@ -89,6 +89,11 @@ tools/metric/countersinks
 - Set an environment variable "nc_tools_path" to where you stored these files.  
 - Add a config option to point to the search.pro located in the library:  
     - search_path_file C:\PTC\Local Cad\nc\search.pro  
+- To aid loading of parameter tools, add a config option that sets the directory for the manufacturing tool files: 
+    - pro_mf_tprm_dir C:\PTC\Local Cad\NC\Tools
+- For Speeds and Feeds to populate, add the config option for tool parameters that are to be copied from the tool definition to the NC sequence:
+    - mfg_param_auto_copy_from_tool all
+    - Note: Creo NC uses the roughing condition for ROUGHING, RE-ROUGHING, VOLUME MILLING and LOCAL MILLING and the finishing conditions for all other toolpaths.
 - Load tools through Manufacturing mode or individual NC sequences.  
 - Creo will read parameter driven tools automatically.  
 - Solid tools will load with their referenced geometry.
