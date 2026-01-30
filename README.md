@@ -32,17 +32,17 @@ tools/metric/countersinks
 
 **Examples:** 
 
-`EM500` = 1/2″Ø Endmill 
-`FM6000` = 6″Ø Facemill 
-`EM25` = 25mmØ Endmill 
-`CH6x45` = 6mmØ x 45° Chamfer Tool 
-`DRILL_1_64` = 1/64″Ø Drill 
-`DRILL_0320` = .320Ø Drill 
-`DRILL_F` = F Drill
-`DRILL_M16x2_0` = M16-2 Tap Drill 
-`TAP_1_4_20` = 1/4″-20 Tap 
-`REAM500` = 1/2"Ø Reamer 
-`REAM_690` = .690mmØ Reamer
+- `EM500` = 1/2″Ø Endmill 
+- `FM6000` = 6″Ø Facemill 
+- `EM25` = 25mmØ Endmill 
+- `CH6x45` = 6mmØ x 45° Chamfer Tool 
+- `DRILL_1_64` = 1/64″Ø Drill 
+- `DRILL_0320` = .320Ø Drill 
+- `DRILL_F` = F Drill
+- `DRILL_M16x2_0` = M16-2 Tap Drill 
+- `TAP_1_4_20` = 1/4″-20 Tap 
+- `REAM500` = 1/2"Ø Reamer 
+- `REAM_690` = .690mmØ Reamer
 
 # Solid Tools
 
