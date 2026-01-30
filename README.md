@@ -28,7 +28,7 @@ tools/metric/countersinks
 
 - **Inch:** Size in **thousandths** (no decimal) — e.g. 500 = 0.5″Ø, 6000 = 6″Ø, 125 = 0.125″Ø
 - **Metric:** Size in **mm** — e.g. 25 = 25mmØ, 4 = 4mmØ
-- **Angle tools (metric):** *Diameter*x*angle* — e.g. `CH6x45` = 6mmØ 45°; `CSINK16x60` = 16mmØ 60°
+- **Angle tools (metric):** *Diameter x angle* — e.g. `CH6x45` = 6mmØ 45°; `CSINK16x60` = 16mmØ 60°
 
 **Examples:** 
 
