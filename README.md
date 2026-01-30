@@ -30,7 +30,19 @@ tools/metric/countersinks
 - **Metric:** Size in **mm** — e.g. 25 = 25mmØ, 4 = 4mmØ
 - **Angle tools (metric):** *Diameter*x*angle* — e.g. `CH6x45` = 6mmØ 45°; `CSINK16x60` = 16mmØ 60°
 
-**Examples:** `EM500` = 1/2″Ø Endmill; `FM6000` = 6″Ø Facemill; `EM25` = 25mmØ Endmill; `CH6x45` = 6mmØ 45° Chamfer. Drills: inch fraction = `DRILL_1_64` = 1/64″Ø Drill; decimal = `DRILL_0320` = .320Ø Drill; letter = `DRILL_F` = F Drill; metric tap = `DRILL_M16x2_0` = M16-2 Tap Drill. Taps = `TAP_1_4_20` = 1/4″-20 Tap. Reamers: nominal = `REAM500` = 1/2"Ø Reamer; undersized = `REAM_690` = .690mmØ Reamer
+**Examples:** 
+
+`EM500` = 1/2″Ø Endmill 
+`FM6000` = 6″Ø Facemill 
+`EM25` = 25mmØ Endmill 
+`CH6x45` = 6mmØ x 45° Chamfer Tool 
+`DRILL_1_64` = 1/64″Ø Drill 
+`DRILL_0320` = .320Ø Drill 
+`DRILL_F` = F Drill
+`DRILL_M16x2_0` = M16-2 Tap Drill 
+`TAP_1_4_20` = 1/4″-20 Tap 
+`REAM500` = 1/2"Ø Reamer 
+`REAM_690` = .690mmØ Reamer
 
 # Solid Tools
 
