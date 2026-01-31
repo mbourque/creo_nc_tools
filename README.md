@@ -32,9 +32,9 @@ tools/metric/countersinks
 
 **Pattern:** *Prefix* (tool type) + *Size/parameters*
 
-- **Inch:** Size in **thousandths** (no decimal) — e.g. 500 = Ø0.5″, 6000 = Ø6″, 125 = Ø0.125″
-- **Metric:** Size in **mm** — e.g. 25 = Ø25mm, 4 = Ø4mm
-- **Angle tools (metric):** *Diameter x angle* — e.g. `CH6x45` = Ø6mm 45°; `CSINK16x60` = Ø16mm 60°
+- **Inch:** Size in **thousandths** (no decimal) — e.g. em500 = Ø0.5″ Endmill, FM6000 = Ø6″ Facemill, DRILL_125 = Ø0.125″ Drill
+- **Metric:** Size in **mm** — e.g. EM25 = Ø25mm Endmill, BEM4 = Ø4mm Ball Endmill
+- **Angle tools (metric):** *Diameter x angle* — e.g. `CH6x45` = Ø6mm x 45° Chamfer Tool; `CSINK16x60` = Ø16mm x 60° Countersink Tool
 
 **Examples:** 
 
