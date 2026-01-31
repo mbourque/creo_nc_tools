@@ -33,7 +33,7 @@ The following guidelines define the required standards for creating and managing
   - Use intent edges as much as possible 
   - Create parameters for cutter_diam and length and use rekations to drive geometry. This allows the tool to adjust from editing the tool through cutting tools dialog display. 
   - Do not use subassemblies for solid tools, they wont simulate properly.
-  - Do not use multibody, or if you need you cam merge all bodies into one single body.  
+  - Do not use multibody, or if you need you can merge all bodies into one single body.  
 
 - Appearance:
   - Use steel or gold for coated tools.
