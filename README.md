@@ -14,6 +14,12 @@ Each file contains cutter diameter, flute length, overall length, tool material,
 
 Back Spot Facings, Ball Endmills, Barrel Lens Mills, Barrel Taper Mills, Barrel Tangent Mills, Basic Drills, Boring Bars, Center Drills, Chamfer Mills, Corner Round Mills, Countersinks, Drills, Endmills, Engraving Tools, Facemills, Groove Mills, Grooving Tools, Key Mills, Lollipop Mills, Mill Tools, Mills, Multi Tips, Plunge Mills, Reamers, Side Mills, Sketched Tools, Slitting Saws, Spot Drills, Taper Ball Endmills, Taper Endmills, Taps, Thread Mills, Turning Tools, Wire EDMs
 
+# Workpiece materials
+
+These materials can be assinged at the operation level and for each tool to calcuate speeds and feeds.
+
+Aluminum, Brass, Bronze, Cast iron, Composites, Copper, Foam, Graphite, Inconel, Magnesium, Monel, Plastics, Stainless_steel, Steel, Titanium, Tool_steels, Wood
+
 # Example Folder Structure
 
 tools/inch/endmills  
