@@ -3,7 +3,7 @@
 The following guidelines define the required standards for creating and managing Creo models, tools, fixtures, and assemblies. They ensure consistency, stability, and clear organization across the entire library, supporting reliable manufacturing, simulation, and reuse. All contributors should follow these instructions as the authoritative reference for building and maintaining CAD content.
 
 - Wherever possible, make assemblies as inseparable assemblies.
-- Don’t include spaces in file names; use dashes instead.
+- Don’t include spaces in file names; use underscores instead.
 
 - Follow naming conventions:
   - Endmills: EM1000 = 1 inch endmill
@@ -14,22 +14,22 @@ The following guidelines define the required standards for creating and managing
     - 1/8" Drill
     - C Drill
     - 1/2" Bull Nose Mill .03 Radius
-    - 25 mm Endmill
+    - 25mm Endmill
 
-- For tools, assign parameters:
+- For parameter xml tools, assign parameters:
   - CUTTER_DIAM
   - FLUTE_LENGTH
   - NUM_OF_TEETH
   - TOOL_MATERIAL
   - TOOL_COMMENT
-  - Speeds and feeds using AXIAL_DEPTH and RADIAL_DEPTH when possible
+  - Speeds and feeds using MATERIAL, ROUGHING, FINISHING, AXIAL_DEPTH and RADIAL_DEPTH when possible
 
 - For solid tools:
   - Create a coordinate system named `tip` at the end of the tool, Z pointing upward into the tool.
   - Create a coordinate system named `shank` at the top of the tool shank, aligned with `tip`.
   - Suppress flute geometry and use family tables to control flute count.
   - For lathe tools, place the `tip` csys at the center of the tool nose radius.
-  - Assign proper materials (carbide, high-speed steel, etc.).
+  - Assign proper materials (carbide, hss, etc.).
   - Use intent edges as much as possible 
   - Create parameters for cutter_diam and length and use rekations to drive geometry. This allows the tool to adjust from editing the tool through cutting tools dialog display. 
   - Do not use subassemblies for solid tools, they wont simulate properly.
@@ -42,6 +42,7 @@ The following guidelines define the required standards for creating and managing
   - Always save the display before saving.
 
 - Flexibility and adjustability:
+  - Use inseparable assemblies always. 
   - For fixtures or components with adjustable openings, add a flexible component parameter or dimension.
   - For imported parts, clean up geometry, reassemble for variability, rename to conventions, and add flexibility if needed.
 
@@ -56,7 +57,7 @@ The following guidelines define the required standards for creating and managing
   - If creating new folders, add their paths to `search.pro`.
 
 - Workflow organization:
-  - Group tools into machine activity categories: milling, drilling, turning, etc.
+  - Group tools into machine activity categories: milling, drilling, turning, wire edm, etc.
   - After making an assembly inseparable, remove unnecessary parts.
 
 - Modeling cautions:
