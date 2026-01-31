@@ -55,7 +55,7 @@ The following guidelines define the required standards for creating and managing
   - For parameter XML tools, avoid including holder diameter or holder length.
   - Separate inch and metric tools into existing folders.
   - If creating new folders, add their paths to `search.pro`.
-
+  - always include an empty file names .gitkeep so that github will save the folder properly. 
 - Workflow organization:
   - Group tools into machine activity categories: milling, drilling, turning, wire edm, etc.
   - After making an assembly inseparable, remove unnecessary parts.
