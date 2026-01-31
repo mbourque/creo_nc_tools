@@ -18,7 +18,7 @@ Back Spot Facings, Ball Endmills, Barrel Lens Mills, Barrel Taper Mills, Barrel 
 
 These materials can be assinged at the operation level and for each tool to calcuate speeds and feeds.
 
-Aluminum, Brass, Bronze, Cast iron, Composites, Copper, Foam, Graphite, Inconel, Magnesium, Monel, Plastics, Stainless_steel, Steel, Titanium, Tool_steels, Wood
+Aluminum, Brass, Bronze, Cast iron, Composites, Copper, Foam, Graphite, Inconel, Magnesium, Monel, Plastics, Stainless steel, Steel, Titanium, Tool steels, Wood
 
 # Example Folder Structure
 
@@ -32,23 +32,23 @@ tools/metric/countersinks
 
 **Pattern:** *Prefix* (tool type) + *Size/parameters*
 
-- **Inch:** Size in **thousandths** (no decimal) — e.g. 500 = 0.5″Ø, 6000 = 6″Ø, 125 = 0.125″Ø
-- **Metric:** Size in **mm** — e.g. 25 = 25mmØ, 4 = 4mmØ
-- **Angle tools (metric):** *Diameter x angle* — e.g. `CH6x45` = 6mmØ 45°; `CSINK16x60` = 16mmØ 60°
+- **Inch:** Size in **thousandths** (no decimal) — e.g. 500 = Ø0.5″, 6000 = Ø6″, 125 = Ø0.125″
+- **Metric:** Size in **mm** — e.g. 25 = Ø25mm, 4 = Ø4mm
+- **Angle tools (metric):** *Diameter x angle* — e.g. `CH6x45` = Ø6mm 45°; `CSINK16x60` = Ø16mm 60°
 
 **Examples:** 
 
-- `EM500` = 1/2″Ø Endmill 
-- `FM6000` = 6″Ø Facemill 
-- `EM25` = 25mmØ Endmill 
-- `CH6x45` = 6mmØ x 45° Chamfer Tool 
-- `DRILL_1_64` = 1/64″Ø Drill 
-- `DRILL_0320` = .320"Ø Drill 
+- `EM500` = Ø1/2″ Endmill 
+- `FM6000` = Ø6″ Facemill 
+- `EM25` = Ø25mm Endmill 
+- `CH6x45` = Ø6mm x 45° Chamfer Tool 
+- `DRILL_1_64` = Ø1/64″ Drill 
+- `DRILL_0320` = Ø.320" Drill 
 - `DRILL_F` = #F Drill
 - `DRILL_M16x2_0` = M16-2 Tap Drill 
 - `TAP_1_4_20` = 1/4″-20 Tap 
-- `REAM500` = 1/2"Ø Reamer 
-- `REAM_690` = .690mmØ Reamer
+- `REAM500` = Ø1/2" Reamer 
+- `REAM_690` = Ø.690mm Reamer
 
 # Solid Tools
 
