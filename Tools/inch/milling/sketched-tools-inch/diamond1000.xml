@@ -16,13 +16,13 @@
             <MfgParam Name="GAUGE_X_LENGTH" Value="-"/>
             <MfgParam Name="GAUGE_Y_LENGTH" Value="-"/>
             <MfgParam Name="GAUGE_Z_LENGTH" Value="-"/>
-            <MfgParam Name="TOOL_COMMENT" Value="-"/>
             <MfgParam Name="SPINDLE_SENSE" Value="CW"/>
             <MfgParam Name="COOLANT_OPTION" Value="OFF"/>
             <MfgParam Name="COOLANT_PRESSURE" Value="NONE"/>
+            <MfgParam Name="TOOL_COMMENT" Value="1&quot; Diamond Tool"/>
             <ToolSetUpOnWorkcell>
                 <OffsetDataCollection>
-                    <OffsetData Comment="" OffsetZ="0.000000" Register="-1" Tip="1"/>
+                    <OffsetData Comment="1&quot; Diamond Tool" OffsetZ="0.000000" Register="-1" Tip="1"/>
                 </OffsetDataCollection>
             </ToolSetUpOnWorkcell>
         </Tool>
