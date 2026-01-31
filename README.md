@@ -56,13 +56,21 @@ Solid tools use Creo part geometry.
 These tools support simulation, collision detection, and tool visualization.  
 XML files reference the matching .prt tool model when required.
 
+# Fixtures
+
+The following fixtures are also available for use in adding fixtures to replicate machining setup:
+
+123-blocks, Angle-irons, Centers, Chucks, Clamps, Knobs, Parallels, Plates, Vblocks, Vises, as well as Fastener hardware.
+
 # Usage
 
 - Copy the files into a Creo library folder.  
-- Set an environment variable "nc_tools_path" to where you stored these files.  
-- Add a config option to point to the search.pro located in the library:  
+- Set an environment variable "nc_tools_path" to where you stored these files.
+- Add a config.pro option to point to the library:
+    - **pro_library_dir C:\PTC\Local Cad\NC**  
+- Add a config.pro option to point to the search.pro located in the library:  
     - **search_path_file C:\PTC\Local Cad\nc\search.pro**  
-- To aid loading of parameter tools, add a config option that sets the directory for the manufacturing tool files: 
+- To aid loading of parameter tools, add a config.pro option that sets the directory for the manufacturing tool files: 
     - **pro_mf_tprm_dir C:\PTC\Local Cad\NC\Tools**
 - For Speeds and Feeds to populate, add the config option for tool parameters that are to be copied from the tool definition to the NC sequence:
     - **mfg_param_auto_copy_from_tool all**
