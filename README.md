@@ -12,6 +12,8 @@ Each file contains cutter diameter, flute length, overall length, tool material,
 
 # Tool Types Included
 
+Tools are in folders according to their machining type. e.g. Drilling, Milling, Turning, and Wire EDM:
+
 Back Spot Facings, Ball Endmills, Barrel Lens Mills, Barrel Taper Mills, Barrel Tangent Mills, Basic Drills, Boring Bars, Center Drills, Chamfer Mills, Corner Round Mills, Countersinks, Drills, Endmills, Engraving Tools, Facemills, Groove Mills, Grooving Tools, Key Mills, Lollipop Mills, Mill Tools, Mills, Multi Tips, Plunge Mills, Reamers, Side Mills, Sketched Tools, Slitting Saws, Spot Drills, Taper Ball Endmills, Taper Endmills, Taps, Thread Mills, Turning Tools, Wire EDMs
 
 # Workpiece materials
@@ -52,9 +54,9 @@ tools/metric/countersinks
 
 # Solid Tools
 
-Solid tools use Creo part geometry.  
-These tools support simulation, collision detection, and tool visualization.  
-XML files reference the matching .prt tool model when required.
+Solid tools use Creo part geometry.  These tools support simulation, collision detection, and tool visualization. XML files reference the matching .prt tool model when required.
+
+They are in a seperate folder named Solid Tools
 
 # Fixtures
 
@@ -65,7 +67,9 @@ The following fixtures are also available for use in adding fixtures to replicat
 # Usage
 
 - Copy the files into a Creo library folder.  
+    - **C:\PTC\Local Cad\NC**  
 - Set an environment variable "nc_tools_path" to where you stored these files.
+    - **nc_tools_path C:\PTC\Local Cad\NC**  
 - Add a config.pro option to point to the library:
     - **pro_library_dir C:\PTC\Local Cad\NC**  
 - Add a config.pro option to point to the search.pro located in the library:  
