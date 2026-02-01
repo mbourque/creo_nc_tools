@@ -1,14 +1,13 @@
-# Creo 12 Cutting Tool Library
+# Creo Cutting Tool Library
 
-This repository contains cutting tool definitions for Creo Parametric 12. All tools are stored as XML files using the standard PRO_NC_CUTTING_TOOL_SETUP format. The library includes solid tools and parameter driven tools.
+This repository contains cutting tool definitions for Creo Parametric NC. Tools are stored as XML parameter files using the standard format. The library also includes solid tools.
 
 Each file contains cutter diameter, flute length, overall length, tool material, and the standard Creo NC tool parameters.
 
 # Creo Version
 
-- Creo Parametric 12  
-- Tested with version 12.4.x  
-- XML files follow the Creo manufacturing tool definition format
+- Creo Parametric 12 and above. 
+- XML files follow the Creo manufacturing tool definition format.
 
 # Tool Types Included
 
