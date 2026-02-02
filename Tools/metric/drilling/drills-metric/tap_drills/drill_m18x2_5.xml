@@ -10,7 +10,7 @@
             <Attr DataType="boolean" Name="ProLibraryTool" Value="false"/>
             <Attr DataType="boolean" Name="SketchTool" Value="false"/>
             <Attr DataType="boolean" Name="ToolByRef" Value="false"/>
-            <MfgParam Name="LENGTH_UNITS" Value="MM"/>
+            <MfgParam Name="LENGTH_UNITS" Value="MILLIMETER"/>
             <MfgParam Name="CUTTER_DIAM" Value="15.5"/>
             <MfgParam Name="POINT_ANGLE" Value="118"/>
             <MfgParam Name="LENGTH" Value="174"/>
@@ -18,7 +18,7 @@
             <MfgParam Name="GAUGE_X_LENGTH" Value="-"/>
             <MfgParam Name="GAUGE_Y_LENGTH" Value="-"/>
             <MfgParam Name="GAUGE_Z_LENGTH" Value="-"/>
-            <MfgParam Name="POINT_DIAMETER" Value="-"/>
+            <MfgParam Name="POINT_DIAMETER" Value="2.325"/>
             <MfgParam Name="TIP_OFFSET" Value="-"/>
             <MfgParam Name="TOOL_LONG_FLAG" Value="NO"/>
             <MfgParam Name="HOLDER_DIA" Value="-"/>
