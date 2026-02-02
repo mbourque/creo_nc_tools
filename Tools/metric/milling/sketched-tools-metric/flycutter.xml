@@ -12,7 +12,7 @@
             <Attr DataType="boolean" Name="ToolByRef" Value="false"/>
             <MfgParam Name="CUTTER_DIAM" Value="75"/>
             <MfgParam Name="LENGTH" Value="12.5"/>
-            <MfgParam Name="LENGTH_UNITS" Value="MM"/>
+            <MfgParam Name="LENGTH_UNITS" Value="MILLIMETER"/>
             <MfgParam Name="SECTION" Value="FLYCUTTER"/>
             <MfgParam Name="TOOL_MATERIAL" Value="CARBIDE"/>
             <MfgParam Name="GAUGE_X_LENGTH" Value="-"/>
