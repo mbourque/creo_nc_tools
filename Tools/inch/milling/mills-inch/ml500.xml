@@ -29,10 +29,10 @@
             <MfgParam Name="SPINDLE_SENSE" Value="CW"/>
             <MfgParam Name="FLUTE_LENGTH" Value="1.25"/>
             <MfgParam Name="ADAPTER_OFFSET_FROM_TOOL" Value="0"/>
-            <MfgParam Name="TOOL_COMMENT" Value="1/2 MILL"/>
+            <MfgParam Name="TOOL_COMMENT" Value="1/2&quot; MILL"/>
             <ToolSetUpOnWorkcell>
                 <OffsetDataCollection>
-                    <OffsetData Comment="1/2 Mill" OffsetZ="0.000000" Register="-1" Tip="1"/>
+                    <OffsetData Comment="1/2&quot; Mill" OffsetZ="0.000000" Register="-1" Tip="1"/>
                 </OffsetDataCollection>
             </ToolSetUpOnWorkcell>
         </Tool>

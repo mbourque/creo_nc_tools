@@ -24,10 +24,10 @@
             <MfgParam Name="COOLANT_PRESSURE" Value="NONE"/>
             <MfgParam Name="SPINDLE_SENSE" Value="CW"/>
             <MfgParam Name="ADAPTER_OFFSET_FROM_TOOL" Value="0"/>
-            <MfgParam Name="TOOL_COMMENT" Value="1 BORING BAR"/>
+            <MfgParam Name="TOOL_COMMENT" Value="1&quot; BORING BAR"/>
             <ToolSetUpOnWorkcell>
                 <OffsetDataCollection>
-                    <OffsetData Comment="1 Boring Bar" OffsetZ="0.000000" Register="-1" Tip="1"/>
+                    <OffsetData Comment="1&quot; Boring Bar" OffsetZ="0.000000" Register="-1" Tip="1"/>
                 </OffsetDataCollection>
             </ToolSetUpOnWorkcell>
         </Tool>
