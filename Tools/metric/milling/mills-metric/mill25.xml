@@ -24,7 +24,7 @@
             <MfgParam Name="TOOL_LONG_FLAG" Value="NO"/>
             <MfgParam Name="HOLDER_DIA" Value="-"/>
             <MfgParam Name="HOLDER_LEN" Value="-"/>
-            <MfgParam Name="COOLANT_OPTION" Value="OFF"/>
+            <MfgParam Name="COOLANT_OPTION" Value="ON"/>
             <MfgParam Name="COOLANT_PRESSURE" Value="NONE"/>
             <MfgParam Name="SPINDLE_SENSE" Value="CW"/>
             <MfgParam Name="FLUTE_LENGTH" Value="55"/>
