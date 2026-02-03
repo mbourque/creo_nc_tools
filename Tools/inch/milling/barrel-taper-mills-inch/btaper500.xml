@@ -16,7 +16,7 @@
             <MfgParam Name="SIDE_ANGLE" Value="15"/>
             <MfgParam Name="LENGTH" Value="4"/>
             <MfgParam Name="NUM_OF_TEETH" Value="-"/>
-            <MfgParam Name="TOOL_MATERIAL" Value="-"/>
+            <MfgParam Name="TOOL_MATERIAL" Value="HSS"/>
             <MfgParam Name="GAUGE_X_LENGTH" Value="-"/>
             <MfgParam Name="GAUGE_Y_LENGTH" Value="-"/>
             <MfgParam Name="GAUGE_Z_LENGTH" Value="-"/>

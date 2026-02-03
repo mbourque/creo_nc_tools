@@ -12,7 +12,7 @@
             <Attr DataType="boolean" Name="ToolByRef" Value="false"/>
             <MfgParam Name="LENGTH_UNITS" Value="INCH"/>
             <MfgParam Name="SECTION" Value="dovetail-cutter"/>
-            <MfgParam Name="TOOL_MATERIAL" Value="-"/>
+            <MfgParam Name="TOOL_MATERIAL" Value="HSS"/>
             <MfgParam Name="GAUGE_X_LENGTH" Value="-"/>
             <MfgParam Name="GAUGE_Y_LENGTH" Value="-"/>
             <MfgParam Name="GAUGE_Z_LENGTH" Value="-"/>

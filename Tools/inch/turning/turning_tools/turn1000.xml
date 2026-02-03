@@ -17,7 +17,7 @@
             <MfgParam Name="TOOL_WIDTH" Value="1"/>
             <MfgParam Name="SIDE_WIDTH" Value="1.25"/>
             <MfgParam Name="LENGTH" Value="6"/>
-            <MfgParam Name="TOOL_MATERIAL" Value="-"/>
+            <MfgParam Name="TOOL_MATERIAL" Value="HSS"/>
             <MfgParam Name="GAUGE_X_LENGTH" Value="-"/>
             <MfgParam Name="GAUGE_Y_LENGTH" Value="-"/>
             <MfgParam Name="GAUGE_Z_LENGTH" Value="-"/>

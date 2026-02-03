@@ -17,7 +17,7 @@
             <MfgParam Name="END_ANGLE" Value="90"/>
             <MfgParam Name="TOOL_WIDTH" Value="3"/>
             <MfgParam Name="LENGTH" Value="12"/>
-            <MfgParam Name="TOOL_MATERIAL" Value="-"/>
+            <MfgParam Name="TOOL_MATERIAL" Value="HSS"/>
             <MfgParam Name="GAUGE_X_LENGTH" Value="-"/>
             <MfgParam Name="GAUGE_Z_LENGTH" Value="-"/>
             <MfgParam Name="COMP_OVERSIZE" Value="-"/>
