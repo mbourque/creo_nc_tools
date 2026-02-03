@@ -1,6 +1,6 @@
 # Creo Cutting Tool Library
 
-This repository contains cutting tool definitions for Creo Parametric NC. Tools are stored as XML parameter files using the standard format. The library also includes solid tools.
+This repository contains cutting tool definitions for Creo Parametric NC. Tools are stored as XML parameter files using the standard format. The library also includes solid tools and fixtures. 
 
 Each file contains cutter diameter, flute length, overall length, tool material, and the standard Creo NC tool parameters.
 
