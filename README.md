@@ -17,7 +17,7 @@ Back Spot Facings, Ball Endmills, Barrel Lens Mills, Barrel Taper Mills, Barrel 
 
 # Workpiece materials
 
-These materials can be assinged at the operation level and for each tool to calcuate speeds and feeds.
+These materials can be assinged at the operation level and for each tool to calcuate speeds and feeds and cutting parameters such as step depth and step over. 
 
 Aluminum, Brass, Bronze, Cast iron, Composites, Copper, Foam, Graphite, Inconel, Magnesium, Monel, Plastics, Stainless steel, Steel, Titanium, Tool steels, Wood
 
