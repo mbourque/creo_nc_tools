@@ -40,10 +40,10 @@
                     <Condition>
                         <MfgParam Name="APPLICATION_TYPE" Value="FINISHING"/>
                     </Condition>
-                    <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="2476"/>
+                    <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="2474"/>
                     <MfgParam Name="TOOL_SURFACE_SPEED" Unit="ft_per_min" Value="250"/>
-                    <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="17.33"/>
-                    <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_rev" Value="0.007"/>
+                    <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="6.0"/>
+                    <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_rev" Value="0.0024"/>
                     <MfgParam Name="TOOL_AXIAL_DEPTH" Unit="in" Value="0.386"/>
                 </Technology>
             </ToolCutData>
@@ -58,10 +58,10 @@
                     <Condition>
                         <MfgParam Name="APPLICATION_TYPE" Value="FINISHING"/>
                     </Condition>
-                    <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="2476"/>
+                    <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="2474"/>
                     <MfgParam Name="TOOL_SURFACE_SPEED" Unit="ft_per_min" Value="250"/>
-                    <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="17.33"/>
-                    <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_rev" Value="0.007"/>
+                    <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="6.0"/>
+                    <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_rev" Value="0.0024"/>
                     <MfgParam Name="TOOL_AXIAL_DEPTH" Unit="in" Value="0.386"/>
                 </Technology>
             </ToolCutData>
@@ -72,8 +72,8 @@
                     <Condition><MfgParam Name="APPLICATION_TYPE" Value="FINISHING"/></Condition>
                     <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="1979"/>
                     <MfgParam Name="TOOL_SURFACE_SPEED" Unit="ft_per_min" Value="200"/>
-                    <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="17.81"/>
-                    <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_rev" Value="0.009"/>
+                    <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="6.0"/>
+                    <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_rev" Value="0.003"/>
                     <MfgParam Name="TOOL_AXIAL_DEPTH" Unit="in" Value="0.386"/>
                 </Technology>
             </ToolCutData>
@@ -82,10 +82,10 @@
                 <CutDataUnitSystem><MfgParam Name="CUT_DATA_UNITS" Value="ENGLISH"/></CutDataUnitSystem>
                 <Technology>
                     <Condition><MfgParam Name="APPLICATION_TYPE" Value="FINISHING"/></Condition>
-                    <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="1484"/>
-                    <MfgParam Name="TOOL_SURFACE_SPEED" Unit="ft_per_min" Value="150"/>
-                    <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="13.36"/>
-                    <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_rev" Value="0.009"/>
+                    <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="1188"/>
+                    <MfgParam Name="TOOL_SURFACE_SPEED" Unit="ft_per_min" Value="120"/>
+                    <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="5.94"/>
+                    <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_rev" Value="0.005"/>
                     <MfgParam Name="TOOL_AXIAL_DEPTH" Unit="in" Value="0.386"/>
                 </Technology>
             </ToolCutData>
@@ -94,10 +94,10 @@
                 <CutDataUnitSystem><MfgParam Name="CUT_DATA_UNITS" Value="ENGLISH"/></CutDataUnitSystem>
                 <Technology>
                     <Condition><MfgParam Name="APPLICATION_TYPE" Value="FINISHING"/></Condition>
-                    <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="989"/>
-                    <MfgParam Name="TOOL_SURFACE_SPEED" Unit="ft_per_min" Value="100"/>
-                    <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="8.91"/>
-                    <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_rev" Value="0.009"/>
+                    <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="792"/>
+                    <MfgParam Name="TOOL_SURFACE_SPEED" Unit="ft_per_min" Value="80"/>
+                    <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="3.17"/>
+                    <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_rev" Value="0.004"/>
                     <MfgParam Name="TOOL_AXIAL_DEPTH" Unit="in" Value="0.386"/>
                 </Technology>
             </ToolCutData>
@@ -106,10 +106,10 @@
                 <CutDataUnitSystem><MfgParam Name="CUT_DATA_UNITS" Value="ENGLISH"/></CutDataUnitSystem>
                 <Technology>
                     <Condition><MfgParam Name="APPLICATION_TYPE" Value="FINISHING"/></Condition>
-                    <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="1731"/>
-                    <MfgParam Name="TOOL_SURFACE_SPEED" Unit="ft_per_min" Value="175"/>
-                    <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="8.66"/>
-                    <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_rev" Value="0.005"/>
+                    <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="1484"/>
+                    <MfgParam Name="TOOL_SURFACE_SPEED" Unit="ft_per_min" Value="150"/>
+                    <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="5.94"/>
+                    <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_rev" Value="0.004"/>
                     <MfgParam Name="TOOL_AXIAL_DEPTH" Unit="in" Value="0.386"/>
                 </Technology>
             </ToolCutData>
@@ -118,10 +118,10 @@
                 <CutDataUnitSystem><MfgParam Name="CUT_DATA_UNITS" Value="ENGLISH"/></CutDataUnitSystem>
                 <Technology>
                     <Condition><MfgParam Name="APPLICATION_TYPE" Value="FINISHING"/></Condition>
-                    <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="1484"/>
-                    <MfgParam Name="TOOL_SURFACE_SPEED" Unit="ft_per_min" Value="150"/>
-                    <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="13.36"/>
-                    <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_rev" Value="0.009"/>
+                    <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="1188"/>
+                    <MfgParam Name="TOOL_SURFACE_SPEED" Unit="ft_per_min" Value="120"/>
+                    <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="5.94"/>
+                    <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_rev" Value="0.005"/>
                     <MfgParam Name="TOOL_AXIAL_DEPTH" Unit="in" Value="0.386"/>
                 </Technology>
             </ToolCutData>
@@ -130,10 +130,10 @@
                 <CutDataUnitSystem><MfgParam Name="CUT_DATA_UNITS" Value="ENGLISH"/></CutDataUnitSystem>
                 <Technology>
                     <Condition><MfgParam Name="APPLICATION_TYPE" Value="FINISHING"/></Condition>
-                    <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="2968"/>
+                    <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="2969"/>
                     <MfgParam Name="TOOL_SURFACE_SPEED" Unit="ft_per_min" Value="300"/>
-                    <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="17.81"/>
-                    <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_rev" Value="0.006"/>
+                    <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="6.0"/>
+                    <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_rev" Value="0.002"/>
                     <MfgParam Name="TOOL_AXIAL_DEPTH" Unit="in" Value="0.386"/>
                 </Technology>
             </ToolCutData>
@@ -142,10 +142,10 @@
                 <CutDataUnitSystem><MfgParam Name="CUT_DATA_UNITS" Value="ENGLISH"/></CutDataUnitSystem>
                 <Technology>
                     <Condition><MfgParam Name="APPLICATION_TYPE" Value="FINISHING"/></Condition>
-                    <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="989"/>
-                    <MfgParam Name="TOOL_SURFACE_SPEED" Unit="ft_per_min" Value="100"/>
-                    <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="4.95"/>
-                    <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_rev" Value="0.005"/>
+                    <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="1979"/>
+                    <MfgParam Name="TOOL_SURFACE_SPEED" Unit="ft_per_min" Value="200"/>
+                    <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="6.0"/>
+                    <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_rev" Value="0.003"/>
                     <MfgParam Name="TOOL_AXIAL_DEPTH" Unit="in" Value="0.386"/>
                 </Technology>
             </ToolCutData>
@@ -154,9 +154,9 @@
                 <CutDataUnitSystem><MfgParam Name="CUT_DATA_UNITS" Value="ENGLISH"/></CutDataUnitSystem>
                 <Technology>
                     <Condition><MfgParam Name="APPLICATION_TYPE" Value="FINISHING"/></Condition>
-                    <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="198"/>
-                    <MfgParam Name="TOOL_SURFACE_SPEED" Unit="ft_per_min" Value="20"/>
-                    <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="0.59"/>
+                    <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="247"/>
+                    <MfgParam Name="TOOL_SURFACE_SPEED" Unit="ft_per_min" Value="25"/>
+                    <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="0.74"/>
                     <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_rev" Value="0.003"/>
                     <MfgParam Name="TOOL_AXIAL_DEPTH" Unit="in" Value="0.386"/>
                 </Technology>
@@ -166,10 +166,10 @@
                 <CutDataUnitSystem><MfgParam Name="CUT_DATA_UNITS" Value="ENGLISH"/></CutDataUnitSystem>
                 <Technology>
                     <Condition><MfgParam Name="APPLICATION_TYPE" Value="FINISHING"/></Condition>
-                    <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="2968"/>
+                    <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="2969"/>
                     <MfgParam Name="TOOL_SURFACE_SPEED" Unit="ft_per_min" Value="300"/>
-                    <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="23.74"/>
-                    <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_rev" Value="0.008"/>
+                    <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="6.0"/>
+                    <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_rev" Value="0.002"/>
                     <MfgParam Name="TOOL_AXIAL_DEPTH" Unit="in" Value="0.386"/>
                 </Technology>
             </ToolCutData>
@@ -178,10 +178,10 @@
                 <CutDataUnitSystem><MfgParam Name="CUT_DATA_UNITS" Value="ENGLISH"/></CutDataUnitSystem>
                 <Technology>
                     <Condition><MfgParam Name="APPLICATION_TYPE" Value="FINISHING"/></Condition>
-                    <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="445"/>
-                    <MfgParam Name="TOOL_SURFACE_SPEED" Unit="ft_per_min" Value="45"/>
-                    <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="3.56"/>
-                    <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_rev" Value="0.008"/>
+                    <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="346"/>
+                    <MfgParam Name="TOOL_SURFACE_SPEED" Unit="ft_per_min" Value="35"/>
+                    <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="1.04"/>
+                    <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_rev" Value="0.003"/>
                     <MfgParam Name="TOOL_AXIAL_DEPTH" Unit="in" Value="0.386"/>
                 </Technology>
             </ToolCutData>
@@ -190,10 +190,10 @@
                 <CutDataUnitSystem><MfgParam Name="CUT_DATA_UNITS" Value="ENGLISH"/></CutDataUnitSystem>
                 <Technology>
                     <Condition><MfgParam Name="APPLICATION_TYPE" Value="FINISHING"/></Condition>
-                    <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="1731"/>
-                    <MfgParam Name="TOOL_SURFACE_SPEED" Unit="ft_per_min" Value="175"/>
-                    <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="7.79"/>
-                    <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_rev" Value="0.0045"/>
+                    <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="1979"/>
+                    <MfgParam Name="TOOL_SURFACE_SPEED" Unit="ft_per_min" Value="200"/>
+                    <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="6.0"/>
+                    <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_rev" Value="0.003"/>
                     <MfgParam Name="TOOL_AXIAL_DEPTH" Unit="in" Value="0.386"/>
                 </Technology>
             </ToolCutData>
@@ -202,10 +202,10 @@
                 <CutDataUnitSystem><MfgParam Name="CUT_DATA_UNITS" Value="ENGLISH"/></CutDataUnitSystem>
                 <Technology>
                     <Condition><MfgParam Name="APPLICATION_TYPE" Value="FINISHING"/></Condition>
-                    <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="297"/>
-                    <MfgParam Name="TOOL_SURFACE_SPEED" Unit="ft_per_min" Value="30"/>
-                    <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="1.78"/>
-                    <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_rev" Value="0.006"/>
+                    <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="594"/>
+                    <MfgParam Name="TOOL_SURFACE_SPEED" Unit="ft_per_min" Value="60"/>
+                    <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="2.38"/>
+                    <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_rev" Value="0.004"/>
                     <MfgParam Name="TOOL_AXIAL_DEPTH" Unit="in" Value="0.386"/>
                 </Technology>
             </ToolCutData>
@@ -214,10 +214,10 @@
                 <CutDataUnitSystem><MfgParam Name="CUT_DATA_UNITS" Value="ENGLISH"/></CutDataUnitSystem>
                 <Technology>
                     <Condition><MfgParam Name="APPLICATION_TYPE" Value="FINISHING"/></Condition>
-                    <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="693"/>
-                    <MfgParam Name="TOOL_SURFACE_SPEED" Unit="ft_per_min" Value="70"/>
-                    <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="6.23"/>
-                    <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_rev" Value="0.009"/>
+                    <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="891"/>
+                    <MfgParam Name="TOOL_SURFACE_SPEED" Unit="ft_per_min" Value="90"/>
+                    <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="4.46"/>
+                    <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_rev" Value="0.005"/>
                     <MfgParam Name="TOOL_AXIAL_DEPTH" Unit="in" Value="0.386"/>
                 </Technology>
             </ToolCutData>
@@ -226,10 +226,10 @@
                 <CutDataUnitSystem><MfgParam Name="CUT_DATA_UNITS" Value="ENGLISH"/></CutDataUnitSystem>
                 <Technology>
                     <Condition><MfgParam Name="APPLICATION_TYPE" Value="FINISHING"/></Condition>
-                    <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="247"/>
-                    <MfgParam Name="TOOL_SURFACE_SPEED" Unit="ft_per_min" Value="25"/>
-                    <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="0.99"/>
-                    <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_rev" Value="0.004"/>
+                    <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="495"/>
+                    <MfgParam Name="TOOL_SURFACE_SPEED" Unit="ft_per_min" Value="50"/>
+                    <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="1.49"/>
+                    <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_rev" Value="0.003"/>
                     <MfgParam Name="TOOL_AXIAL_DEPTH" Unit="in" Value="0.386"/>
                 </Technology>
             </ToolCutData>
@@ -238,10 +238,10 @@
                 <CutDataUnitSystem><MfgParam Name="CUT_DATA_UNITS" Value="ENGLISH"/></CutDataUnitSystem>
                 <Technology>
                     <Condition><MfgParam Name="APPLICATION_TYPE" Value="FINISHING"/></Condition>
-                    <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="594"/>
-                    <MfgParam Name="TOOL_SURFACE_SPEED" Unit="ft_per_min" Value="60"/>
-                    <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="3.56"/>
-                    <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_rev" Value="0.006"/>
+                    <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="495"/>
+                    <MfgParam Name="TOOL_SURFACE_SPEED" Unit="ft_per_min" Value="50"/>
+                    <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="1.49"/>
+                    <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_rev" Value="0.003"/>
                     <MfgParam Name="TOOL_AXIAL_DEPTH" Unit="in" Value="0.386"/>
                 </Technology>
             </ToolCutData>
@@ -252,8 +252,8 @@
                     <Condition><MfgParam Name="APPLICATION_TYPE" Value="FINISHING"/></Condition>
                     <MfgParam Name="TOOL_SPINDLE_RPM" Unit="rev_per_min" Value="2474"/>
                     <MfgParam Name="TOOL_SURFACE_SPEED" Unit="ft_per_min" Value="250"/>
-                    <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="29.69"/>
-                    <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_rev" Value="0.012"/>
+                    <MfgParam Name="TOOL_FEED_RATE" Unit="in_per_min" Value="6.0"/>
+                    <MfgParam Name="TOOL_FEED_PER_UNIT" Unit="in_per_rev" Value="0.0024"/>
                     <MfgParam Name="TOOL_AXIAL_DEPTH" Unit="in" Value="0.386"/>
                 </Technology>
             </ToolCutData>
