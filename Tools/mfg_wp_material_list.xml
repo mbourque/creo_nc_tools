@@ -8,7 +8,7 @@
         <MfgWpMaterial Name="Aluminum"/>
         <MfgWpMaterial Name="Brass"/>
         <MfgWpMaterial Name="Bronze"/>
-        <MfgWpMaterial Name="Cast iron"/>
+        <MfgWpMaterial Name="Cast_iron"/>
         <MfgWpMaterial Name="Composites"/>
         <MfgWpMaterial Name="Copper"/>
         <MfgWpMaterial Name="Foam"/>
