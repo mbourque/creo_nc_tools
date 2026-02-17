@@ -16,6 +16,7 @@
 "$nc_tools_path/Fixtures/plates"
 "$nc_tools_path/Fixtures/plates/faceplates"
 "$nc_tools_path/Fixtures/plates/from ptc"
+"$nc_tools_path/Fixtures/rotary-table"
 "$nc_tools_path/Fixtures/vblocks"
 "$nc_tools_path/Fixtures/Vise"
 "$nc_tools_path/Fixtures/Vise/5-axis-multi"
