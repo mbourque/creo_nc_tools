@@ -221,3 +221,4 @@
 "$nc_tools_path/Tools/metric/wire-edm"
 "$nc_tools_path/Workcells"
 "$nc_tools_path/Workcells/Haas_Machine"
+"$nc_tools_path/Fixtures/t-nuts"
