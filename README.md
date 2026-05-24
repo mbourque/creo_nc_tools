@@ -63,7 +63,7 @@ The following fixtures are also available for use in adding fixtures to replicat
 
 123-blocks, Angle-irons, Centers, Chucks, Clamps, Knobs, Parallels, Plates, Vblocks, Vises, as well as Fastener hardware.
 
-# Workcell Machines
+# Workcell Machine Simulation
 
 The library includes premade Machines to be used by Machine Play. You can display tool path and machine simulation for completely defined steps or operations.
 
