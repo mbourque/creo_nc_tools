@@ -69,7 +69,7 @@ The library includes premade Machines to be used by Machine Play. You can displa
 
 You can find these machines in **\Workcells**
 
-To use, define the machine assembly in the Machine Assembly tab of the Workcell Setup dialog box. Then right-click the operation or step in the Model Tree and click Machine Play. Use the optional config option `PRO_MF_WORKCELL_DIR` to specify the full path to the machine assembly. Or, copy the machine assembly into your working directory.
+To use, define the machine assembly in the Machine Assembly tab of the Workcell Setup dialog box. Then right-click the operation or step in the Model Tree and click Machine Play. Use the optional config option **PRO_MF_WORKCELL_DIR** to specify the full path to the machine assembly. Or, copy the machine assembly into your working directory.
 
 # Usage
 
