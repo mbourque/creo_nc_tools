@@ -28,7 +28,7 @@ Aluminum, Brass, Bronze, Cast iron, Composites, Copper, Foam, Graphite, Inconel,
 **tools/inch/drills**  
 **tools/metric/reamers**  
 **tools/metric/countersinks**
-
+    
 # Naming Conventions
 
 **Pattern:** *Prefix* (tool type) + *Size/parameters*
@@ -69,7 +69,7 @@ The library includes premade Machines to be used by Machine Play. You can displa
 
 You can find these machines in **\Workcells**
 
-To use, define the machine assembly in the Machine Assembly tab of the Workcell Setup dialog box. Then right-click the operation or step in the Model Tree and click Machine Play. Use the optional config option **PRO_MF_WORKCELL_DIR** to specify the full path to the machine assembly. Or, copy the machine assembly into your working directory.
+To use, define the machine assembly in the Machine Assembly tab of the Workcell Setup dialog box. Then right-click the operation or step in the Model Tree and click Machine Play. Use the optional config option **PRO_MF_WORKCELL_DIR** to specify the full path to the machine assembly. Or, copy the machine assembly into your working directory. Click [here](https://support.ptc.com/appserver/wcms/standards/ssl/freefull_cskdb.jsp?im_dbkey=98152) more information on setting up Machine Play.
 
 # Usage
 
