@@ -23,11 +23,11 @@ Aluminum, Brass, Bronze, Cast iron, Composites, Copper, Foam, Graphite, Inconel,
 
 # Example Folder Structure
 
-tools/inch/endmills  
-tools/inch/ball_endmills  
-tools/inch/drills  
-tools/metric/reamers  
-tools/metric/countersinks
+**tools/inch/endmills**  
+**tools/inch/ball_endmills**  
+**tools/inch/drills**  
+**tools/metric/reamers**  
+**tools/metric/countersinks**
 
 # Naming Conventions
 
