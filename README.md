@@ -15,12 +15,6 @@ Tools are in folders according to their machining type. e.g. Drilling, Milling, 
 
 Back Spot Facings, Ball Endmills, Barrel Lens Mills, Barrel Taper Mills, Barrel Tangent Mills, Basic Drills, Boring Bars, Center Drills, Chamfer Mills, Corner Round Mills, Countersinks, Drills, Endmills, Engraving Tools, Facemills, Groove Mills, Grooving Tools, Key Mills, Lollipop Mills, Mill Tools, Mills, Multi Tips, Plunge Mills, Reamers, Side Mills, Sketched Tools, Slitting Saws, Spot Drills, Taper Ball Endmills, Taper Endmills, Taps, Thread Mills, Turning Tools, Wire EDMs
 
-# Workpiece materials
-
-These materials can be assinged at the operation level and for each tool to calcuate speeds and feeds and cutting parameters such as step depth and step over. 
-
-Aluminum, Brass, Bronze, Cast iron, Composites, Copper, Foam, Graphite, Inconel, Magnesium, Monel, Plastics, Stainless steel, Steel, Titanium, Tool steels, Wood
-
 # Example Folder Structure
 
 **tools/inch/endmills**  
@@ -56,6 +50,12 @@ Aluminum, Brass, Bronze, Cast iron, Composites, Copper, Foam, Graphite, Inconel,
 Solid tools use Creo part geometry.  These tools support simulation, collision detection, and tool visualization. XML files reference the matching .prt tool model when required.
 
 They are in a seperate folder named Solid Tools
+
+# Workpiece materials
+
+These materials can be assinged at the operation level and for each tool to calcuate speeds and feeds and cutting parameters such as step depth and step over. 
+
+Aluminum, Brass, Bronze, Cast iron, Composites, Copper, Foam, Graphite, Inconel, Magnesium, Monel, Plastics, Stainless steel, Steel, Titanium, Tool steels, Wood
 
 # Fixtures
 
